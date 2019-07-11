@@ -13,26 +13,28 @@ import Navbar from './components/CustomNavbar'
 import Install from './components/subcomponents/Install'
 import Repair from './components/subcomponents/Repair'
 import Maintain from './components/subcomponents/Maintain'
-
+import Sitemap from './components/Sitemap'
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Route exact path = "/" component = {Home} />
-        <Route path = "/cooling" component = {Cooling} /> 
-        <Route path = "/heating" component = {Heating} />
-        <Route path = "/ducting" component = {Ducting} />
-        <Route path = "/electrical" component = {Electrical} />
-        <Route path = "/emergency-services" component = {Emergency} />
-        <Route path = "/about" component = {About} /> 
-        <Route path = "/contact" component = {Contact} />
-        <Route path = "/install" component = {Install} />
-        <Route path = "/repair" component = {Repair} />
-        <Route path = "/maintain" component = {Maintain} />
-      </div>
-    </Router>
+    <div>
+      <Router>
+        <Navbar/>
+          <Route exact path = "/" component = {Home} />
+          <Route path = "/cooling" component = {Cooling} /> 
+          <Route path = "/heating" component = {Heating} />
+          <Route path = "/ducting" component = {Ducting} />
+          <Route path = "/electrical" component = {Electrical} />
+          <Route path = "/emergency-services" component = {Emergency} />
+          <Route path = "/about" component = {About} /> 
+          <Route path = "/contact" component = {Contact} />
+          <Route path = "/install" component = {Install} />
+          <Route path = "/repair" component = {Repair} />
+          <Route path = "/maintain" component = {Maintain} />
+          <Sitemap sticky="bottom"/>
+      </Router>
+    </div>
+    
   );
 }
 

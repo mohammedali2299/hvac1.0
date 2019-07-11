@@ -7,6 +7,21 @@ function About() {
     return(
         <Container className="body">
             <h1>About</h1>
+            <Row>
+                <Col xs={8}>
+                    <Jumbotron className="col-centered">
+                        <h2 className="text-center">Providing Quality Service since 1996</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis ut diam quam nulla porttitor. Dui vivamus arcu felis bibendum ut. Vitae tortor condimentum lacinia quis. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Eget gravida cum sociis natoque penatibus et magnis dis. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Blandit turpis cursus in hac. Nam libero justo laoreet sit. Nec tincidunt praesent semper feugiat nibh sed pulvinar. Massa vitae tortor condimentum lacinia quis. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Quis blandit turpis cursus in hac habitasse. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Tortor vitae purus faucibus ornare suspendisse sed nisi. Est ultricies integer quis auctor elit sed vulputate. Fringilla est ullamcorper eget nulla facilisi etiam dignissim.</p>
+                    </Jumbotron>
+                </Col>
+                <Col>
+                    <Button href="/owner" className="bg-white border-0">
+                        <Image src="/extras/owner.jpg" className="owner-img" rounded></Image>
+                    </Button>
+                    <h4 className="text-center">CEO/Owner: Imran Ali Mirza</h4>
+                    
+                </Col>
+            </Row>
         </Container>
     );
 }

@@ -21,7 +21,7 @@ App {
 
 .body {
   padding-top: 130px;
-  position: absolute;
+  position: relative;
   z-index: -1;
 
 }
@@ -30,11 +30,3 @@ App {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

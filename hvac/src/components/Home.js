@@ -8,8 +8,7 @@ import Sitemap from './Sitemap'
 function Home() {
     return(
         <div className="body">
-        <Carousel /> 
-        {/* <Jumbotron > */}
+            <Carousel /> 
             <Container fluid="true" className="bg-secondary">
                 <Row className="jumbo-list bg-info" noGutters='true'>
                     <Col className="shadow">
@@ -25,8 +24,7 @@ function Home() {
                 <Row className="home-about">
                     <Col>
                         <Jumbotron className="col-centered">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis ut diam quam nulla porttitor. Dui vivamus arcu felis bibendum ut. Vitae tortor condimentum lacinia quis. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Eget gravida cum sociis natoque penatibus et magnis dis. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Blandit turpis cursus in hac. Nam libero justo laoreet sit. Nec tincidunt praesent semper feugiat nibh sed pulvinar. Massa vitae tortor condimentum lacinia quis. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Quis blandit turpis cursus in hac habitasse. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Tortor vitae purus faucibus ornare suspendisse sed nisi. Est ultricies integer quis auctor elit sed vulputate. Fringilla est ullamcorper eget nulla facilisi etiam dignissim.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis ut diam quam nulla porttitor. Dui vivamus arcu felis bibendum ut. Vitae tortor condimentum lacinia quis. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Eget gravida cum sociis natoque penatibus et magnis dis. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Blandit turpis cursus in hac. Nam libero justo laoreet sit. Nec tincidunt praesent semper feugiat nibh sed pulvinar. Massa vitae tortor condimentum lacinia quis. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Quis blandit turpis cursus in hac habitasse. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Tortor vitae purus faucibus ornare suspendisse sed nisi. Est ultricies integer quis auctor elit sed vulputate. Fringilla est ullamcorper eget nulla facilisi etiam dignissim.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis ut diam quam nulla porttitor.</p>
                             <Button href="/about" className="bg-info border border-info shadow hoverable">Read More</Button>
                         </Jumbotron>
                     </Col>
@@ -41,10 +39,6 @@ function Home() {
                         <Button href="/commercial" className="shadow bg-secondary btn-sm border-0 res-com-btn">Commercial</Button>
                         <Image fluid src="/extras/commercial.jpg"className="bg res-com-img" rounded></Image>
                     </Col>
-                    {/* <ButtonGroup className="btn-group-lg">
-                        <Button href="/residential" className="shadow bg-info btn-lg border-0 res-com">Residential</Button>
-                        <Button href="/commercial" className="shadow bg-info btn-lg border-0 res-com">Commercial</Button>
-                    </ButtonGroup> */}
                 </Row>
                 <Row className="home-contact">
                     <Col>
@@ -59,33 +53,29 @@ function Home() {
                     <Col className="serv-img-btn-container">
                         <Button href="/cooling" className="border-0 serv-btn">
                             <h3>Cooling</h3>
-                            <Image fluid src="/extras/cooling.jpg"className="serv-img" rounded></Image>
+                            <Image fluid src="/extras/cooling.jpg"className="serv-img"></Image>
                         </Button>  
                     </Col>
                     <Col className="serv-img-btn-container">
                         <Button href="/heating" className="border-0 serv-btn">
                             <h3>Heating</h3>
-                            <Image fluid src="/extras/heating.jpg"className="serv-img" rounded></Image>
+                            <Image fluid src="/extras/heating.jpg"className="serv-img"></Image>
                         </Button>  
                     </Col>
                     <Col className="serv-img-btn-container">
                         <Button href="/ducting" className="border-0 serv-btn">
                             <h3>Ducting</h3>
-                            <Image fluid src="/extras/ducting.jpg"className="serv-img" rounded></Image>
+                            <Image fluid src="/extras/ducting.jpg"className="serv-img"></Image>
                         </Button>  
                     </Col>
                     <Col className="serv-img-btn-container">
                         <Button href="/electrical" className="border-0 serv-btn">
                             <h3>Electrical</h3>
-                            <Image fluid src="/extras/electrical.jpg"className="serv-img" rounded></Image>
+                            <Image fluid src="/extras/electrical.jpg"className="serv-img"></Image>
                         </Button>  
                     </Col>
                 </Row>
-                <Row className="sitemap">
-                    <Sitemap/>
-                </Row>
             </Container>
-        {/* </Jumbotron> */}
         </div>
     );
 }
