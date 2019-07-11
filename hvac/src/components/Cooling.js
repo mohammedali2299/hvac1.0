@@ -5,8 +5,13 @@ import './Cooling.css'
 
 function Cooling() {
     return(
-        <Container className="body">
-            <h1>Cooling</h1>
+        <Container fluid="true" className="body">
+            <Row>
+                <Image src="/extras/cooling-main.jpeg" className="img-fluid w-100"></Image>
+                <Col xs={{ span: 6, offset: 6 }}>
+                    <h2 className="text-light font-weight-bold image-cap bg-primary  rounded">Air Conditioning</h2>
+                </Col>
+            </Row>
         </Container>
     );
 }

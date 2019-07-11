@@ -1,0 +1,15 @@
+.body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.image-cap {
+    margin-top: -110px;
+    font-size: 80px;
+    padding-left: 9%;
+    padding-right: -9%;
+    padding-bottom: 10px;
+    opacity: 0.85;
+}
