@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Jumbotron, Container, Row, Col, Image, Button, ButtonGroup } from 'react-bootstrap'
 import './Home.css'
 import Carousel from './CustomCarousel'
+import Sitemap from './Sitemap'
 
 function Home() {
     return(
@@ -81,7 +82,7 @@ function Home() {
                     </Col>
                 </Row>
                 <Row className="sitemap">
-                    
+                    <Sitemap/>
                 </Row>
             </Container>
         {/* </Jumbotron> */}
