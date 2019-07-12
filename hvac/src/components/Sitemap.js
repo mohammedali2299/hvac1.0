@@ -5,54 +5,54 @@ import './Sitemap.css'
 
 function Sitemap() {
     return(
-        <Container className="body sitemap">
+        <Container fluid className="body sitemap bg-light">
             <hr/>
             <Row>
                 <Col xs={4} className="sitemap-col">
-                    <h4>About</h4>
+                    <h4 className="mapTitle">About</h4>
                     <ul>
                         <li>
-                            <Link to="/career-opportunities">Career opportunities</Link>
+                            <a href="/career-opportunities">Career opportunities</a>
                         </li>
                         <li>
-                            <Link to="/about">About the Business</Link>
+                            <a href="/about">About the Business</a>
                         </li>
                         <li>
-                            <Link to="/owner">About the Owner</Link>
+                            <a href="/owner">About the Owner</a>
                         </li>
                         <li>
-                            <Link to="/gallery">Gallery</Link>
+                            <a href="/gallery">Gallery</a>
                         </li>
                     </ul>
                 </Col>
                 <Col xs={4} className="sitemap-col">
-                    <h4>Services</h4>
+                    <h4 className="mapTitle">Services</h4>
                     <ul>
                         <li>
-                            <Link to="/cooling">Cooling</Link>
+                            <a href="/cooling">Cooling</a>
                         </li>
                         <li>
-                            <Link to="/heating">Heating</Link>
+                            <a href="/heating">Heating</a>
                         </li>
                         <li>
-                            <Link to="/ducting">Ducting</Link>
+                            <a href="/ducting">Ducting</a>
                         </li>
                         <li>
-                            <Link to="/electrical">Electrical</Link>
+                            <a href="/electrical">Electrical</a>
                         </li>
                     </ul> 
                 </Col>
                 <Col xs={4} className="sitemap-col"> 
-                    <h4>General</h4>
+                    <h4 className="mapTitle">General</h4>
                     <ul>
                         <li>
-                            <Link to="/residential">Residential</Link>
+                            <a href="/residential">Residential</a>
                         </li>
                         <li>
-                            <Link to="/commercial">Commercial</Link>
+                            <a href="/commercial">Commercial</a>
                         </li>
                         <li>
-                            <Link to="/faq">FAQ</Link> 
+                            <a href="/faq">FAQ</a> 
                         </li>
                     </ul>
                 </Col>
