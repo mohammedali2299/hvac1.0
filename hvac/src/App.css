@@ -22,7 +22,6 @@ App {
 .body {
   padding-top: 130px;
   position: relative;
-  z-index: -1;
 
 }
 

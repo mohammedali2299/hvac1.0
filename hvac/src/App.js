@@ -1,19 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Home from './components/Home'
-import Cooling from './components/Cooling'
-import Heating from './components/Heating'
-import Ducting from './components/Ducting'
-import Electrical from './components/Electrical'
-import Emergency from './components/Emergency'
-import About from './components/About'
-import Contact from './components/Contact'
+import Home from './components/Home.js'
+import Cooling from './components/Cooling.js'
+import Heating from './components/Heating.js'
+import Ducting from './components/Ducting.js'
+import Electrical from './components/Electrical.js'
+import Emergency from './components/Emergency.js'
+import About from './components/About.js'
+import Contact from './components/Contact.js'
 import './App.css'
-import Navbar from './components/CustomNavbar'
-import Install from './components/subcomponents/Install'
-import Repair from './components/subcomponents/Repair'
-import Maintain from './components/subcomponents/Maintain'
-import Sitemap from './components/Sitemap'
+import Navbar from './components/CustomNavbar.js'
+import Install from './components/subcomponents/Install.js'
+import Repair from './components/subcomponents/Repair.js'
+import Maintain from './components/subcomponents/Maintain.js'
+import Sitemap from './components/Sitemap.js'
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
           <Route path = "/install" component = {Install} />
           <Route path = "/repair" component = {Repair} />
           <Route path = "/maintain" component = {Maintain} />
-          <Sitemap sticky="bottom"/>
+        <Sitemap sticky="bottom"/>
       </Router>
     </div>
     
