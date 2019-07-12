@@ -1,4 +1,12 @@
 .owner-img {
     width: 300px;
-    margin-left: 12px;
+    
+}
+
+.heading {
+    font-style: italic;
+}
+
+.page-title {
+    margin-left: 20px;
 }

@@ -9,11 +9,15 @@ import Emergency from './components/Emergency.js'
 import About from './components/About.js'
 import Contact from './components/Contact.js'
 import './App.css'
-import Navbar from './components/CustomNavbar.js'
-import Install from './components/subcomponents/Install.js'
-import Repair from './components/subcomponents/Repair.js'
-import Maintain from './components/subcomponents/Maintain.js'
-import Sitemap from './components/Sitemap.js'
+import Navbar from './components/CustomNavbar'
+import Install from './components/subcomponents/Install'
+import Repair from './components/subcomponents/Repair'
+import Maintain from './components/subcomponents/Maintain'
+import Sitemap from './components/Sitemap'
+import Owner from './components/subcomponents/Owner'
+import FAQ from './components/subcomponents/FAQ'
+import Residential from './components/subcomponents/Residential'
+import Commercial from './components/subcomponents/Commercial'
 
 function App() {
   return (
@@ -31,7 +35,11 @@ function App() {
           <Route path = "/install" component = {Install} />
           <Route path = "/repair" component = {Repair} />
           <Route path = "/maintain" component = {Maintain} />
-        <Sitemap sticky="bottom"/>
+          <Route path = "/owner" component = {Owner} />
+          <Route path = "/faq" component = {FAQ} />
+          <Route path = "/residential" component = {Residential} />
+          <Route path = "/commercial" component = {Commercial} />
+          <Sitemap sticky="bottom"/>
       </Router>
     </div>
     

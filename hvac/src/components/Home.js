@@ -7,18 +7,24 @@ import Carousel from './CustomCarousel'
 
 function Home() {
     return(
-        <div className="body">
+        <div className="body bg-light">
             <Carousel /> 
-            <Container fluid="true" className="bg-secondary">
+            <Container fluid>
                 <Row className="jumbo-list bg-info" noGutters='true'>
                     <Col className="shadow">
-                        <Link to="/install"><h2 className="jumbo-list-element">Install</h2></Link>
+                        <Link to="/install">
+                            <h2 className="jumbo-list-element">Install</h2>
+                        </Link>
                     </Col>
                     <Col className="shadow">
-                        <Link to="/repair"><h2 className="jumbo-list-element">Repair</h2></Link>
+                        <Link to="/repair">
+                            <h2 className="jumbo-list-element">Repair</h2>
+                        </Link>
                     </Col>
                     <Col className="shadow">
-                        <Link to="/maintain"><h2 className="jumbo-list-element">Maintain</h2></Link>
+                        <Link to="/maintain">
+                            <h2 className="jumbo-list-element">Maintain</h2>
+                        </Link>
                     </Col>
                 </Row>
                 <Row className="home-about">
@@ -30,14 +36,20 @@ function Home() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="img-btn-container">
-                        <Button href="/residential" className="shadow bg-secondary btn-sm border-0 res-com-btn">Residential</Button>
-                        <Image fluid src="/extras/residential.jpg"className="bg res-com-img" rounded></Image>
+                    <Col className="w-75 d-flex justify-content-center img-btn-container">
+                        <Button href="/residential" className="w-75 shadow bg-secondary btn-sm border-0 res-com-btn">
+                            <h2>Residential</h2>
+                            <Image fluid src="/extras/residential.jpg"className="w-75 bg res-com-img" rounded></Image>
+                        </Button>
+                        {/* <Image fluid src="/extras/residential.jpg"className="bg res-com-img" rounded></Image> */}
                         
                     </Col>
-                    <Col className="img-btn-container">
-                        <Button href="/commercial" className="shadow bg-secondary btn-sm border-0 res-com-btn">Commercial</Button>
-                        <Image fluid src="/extras/commercial.jpg"className="bg res-com-img" rounded></Image>
+                    <Col className="w-75 d-flex justify-content-center img-btn-container">
+                        <Button href="/commercial" className="w-75 shadow bg-secondary btn-sm border-0 res-com-btn">
+                            <h2>Commercial</h2>
+                            <Image fluid src="/extras/commercial.jpg"className="w-75 bg res-com-img" rounded></Image>
+                        </Button>
+                        {/* <Image fluid src="/extras/commercial.jpg"className="bg res-com-img" rounded></Image> */}
                     </Col>
                 </Row>
                 <Row className="home-contact">
@@ -49,29 +61,29 @@ function Home() {
                         </Jumbotron>
                     </Col>
                 </Row>
-                <Row>
+                <Row> 
                     <Col className="serv-img-btn-container">
-                        <Button href="/cooling" className="border-0 serv-btn">
+                        <Button href="/cooling" className="w-75 bg-primary border-0 serv-btn">
                             <h3>Cooling</h3>
-                            <Image fluid src="/extras/cooling.jpg"className="serv-img"></Image>
+                            <Image fluid src="/extras/cooling.jpg"className="serv-img rounded"></Image>
                         </Button>  
                     </Col>
                     <Col className="serv-img-btn-container">
-                        <Button href="/heating" className="border-0 serv-btn">
+                        <Button href="/heating" className="w-75 bg-danger border-0 serv-btn">
                             <h3>Heating</h3>
-                            <Image fluid src="/extras/heating.jpg"className="serv-img"></Image>
+                            <Image fluid src="/extras/heating.jpg"className="serv-img rounded"></Image>
                         </Button>  
                     </Col>
                     <Col className="serv-img-btn-container">
-                        <Button href="/ducting" className="border-0 serv-btn">
+                        <Button href="/ducting" className="w-75 bg-secondary border-0 serv-btn">
                             <h3>Ducting</h3>
-                            <Image fluid src="/extras/ducting.jpg"className="serv-img"></Image>
+                            <Image fluid src="/extras/ducting.jpg"className="serv-img" rounded></Image>
                         </Button>  
                     </Col>
                     <Col className="serv-img-btn-container">
-                        <Button href="/electrical" className="border-0 serv-btn">
+                        <Button href="/electrical" className="w-75 bg-warning border-0 serv-btn">
                             <h3>Electrical</h3>
-                            <Image fluid src="/extras/electrical.jpg"className="serv-img"></Image>
+                            <Image fluid src="/extras/electrical.jpg"className="serv-img rounded"></Image>
                         </Button>  
                     </Col>
                 </Row>

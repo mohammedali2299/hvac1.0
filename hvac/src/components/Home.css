@@ -21,28 +21,31 @@
 }
 
 
-.res-com-btn {
+/* .res-com-btn {
     opacity: .85;
     position: absolute;
-    width: 100%;
+    width: 77%;
     margin-top: 90px;
-}
+} */
 
 
-.res-com-img {
-    width: 100%;
-    height: 225px;
+/* .res-com-img {
+    width: 80%;
+    height: 300px;
     margin-top: -25px;
     
-}
+} */
 
 .serv-img {
     height: 150px;
-    width: 150px;
+    width: 200px;
+    
 }
 
 .serv-btn {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
+    margin-left: 80px;
+    width: 200px;
 }
 
 
