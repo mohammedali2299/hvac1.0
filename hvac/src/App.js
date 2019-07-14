@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './components/Home.js'
-import Cooling from './components/Cooling.js'
+// import Cooling from './components/Cooling.js'
 import Heating from './components/Heating.js'
 import Ducting from './components/Ducting.js'
 import Electrical from './components/Electrical.js'
@@ -18,17 +18,43 @@ import Owner from './components/subcomponents/Owner'
 import FAQ from './components/subcomponents/FAQ'
 import Residential from './components/subcomponents/Residential'
 import Commercial from './components/subcomponents/Commercial'
+import Services from './components/servicesTemplate'
 
-function App() {
+
+function App(props) {
+  
+  var serviceData = {
+    coolingProps: {
+        imgsrc: "/extras/cooling-main.jpeg",
+        color: "primary",
+        title: "Air Conditioning"
+    },
+    heatingProps: {
+        imgsrc: "/extras/cooling-main.jpeg",
+        color: "danger",
+        title: "Heating"
+    },
+    ductingProps: {
+      imgsrc: "/extras/cooling-main.jpeg",
+      color: "secondary",
+      title: "Ducting"
+    },
+    electricalProps: {
+      imgsrc: "/extras/cooling-main.jpeg",
+      color: "warning",
+      title: "Electrical"
+    }
+  }
+
   return (
     <div>
       <Router>
         <Navbar/>
           <Route exact path = "/" component = {Home} />
-          <Route path = "/cooling" component = {Cooling} /> 
-          <Route path = "/heating" component = {Heating} />
-          <Route path = "/ducting" component = {Ducting} />
-          <Route path = "/electrical" component = {Electrical} />
+          <Route path = "/cooling" render = {() => <Services {...serviceData.coolingProps} />} /> 
+          <Route path = "/heating" render = {() => <Services {...serviceData.heatingProps} />} />
+          <Route path = "/ducting" render = {() => <Services {...serviceData.ductingProps} />} />
+          <Route path = "/electrical" render = {() => <Services {...serviceData.electricalProps} />} />
           <Route path = "/emergency-services" component = {Emergency} />
           <Route path = "/about" component = {About} /> 
           <Route path = "/contact" component = {Contact} />

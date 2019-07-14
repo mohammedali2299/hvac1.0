@@ -1,16 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap'
-import './Cooling.css'
+import './servicesTemplate.css'
 import IRMbutton from './subcomponents/IRMbuttons'
 
-function Cooling() {
+function Services(props) {
+    var h2Class = "text-center text-truncate text-light font-weight-bold image-cap rounded" + " bg-" + props.color;
     return(
         <Container fluid="true" className="body overflow-hidden">
             <Row>
-                <Image src="/extras/cooling-main.jpeg" className="img-fluid w-100 overflow-hidden"></Image>
+                <Image src={props.imgsrc} className="img-fluid w-100 overflow-hidden" ></Image>
                 <Col xs={{ span: 5, offset: 6 }}>
-                    <h2 className="text-center text-truncate text-light font-weight-bold image-cap bg-primary rounded">Air Conditioning</h2>
+                    <h2 className={h2Class} >{props.title}</h2>
                 </Col>
             </Row>
             <Row>
@@ -21,20 +22,9 @@ function Cooling() {
                     </Jumbotron>
                 </Col>
             </Row>
-            <IRMbutton color="danger"/>
-            {/* <Row>
-                <Col xs={4}>
-                    <Button href="/install" className="shadow bg-primary w-100 shadow">Install</Button>
-                </Col >
-                <Col xs={4}>
-                    <Button href="/repair" className="shadow bg-primary w-100 shadow">Repair</Button>
-                </Col>
-                <Col xs={4}>
-                    <Button href="/maintain" className="shadow bg-primary w-100 shadow-lg">Maintain</Button>
-                </Col>
-            </Row> */}
+            <IRMbutton color={props.color}/>
         </Container>
     );
 }
 
-export default Cooling
+export default Services

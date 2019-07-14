@@ -12,24 +12,7 @@ function Home() {
         <div className="body bg-light">
             <Carousel /> 
             <Container fluid>
-                {/* <Row className="jumbo-list bg-info" noGutters='true'>
-                    <Col className="shadow">
-                        <Link to="/install">
-                            <h2 className="jumbo-list-element">Install</h2>
-                        </Link>
-                    </Col>
-                    <Col className="shadow">
-                        <Link to="/repair">
-                            <h2 className="jumbo-list-element">Repair</h2>
-                        </Link>
-                    </Col>
-                    <Col className="shadow">
-                        <Link to="/maintain">
-                            <h2 className="jumbo-list-element">Maintain</h2>
-                        </Link>
-                    </Col>
-                </Row> */}
-                <IRMbutton />
+                <IRMbutton color="primary" />
                 <Row className="home-about">
                     <Col>
                         <Jumbotron className="col-centered">
