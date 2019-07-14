@@ -7,19 +7,19 @@ function IRMbuttons() {
     return(
         <Row>
             <Col xs={4}>
-                <Button href="/install" className="w-100 d-inline-flex bg-primary shadow">
+                <Button href="/install" className="btn-lg btn-block d-inline-flex bg-primary shadow">
                     <h4 className="mr-5">Install</h4>
                     <Image src="/extras/wrench.jpg" className="IRMpics"/>
                 </Button>
             </Col>
             <Col xs={4}>
-                <Button href="/repair" className="w-100 d-inline-flex bg-primary shadow">
+                <Button href="/repair" className="btn-lg btn-block d-inline-flex bg-primary shadow">
                     <h4 className="mr-5">Repair</h4>
                     <Image src="/extras/repair-clip.jpg" className="IRMpics"/>
                 </Button>
             </Col>
             <Col xs={4}>
-                <Button href="/maintain" className="w-100 d-inline-flex bg-primary shadow">
+                <Button href="/maintain" className="btn-lg btn-block d-inline-flex bg-primary shadow">
                     <h4 className="mr-5">Maintain</h4>
                     <Image src="/extras/gears.jpg" className="IRMpics"/>
                 </Button>

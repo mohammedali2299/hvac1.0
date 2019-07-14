@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import { Jumbotron, Container, Row, Col, Image, Button, ButtonGroup } from 'react-bootstrap'
 import './Home.css'
 import Carousel from './CustomCarousel'
+import IRMbutton from './subcomponents/IRMbuttons'
+
 
 
 function Home() {
@@ -10,7 +12,7 @@ function Home() {
         <div className="body bg-light">
             <Carousel /> 
             <Container fluid>
-                <Row className="jumbo-list bg-info" noGutters='true'>
+                {/* <Row className="jumbo-list bg-info" noGutters='true'>
                     <Col className="shadow">
                         <Link to="/install">
                             <h2 className="jumbo-list-element">Install</h2>
@@ -26,7 +28,8 @@ function Home() {
                             <h2 className="jumbo-list-element">Maintain</h2>
                         </Link>
                     </Col>
-                </Row>
+                </Row> */}
+                <IRMbutton />
                 <Row className="home-about">
                     <Col>
                         <Jumbotron className="col-centered">
