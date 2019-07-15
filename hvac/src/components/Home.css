@@ -1,34 +1,9 @@
-.jumbo-list {
-    text-align: center;   
-    height: 100px;
-    width: 100%;
-
-}
-
-.jumbo-list-element {
-    margin-top: 25px;
-    color: white;
-    
-}
-
-.home-about {
-    margin: 10px;
-}
-
-.home-contact {
-    margin: 10px;
-}
-
 .serv-img {
     height: 150px;
     width: 200px;
     
 }
 
-.serv-btn {
-    /* background-color: cadetblue; */
-    margin-left: 80px;
-    width: 200px;
-}
+
 
 
