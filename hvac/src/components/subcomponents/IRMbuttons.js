@@ -5,7 +5,7 @@ import './IRMbuttons.css'
 
 function IRMbuttons(props) {
     return(
-        <Row>
+        <Row className="mt-3">
             <Col xs={4}>
                 <Button href="/install" className="btn-lg btn-block d-inline-flex shadow" variant={props.color}>
                     <h4 className="mr-5">Install</h4>

@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Button, DropdownButton, Dropdown, ButtonToolbar } from 'react-bootstrap';
 
 function NavbarButtons() {
+    var state = {
+        show: false
+    }
+
     return (
     <ButtonToolbar>
         {['Cooling', 'Heating', 'Ducting', 'Electrical'].map(
@@ -12,6 +16,9 @@ function NavbarButtons() {
                     href={'/' + title.toLowerCase()}
                     id={"dropdown-variants-dark"}
                     key={title}
+                    // onMouseEnter={(e) => state=({ show: true })}
+                    // onMouseLeave={(e) => state=({ show: false })}
+                    // open={state.show}
                     className="mr-1"
                     rootCloseEvent="click"
                 >
