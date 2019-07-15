@@ -17,15 +17,7 @@ render() {
             <Navbar.Collapse>
                 <Nav className="nav-buttons" >
                     <Nav.Item className="linked-list">
-                        {/* <Nav.Link href="/" eventKey={1} >Home</Nav.Link> */}
-                        {/* <Nav.Link href="/cooling" eventKey={4}>Cooling</Nav.Link> */}
-                        {/* <NavDropdown title="Cooling" className="dropdown-button">
-                            <NavDropdown.Item href="/cooling">Cooling</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="/cooling/install">Install</NavDropdown.Item>
-                            <NavDropdown.Item href="/cooling/repair">Repair</NavDropdown.Item>
-                            <NavDropdown.Item href="/cooling/maintain">Maintain</NavDropdown.Item>
-                        </NavDropdown> */}
+                        
                         <Dropdown >
                             <Button href="/cooling" className="dropdowns">Cooling</Button>
                             <Dropdown.Toggle split className="dropdown-button" />
