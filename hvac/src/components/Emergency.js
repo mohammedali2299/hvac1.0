@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap'
+import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
 import './Emergency.css'
 import Carousel from './CustomCarousel'
 

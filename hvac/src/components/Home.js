@@ -3,16 +3,12 @@ import { Link } from 'react-router-dom'
 import { Jumbotron, Container, Row, Col, Image, Button, ButtonGroup } from 'react-bootstrap'
 import './Home.css'
 import Carousel from './CustomCarousel'
-import IRMbutton from './subcomponents/IRMbuttons'
-
-
 
 function Home() {
     return(
         <div className="mt-3 bg-light">
             <Carousel /> 
             <Container fluid>
-                <IRMbutton color="primary mt-3" />
                 <Row className="mt-3">
                     <Col>
                         <Jumbotron className="col-centered mb-0">
