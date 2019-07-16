@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Jumbotron, Container, Row, Col, Image, Button, Footer } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import './Sitemap.css'
 
 function Sitemap() {
     return(
-        <Container fluid className="body sitemap bg-light">
+        <Container fluid className="bg-light">
             <hr/>
             <Row>
-                <Col xs={4} className="sitemap-col">
+                <Col xs={4}>
                     <h4 className="mapTitle">About</h4>
                     <ul>
                         <li>
@@ -25,7 +25,7 @@ function Sitemap() {
                         </li>
                     </ul>
                 </Col>
-                <Col xs={4} className="sitemap-col">
+                <Col xs={4}>
                     <h4 className="mapTitle">Services</h4>
                     <ul>
                         <li>
@@ -42,7 +42,7 @@ function Sitemap() {
                         </li>
                     </ul> 
                 </Col>
-                <Col xs={4} className="sitemap-col"> 
+                <Col xs={4}> 
                     <h4 className="mapTitle">General</h4>
                     <ul>
                         <li>
