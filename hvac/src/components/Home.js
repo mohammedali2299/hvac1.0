@@ -2,22 +2,35 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Jumbotron, Container, Row, Col, Image, Button, ButtonGroup } from 'react-bootstrap'
 import './Home.css'
-import Carousel from './CustomCarousel'
+import HomeCarousel from './CustomCarousel'
 import IRMbutton from './subcomponents/IRMbuttons'
 
 
 
 function Home() {
+    const plug = 
+    <Container>
+        <h2 className="font-weight-bold text-center text-dark">
+            Why United?
+        </h2>
+        <p className="h5 text-muted font-italic text-center">
+            United HVAC and Electrical has been providing quality service in the Chicagoland Area since it's inception in 1996. 
+            From installing rooftop units on commercial building to maintaining residential furnaces, 
+            United exceeds the standards set by industry today and offers a reliable service for all.
+        </p>
+    </Container>
+   
+
+
     return(
         <div className="mt-3 bg-light">
-            <Carousel /> 
+            <HomeCarousel /> 
             <Container fluid>
                 <IRMbutton color="primary mt-3" />
                 <Row className="mt-3">
                     <Col>
-                        <Jumbotron className="col-centered mb-0">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis ut diam quam nulla porttitor.</p>
-                            <Button href="/about" className="bg-info border border-info shadow hoverable">Read More</Button>
+                        <Jumbotron fluid className="col-centered mb-0">
+                            <p>{plug}</p>
                         </Jumbotron >
                     </Col>
                 </Row>
