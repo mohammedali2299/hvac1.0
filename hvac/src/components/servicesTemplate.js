@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Jumbotron, Container, Row, Col, Button, Figure } from 'react-bootstrap'
 import './servicesTemplate.css'
-import IRMbutton from './subcomponents/IRMbuttons'
+import IRMtab from './subcomponents/IRMtab'
 
 function Services(props) {
     var captionClass = "text-center text-light font-weight-bold image-cap" + " bg-" + props.color;
@@ -19,15 +19,18 @@ function Services(props) {
                     </Figure.Caption>
                 </Figure>
             </Row>
-            <Row>
-                <Col>
-                    <Jumbotron className="rounded mt-3 mb-0">
+            <Row className="mt-3">
+                <Col sm={12} md={6}>
+                    <Jumbotron className="rounded mb-0">
                         <h4 className="font-weight-bold">We do both commercial and residential!</h4>
                         <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis ut diam quam nulla porttitor. Pick up snacks at the concession stand today! Half price popcorn for all kids under the age of 12. We now have cinamon pretzels with frosting on top of our original salty pretzel with cheese. I am trying to make a third line of words. Almost there. Cool.</h5>
                     </Jumbotron>
                 </Col>
+                <Col sm={12} md={6}>
+                    <IRMtab />
+                </Col>
             </Row >
-            <IRMbutton color={props.color}/>
+            {/* <IRMbutton color={props.color}/> */}
             <Row>
                 <Col>
                 <Jumbotron className="rounded p-10 mt-3 mb-0">
