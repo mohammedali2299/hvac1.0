@@ -1,18 +1,29 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap'
+import { Jumbotron, Container, Row, Col, Image, Button, Figure } from 'react-bootstrap'
 import './servicesTemplate.css'
 import IRMbutton from './subcomponents/IRMbuttons'
 
 function Services(props) {
-    var h2Class = "text-center text-truncate text-light font-weight-bold image-cap rounded" + " bg-" + props.color;
+    var h2Class = "text-center text-light font-weight-bold image-cap rounded" + " bg-" + props.color;
     return(
-        <Container fluid="true" className="body overflow-hidden">
-            <Row>
+        <Container fluid="true" className="mt-3 overflow-hidden">
+            {/* <Row>
                 <Image src={props.imgsrc} className="img-fluid w-100 overflow-hidden" ></Image>
                 <Col xs={{ span: 5, offset: 6 }}>
                     <h2 className={h2Class} >{props.title}</h2>
                 </Col>
+            </Row> */}
+            <Row>
+                <Figure>
+                    <Figure.Image
+                        fluid={true}
+                        src={props.imgsrc}
+                    />
+                    <Figure.Caption className="text-center ">
+                        {props.title}
+                    </Figure.Caption>
+                </Figure>
             </Row>
             <Row>
                 <Col>
