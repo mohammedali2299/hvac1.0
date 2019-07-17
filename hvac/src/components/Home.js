@@ -8,8 +8,8 @@ import ContactLink from './subcomponents/ContactLink'
 
 function Home() {
     const plug = 
-    <Container className="bg-light">
-        <h2 className="font-weight-bold text-center text-dark">
+    <Container>
+        <h2 className="font-weight-bold text-center text-dark mb-3">
             Why United?
         </h2>
         <p className="h5 font-italic text-center text-black">
@@ -25,8 +25,8 @@ function Home() {
             <Container fluid>
                 <Row className="mt-3">
                     <Col>
-                        <Jumbotron fluid className="col-centered mb-0 plug" >
-                            <div>{plug}</div>
+                        <Jumbotron fluid className="col-centered" >
+                            <div className="plug h-100 w-100">{plug}</div>
                         </Jumbotron >
                     </Col>
                 </Row>

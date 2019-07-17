@@ -5,15 +5,13 @@ import './Sitemap.css'
 
 function Sitemap() {
     return(
-        <Container fluid className="bg-light">
+        <Container fluid className="mt-5">
             <hr/>
             <Row>
-                <Col xs={4}>
-                    <h4 className="mapTitle">About</h4>
-                    <ul>
-                        <li>
-                            <a href="/career-opportunities">Career opportunities</a>
-                        </li>
+                <Col xs={3}>
+                     <h5 className="pl-4 font-weight-bold">ABOUT</h5>
+                    <ul className="list-unstyled pl-4">
+                    <hr/>
                         <li>
                             <a href="/about">About the Business</a>
                         </li>
@@ -25,9 +23,10 @@ function Sitemap() {
                         </li>
                     </ul>
                 </Col>
-                <Col xs={4}>
-                    <h4 className="mapTitle">Services</h4>
-                    <ul>
+                <Col xs={3}>
+                    <h5 className="pl-4 font-weight-bold">SERVICES</h5>
+                    <ul className="list-unstyled pl-4">
+                    <hr/>
                         <li>
                             <a href="/cooling">Cooling</a>
                         </li>
@@ -42,9 +41,10 @@ function Sitemap() {
                         </li>
                     </ul> 
                 </Col>
-                <Col xs={4}> 
-                    <h4 className="mapTitle">General</h4>
-                    <ul>
+                <Col xs={3}> 
+                    <h5 className="pl-4 font-weight-bold">GENERAL</h5>
+                    <ul className="list-unstyled pl-4">
+                    <hr/>
                         <li>
                             <a href="/residential">Residential</a>
                         </li>
@@ -53,6 +53,24 @@ function Sitemap() {
                         </li>
                         <li>
                             <a href="/faq">FAQ</a> 
+                        </li>
+                    </ul>
+                </Col>
+                <Col xs={3}> 
+                    <h5 className="pl-4 font-weight-bold">COMPANY</h5>
+                    <ul className="list-unstyled pl-4">
+                    <hr/>
+                        <li>
+                            <a href="/contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="/career-opportunities">Career opportunities</a>
+                        </li>
+                        <li>
+                            <p className="text-info">unitedhv@gmail.com</p>
+                        </li>
+                        <li>
+                            <p className="text-info">(333) 444 5555</p>
                         </li>
                     </ul>
                 </Col>

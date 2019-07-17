@@ -4,8 +4,11 @@
     
 }
 
-.plug {
-    background:url('/extras/USAflag.jpg');
-    background-size:cover;
-}
+/* .plug {
+    background: url('/extras/USAflag.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+} */
