@@ -7,11 +7,11 @@ import HomeCarousel from './CustomCarousel'
 
 function Home() {
     const plug = 
-    <Container>
+    <Container className="bg-light">
         <h2 className="font-weight-bold text-center text-dark">
             Why United?
         </h2>
-        <p className="h5 text-muted font-italic text-center">
+        <p className="h5 font-italic text-center text-black">
             United HVAC and Electrical has been providing quality service in the Chicagoland Area since it's inception in 1996. 
             From installing rooftop units on commercial building to maintaining residential furnaces, 
             United exceeds the standards set by industry today and offers a reliable service for all.
@@ -26,8 +26,8 @@ function Home() {
             <Container fluid>
                 <Row className="mt-3">
                     <Col>
-                        <Jumbotron fluid className="col-centered mb-0">
-                            <p>{plug}</p>
+                        <Jumbotron fluid className="col-centered mb-0 plug" >
+                            <div>{plug}</div>
                         </Jumbotron >
                     </Col>
                 </Row>

@@ -4,9 +4,13 @@ import ImageGallery from './ImageGallery'
 
 function Gallery() {
     return(
-        <Container className="body">
-            <ImageGallery />
-        </Container>
+        <div>
+            <h1 className="page-title">Gallery</h1>
+            <Container className="body">
+                <ImageGallery />
+            </Container>
+        </div>
+        
     );
 }
 
