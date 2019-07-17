@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Jumbotron, Container, Row, Col, Image, Button, ButtonGroup } from 'react-bootstrap'
 import './Home.css'
 import HomeCarousel from './CustomCarousel'
+import ContactLink from './subcomponents/ContactLink'
 
 
 function Home() {
@@ -18,10 +19,8 @@ function Home() {
         </p>
     </Container>
    
-
-
     return(
-        <div className="mt-3 bg-light">
+        <div className="bg-light">
             <HomeCarousel /> 
             <Container fluid>
                 <Row className="mt-3">
@@ -46,13 +45,7 @@ function Home() {
                     </Col>
                 </Row>
                 <Row className="mt-3">
-                    <Col>
-                        <Jumbotron className="col-centered mb-0">
-                            <h2>Get Started with our Service Today!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <Button href="/contact" className="bg-info border-0 btn-lg btn-block shadow hoverable">Get Started</Button>
-                        </Jumbotron>
-                    </Col>
+                    <ContactLink color="info" />
                 </Row>
                 <Row className="mt-3"> 
                     <Col xs={12} sm={6} lg={3} className="d-flex justify-content-center">
