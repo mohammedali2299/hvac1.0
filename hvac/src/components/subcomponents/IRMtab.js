@@ -6,10 +6,10 @@ function IRMtab(props) {
     return(
         <Jumbotron>
             <h3 className="mb-4">Air Conditioning Services Offered</h3>
-            <Tab.Container defaultActiveKey="first">
+            <Tab.Container defaultActiveKey="install">
             <Row>
                 
-                <Nav variant="tabs" className="flex-column">
+                <Nav variant="tabs">
                     <Nav.Item>
                         <Nav.Link eventKey="install">Install</Nav.Link>
                     </Nav.Item>
@@ -19,7 +19,7 @@ function IRMtab(props) {
                 </Nav>
               
                 
-                <Tab.Content className="ml-3">
+                <Tab.Content className="mt-3">
                     <Tab.Pane eventKey="install">
                         <h5>Carrier Certified Air Conditioning Units</h5>
                         <p>We install the best of the best. Keep you cool in summer! .....</p>
