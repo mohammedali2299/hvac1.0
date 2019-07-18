@@ -69,20 +69,30 @@ function About() {
 
     return(
         <Container className="body">
-            <Jumbotron className="mt-3 col-centered">
-            <Row>
-                <Col>
-                    <h2 className="mb-3 text-center heading">Providing Quality Service since 2006</h2>
-                    <div>
-                        {about}
-                    </div>
-                </Col>
+            <Jumbotron className="col-centered">
+            <h2 className="pb-3 text-center font-italic heading">Providing Quality Service since 2006</h2>
+            <Row className="pl-4 pr-4">
+                <div>
+                    {about}
+                </div>
+            </Row>
+            <hr/>
+            <Row className="pl-4 pr-4 d-flex flex-row">
                 {/* <Col>
                     <Button href="/owner" className="bg-white shadow border-0">
                         <h4 className="text-center text-dark">CEO/Owner: Imran Ali Mirza</h4>
                         <Image src="/extras/owner.jpg" className="owner-img" rounded></Image>
                     </Button>
                 </Col> */}
+                <Col xs={12} md={6} className="d-flex justify-content-center">
+                    <Image src="/extras/owner.jpg" className="w-100 h-100" rounded></Image>
+                </Col>
+                <Col xs={12} md={6}>
+                    <a href="/owner" className="h4 d-flex pt-2">CEO/Owner: Imran Ali</a>
+                    <p className="font-italic">Imran's family has been in the HVAC and Electrical business for the past 3 generations. Through hard work and 
+                        a strong emphasis on customer satisfaction has helped him expand his business and expertise. 
+                    </p>
+                </Col>
             </Row>
             </Jumbotron>
         </Container>

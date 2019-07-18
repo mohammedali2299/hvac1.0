@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 import './Sitemap.css'
 
 function Sitemap() {
@@ -8,6 +8,22 @@ function Sitemap() {
         <Container fluid className="mt-5">
             <hr/>
             <Row>
+                <Col xs={4}> 
+                    <h5 className="pl-4 font-weight-bold">GENERAL</h5>
+                    <ul className="list-unstyled pl-4">
+                    <hr/>
+                        <li>
+                            <a href="/" className="text-muted">Home</a> 
+                        </li>
+                        <li>
+                            <a href="/faq" className="text-muted">FAQ</a> 
+                        </li>
+                        <li>
+                            <a href="/career-opportunities" className="text-muted">Career opportunities</a>
+                        </li>
+                    </ul>
+                    <Image width={120} height={75} className="ml-4" src="/extras/unitedhvacLOGO.jpg" roundedCircle/>
+                </Col>
                 <Col xs={4}>
                     <h5 className="pl-4 font-weight-bold">SERVICES</h5>
                     <ul className="list-unstyled pl-4">
@@ -28,18 +44,6 @@ function Sitemap() {
                             <a href="/emergency-services" className="text-muted">Emergency Services</a>
                         </li>
                     </ul> 
-                </Col>
-                <Col xs={4}> 
-                    <h5 className="pl-4 font-weight-bold">GENERAL</h5>
-                    <ul className="list-unstyled pl-4">
-                    <hr/>
-                        <li>
-                            <a href="/faq" className="text-muted">FAQ</a> 
-                        </li>
-                        <li>
-                            <a href="/career-opportunities" className="text-muted">Career opportunities</a>
-                        </li>
-                    </ul>
                 </Col>
                 <Col xs={4}>
                      <h5 className="pl-4 font-weight-bold">COMPANY</h5>
