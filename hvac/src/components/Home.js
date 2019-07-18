@@ -8,16 +8,16 @@ import ContactLink from './subcomponents/ContactLink'
 
 function Home() {
     const plug = 
-    <Container>
-        <h2 className="font-weight-bold text-center text-dark mb-3">
-            Why United?
-        </h2>
-        <p className="h5 font-italic text-center text-black">
-            United HVAC and Electrical has been providing quality service in the Chicagoland Area since it's inception in 1996. 
-            From installing rooftop units on commercial buildings to maintaining residential hvac systems, 
-            United HVAC and Electrical Inc. exceeds the standards set by industry today and offers a reliable service for all.
-        </p>
-    </Container>
+        <Container>
+            <h2 className="font-weight-bold text-center text-dark mb-3">
+                Why United?
+            </h2>
+            <p className="h5 font-italic text-center text-black">
+                United HVAC and Electrical Inc. has been providing quality service in the Chicagoland Area since it's inception in 2006. 
+                From installing rooftop units on commercial buildings to maintaining residential hvac systems, 
+                United HVAC and Electrical Inc. exceeds the standards set by industry today and offers a reliable service for all.
+            </p>
+        </Container>
    
     return(
         <div className="bg-light">
