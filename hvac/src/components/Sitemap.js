@@ -8,22 +8,7 @@ function Sitemap() {
         <Container fluid className="mt-5">
             <hr/>
             <Row>
-                <Col xs={3}>
-                     <h5 className="pl-4 font-weight-bold">ABOUT</h5>
-                    <ul className="list-unstyled pl-4">
-                    <hr/>
-                        <li>
-                            <a href="/about">About the Business</a>
-                        </li>
-                        <li>
-                            <a href="/owner">About the Owner</a>
-                        </li>
-                        <li>
-                            <a href="/gallery">Gallery</a>
-                        </li>
-                    </ul>
-                </Col>
-                <Col xs={3}>
+                <Col xs={4}>
                     <h5 className="pl-4 font-weight-bold">SERVICES</h5>
                     <ul className="list-unstyled pl-4">
                     <hr/>
@@ -41,7 +26,7 @@ function Sitemap() {
                         </li>
                     </ul> 
                 </Col>
-                <Col xs={3}> 
+                <Col xs={4}> 
                     <h5 className="pl-4 font-weight-bold">GENERAL</h5>
                     <ul className="list-unstyled pl-4">
                     <hr/>
@@ -54,12 +39,22 @@ function Sitemap() {
                         <li>
                             <a href="/faq">FAQ</a> 
                         </li>
+                        
                     </ul>
                 </Col>
-                <Col xs={3}> 
-                    <h5 className="pl-4 font-weight-bold">COMPANY</h5>
+                <Col xs={4}>
+                     <h5 className="pl-4 font-weight-bold">COMPANY</h5>
                     <ul className="list-unstyled pl-4">
                     <hr/>
+                        <li>
+                            <a href="/about">About the Business</a>
+                        </li>
+                        <li>
+                            <a href="/owner">About the Owner</a>
+                        </li>
+                        <li>
+                            <a href="/gallery">Gallery</a>
+                        </li>
                         <li>
                             <a href="/contact">Contact</a>
                         </li>
@@ -67,10 +62,13 @@ function Sitemap() {
                             <a href="/career-opportunities">Career opportunities</a>
                         </li>
                         <li>
-                            <p className="text-info">unitedhv@gmail.com</p>
+                            <p>  </p>
                         </li>
                         <li>
-                            <p className="text-info">(333) 444 5555</p>
+                            <h5 className="text-dark disabled">unitedhv@gmail.com</h5>
+                        </li>
+                        <li>
+                            <h5 className="text-dark disabled">(333) 444 5555</h5>
                         </li>
                     </ul>
                 </Col>

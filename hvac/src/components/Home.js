@@ -14,8 +14,8 @@ function Home() {
         </h2>
         <p className="h5 font-italic text-center text-black">
             United HVAC and Electrical has been providing quality service in the Chicagoland Area since it's inception in 1996. 
-            From installing rooftop units on commercial building to maintaining residential furnaces, 
-            United exceeds the standards set by industry today and offers a reliable service for all.
+            From installing rooftop units on commercial buildings to maintaining residential hvac systems, 
+            United HVAC and Electrical Inc. exceeds the standards set by industry today and offers a reliable service for all.
         </p>
     </Container>
    

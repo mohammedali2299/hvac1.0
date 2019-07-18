@@ -17,7 +17,7 @@ function MyNavbar() {
                 src="/extras/unitedhvacLOGO.jpg" 
                 roundedCircle
             />
-            {'United HVAC and Electrical'}
+            {'United HVAC and Electrical Inc.'}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
