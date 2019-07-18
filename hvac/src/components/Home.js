@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Jumbotron, Container, Row, Col, Image, Button, ButtonGroup } from 'react-bootstrap'
+import { Jumbotron, Container, Row, Col, Image, Button, } from 'react-bootstrap'
 import './Home.css'
 import HomeCarousel from './CustomCarousel'
 import ContactLink from './subcomponents/ContactLink'
 import ResComTab from './subcomponents/ResComTabs'
+import Services from './subcomponents/ServiceLinks'
 
 
 function Home() {   
@@ -32,7 +33,7 @@ function Home() {
                         <ResComTab />
                     </Col>
                 </Row>
-                <Row className="mt-3"> 
+                {/* <Row className="mt-3"> 
                     <Col xs={12} sm={6} lg={3} className="d-flex justify-content-center">
                         <Button href="/cooling" className="w-75 bg-primary border-0">
                             <h3>Cooling</h3>
@@ -57,6 +58,9 @@ function Home() {
                             <Image fluid src="/extras/electrical-home.jpg"className="serv-img rounded"></Image>
                         </Button>  
                     </Col>
+                </Row> */}
+                <Row className="mt-3">
+                    <Services />
                 </Row>
             </Container>
         </div>
