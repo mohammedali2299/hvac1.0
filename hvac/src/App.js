@@ -11,6 +11,7 @@ import Owner from './components/subcomponents/Owner'
 import FAQ from './components/subcomponents/FAQ'
 import Services from './components/servicesTemplate'
 import Gallery from './components/subcomponents/Gallery'
+import CareerOpportunities from './components/subcomponents/CareerOpportunities'
 
 
 function App(props) {
@@ -53,6 +54,7 @@ function App(props) {
           <Route path = "/owner" component = {Owner} />
           <Route path = "/faq" component = {FAQ} />
           <Route path = "/gallery" component = {Gallery} />
+          <Route path = "/career-opportunities" component = {CareerOpportunities} />
           <Sitemap sticky="bottom"/>
       </Router>
     </div>

@@ -13,16 +13,19 @@ function Sitemap() {
                     <ul className="list-unstyled pl-4">
                     <hr/>
                         <li>
-                            <a href="/cooling">Cooling</a>
+                            <a href="/cooling" className="text-muted">Cooling</a>
                         </li>
                         <li>
-                            <a href="/heating">Heating</a>
+                            <a href="/heating" className="text-muted">Heating</a>
                         </li>
                         <li>
-                            <a href="/ducting">Ducting</a>
+                            <a href="/ducting" className="text-muted">Ducting</a>
                         </li>
                         <li>
-                            <a href="/electrical">Electrical</a>
+                            <a href="/electrical" className="text-muted">Electrical</a>
+                        </li>
+                        <li>
+                            <a href="/emergency-services" className="text-muted">Emergency Services</a>
                         </li>
                     </ul> 
                 </Col>
@@ -31,15 +34,11 @@ function Sitemap() {
                     <ul className="list-unstyled pl-4">
                     <hr/>
                         <li>
-                            <a href="/residential">Residential</a>
+                            <a href="/faq" className="text-muted">FAQ</a> 
                         </li>
                         <li>
-                            <a href="/commercial">Commercial</a>
+                            <a href="/career-opportunities" className="text-muted">Career opportunities</a>
                         </li>
-                        <li>
-                            <a href="/faq">FAQ</a> 
-                        </li>
-                        
                     </ul>
                 </Col>
                 <Col xs={4}>
@@ -47,19 +46,16 @@ function Sitemap() {
                     <ul className="list-unstyled pl-4">
                     <hr/>
                         <li>
-                            <a href="/about">About the Business</a>
+                            <a href="/about" className="text-muted">About the Business</a>
                         </li>
                         <li>
-                            <a href="/owner">About the Owner</a>
+                            <a href="/owner" className="text-muted">About the Owner</a>
                         </li>
                         <li>
-                            <a href="/gallery">Gallery</a>
+                            <a href="/gallery" className="text-muted">Gallery</a>
                         </li>
                         <li>
-                            <a href="/contact">Contact</a>
-                        </li>
-                        <li>
-                            <a href="/career-opportunities">Career opportunities</a>
+                            <a href="/contact" className="text-muted">Contact</a>
                         </li>
                         <li>
                             <p>  </p>
