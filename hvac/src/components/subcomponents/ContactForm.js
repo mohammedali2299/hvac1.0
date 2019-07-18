@@ -1,5 +1,5 @@
 import React from "react"
-import { Jumbotron, Container, Row, Col, Form, Button } from 'react-bootstrap'
+import { Jumbotron, Row, Col, Form, Button } from 'react-bootstrap'
 
 function ContactForm() {
     return (
@@ -54,19 +54,19 @@ function ContactForm() {
                     </Col>
                     <Col sm={12} md={{ span: 6, offset: 1}} className="">
                         <Form.Label className="border-bottom"><h5>Service Info</h5></Form.Label>
-                        <Form.Group as={Row} controlId="emergency">
-                            <Form.Check label="Emergency"/>
-                        </Form.Group>
                         <Form.Group as={Row} controlId="rescom">
                             <Form.Check type="radio" label="Residential" name="rescom" id="residential" />
                             <Form.Check type="radio" label="Commercial" name="rescom" id="commercial" className="ml-3" /> 
                         </Form.Group>
+                        <Row>
+                            <small>Choose all that apply</small>
+                        </Row>
                         <Form.Group as={Row} controlId="services">
-                            <Form.Check type="radio" label="Cooling" name="services" id="cooling" />
-                            <Form.Check type="radio" label="Heating" name="services" id="heating" className="ml-3" />
-                            <Form.Check type="radio" label="Ducting" name="services" id="ducting" className="ml-3"/>
-                            <Form.Check type="radio" label="Electrical" name="services" id="electrical" className="ml-3"/>
-                            <Form.Check type="radio" label="Other" name="services" id="otherService" className="ml-3"/>
+                            <Form.Check label="Cooling" name="services" id="cooling" />
+                            <Form.Check label="Heating" name="services" id="heating" className="ml-3" />
+                            <Form.Check label="Ducting" name="services" id="ducting" className="ml-3"/>
+                            <Form.Check label="Electrical" name="services" id="electrical" className="ml-3"/>
+                            <Form.Check label="Other" name="services" id="otherService" className="ml-3"/>
                         </Form.Group>
                         <Form.Group as={Row} controlId="description">
                             <Form.Label>How can we help?</Form.Label>
