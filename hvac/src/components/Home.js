@@ -14,23 +14,20 @@ function Home() {
             <HomeCarousel /> 
             <Container fluid>
                 <Row className="mt-3">
-                    <Col>
-                        <Jumbotron className="col-centered mb-0" rounded>
-                            <h2 className="font-weight-bold text-center text-dark mb-4">Why United?</h2>
-                            <p className="h5 font-italic text-center text-black">
+                    <Col className="col-centered pt-5 pb-5 title">
+                            <h2 className="font-weight-bold text-center text-white mb-4">Why United?</h2>
+                            <p className="h5 font-italic text-center text-white mr-5 ml-5">
                                 United HVAC and Electrical has been providing quality service in the Chicagoland Area since it's inception in 1996. 
                                 From installing rooftop units on commercial buildings to maintaining residential hvac systems, 
                                 United HVAC and Electrical Inc. exceeds the standards set by industry today and offers a reliable service for all.
                             </p>
-                        </Jumbotron >
                     </Col>
                 </Row>
-                <Row className="mt-3">
-                    <ContactLink color="info" />
-                </Row>
-                <Services />
-                <Row className="mt-3">
-                    <Col>
+                <Row>
+                    <Col xs={12} lg={4} className="mt-3">
+                        <ContactLink color="info" />
+                    </Col>
+                    <Col xs={12} lg={8} className="mt-3">
                         <ResComTab />
                     </Col>
                 </Row>
