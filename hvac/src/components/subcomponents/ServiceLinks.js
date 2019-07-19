@@ -4,12 +4,18 @@ import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap'
 function ServiceLinks() {
     return(
         <div>
-            <Row noGutters={true}>
-                <Col>
-                
+            <Row>
+                <Col className="cooling">
+                    <p>Cooling</p>
                 </Col>
-                <Col>
-                
+                <Col className="heating">
+                    <p>Heating</p>
+                </Col>
+                <Col className="electrical">
+                    <p>Electrical</p>
+                </Col>
+                <Col className="ducting">
+                    <p>Ducting</p>
                 </Col>
             </Row>
         </div>

@@ -8,16 +8,14 @@ import './CustomNavbar.css'
 
 function MyNavbar() {
     return (
-        <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
+        <Navbar sticky="top" bg="white" variant="light" expand="lg">
             <Navbar.Brand href="/">
             <Image 
-                width={120}
-                height={80}
-                className="mr-3"
-                src="/extras/updatedLOGO.jpg" 
-                roundedCircle
+                width={175}
+                height={110}
+                src="/extras/originalLOGO.jpg" 
             />
-            {'United HVAC and Electrical Inc.'}
+            {/* {'United HVAC and Electrical Inc.'} */}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
