@@ -5,7 +5,12 @@ function ServiceLinks() {
     return(
         <div>
             <Row noGutters={true}>
-
+                <Col>
+                
+                </Col>
+                <Col>
+                
+                </Col>
             </Row>
         </div>
     );
