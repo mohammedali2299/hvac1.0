@@ -1,7 +1,12 @@
-/* .serv-img {
-    height: 150px;
-    width: 200px;
+.title-img {
+    height: 300px;
     
-} */
+}
+
+.title {
+    background-image: url('/extras/home-flag.jpg');
+    background-size: cover;
+
+}
 
 

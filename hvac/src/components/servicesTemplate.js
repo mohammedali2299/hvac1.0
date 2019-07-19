@@ -32,7 +32,9 @@ function Services(props) {
                 </Col>
             </Row>
             <Row className="mt-3">
-                <ContactLink color={props.color}/>
+                <Col>
+                    <ContactLink color={props.color}/>
+                </Col>
             </Row>
         </Container>
     );
