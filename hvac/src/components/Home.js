@@ -28,6 +28,7 @@ function Home() {
                 <Row className="mt-3">
                     <ContactLink color="info" />
                 </Row>
+                <Services />
                 <Row className="mt-3">
                     <Col>
                         <ResComTab />

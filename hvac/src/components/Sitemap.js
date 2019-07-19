@@ -22,7 +22,7 @@ function Sitemap() {
                             <a href="/career-opportunities" className="text-muted">Career opportunities</a>
                         </li>
                     </ul>
-                    <Image width={120} height={75} className="ml-4" src="/extras/unitedhvacLOGO.jpg" roundedCircle/>
+                    <Image width={120} height={75} className="ml-4" src="/extras/originalLOGO.jpg"/>
                 </Col>
                 <Col xs={4}>
                     <h5 className="pl-4 font-weight-bold">SERVICES</h5>

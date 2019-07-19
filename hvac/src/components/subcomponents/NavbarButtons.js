@@ -6,7 +6,7 @@ function NavbarButtons() {
     <ButtonToolbar>
         {['Cooling', 'Heating', 'Ducting', 'Electrical', 'Emergency-Services', 'About', 'Contact'].map(
             title => (
-                <Button href={'/' + title.toLowerCase()} variant="dark" className="mr-1">{title}</Button>
+                <Button href={'/' + title.toLowerCase()} variant="white" className="mr-1">{title}</Button>
             ),
         )}
     </ButtonToolbar>
