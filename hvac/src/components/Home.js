@@ -16,7 +16,7 @@ function Home() {
                 <Row className="mt-3">
                     <Col>
                         <Jumbotron className="col-centered mb-0" rounded>
-                            <h2 className="font-weight-bold text-center text-dark mb-5">Why United?</h2>
+                            <h2 className="font-weight-bold text-center text-dark mb-4">Why United?</h2>
                             <p className="h5 font-italic text-center text-black">
                                 United HVAC and Electrical has been providing quality service in the Chicagoland Area since it's inception in 1996. 
                                 From installing rooftop units on commercial buildings to maintaining residential hvac systems, 

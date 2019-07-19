@@ -12,9 +12,9 @@ function MyNavbar() {
             <Navbar.Brand href="/">
             <Image 
                 width={120}
-                height={75}
+                height={80}
                 className="mr-3"
-                src="/extras/unitedhvacLOGO.jpg" 
+                src="/extras/updatedLOGO.jpg" 
                 roundedCircle
             />
             {'United HVAC and Electrical Inc.'}
