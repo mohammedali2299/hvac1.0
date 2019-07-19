@@ -17,7 +17,6 @@ function IRMtab(props) {
                         <Nav.Link eventKey="repair">Repair</Nav.Link>
                     </Nav.Item>
                 </Nav>
-              
                 
                 <Tab.Content className="mt-3">
                     <Tab.Pane eventKey="install">
