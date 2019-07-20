@@ -25,7 +25,18 @@ function Home() {
                 </Row>
                 <Row>
                     <Col xs={12} lg={4} className="mt-3">
-                        <ContactLink color="info" />
+                        <Row>
+                            <Col lg={12}>
+                                <ContactLink color="info" />
+                            </Col>
+                            <Col lg={12} className="mt-3">
+                                <Jumbotron className="d-flex flex-column align-items-center mb-0">
+                                    <h2>Have an Emergency?</h2>
+                                    <p>Get your problem solved fast. Click below for more information.</p>
+                                    <Button size="lg" variant="info" className="btn-block" href="/emergency-services">Emergency Services</Button>
+                                </Jumbotron>
+                            </Col>
+                        </Row>
                     </Col>
                     <Col xs={12} lg={8} className="mt-3">
                         <ResComTab />

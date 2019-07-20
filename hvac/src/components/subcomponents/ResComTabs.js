@@ -5,8 +5,8 @@ import './ResComTabs.css'
 function ResComTab() {
     return (
         <Jumbotron className="mb-0">
-            <h3 className="mb-4">We do both residential and commercial buildings!</h3>
-            <Tabs defaultActiveKey="commercial" className="border-0">
+            <h2 className="mb-4">We Service Both Residential and Commercial Buildings!</h2>
+            <Tabs defaultActiveKey="residential" className="border-0">
                 <Tab eventKey="residential" title="Residential" className="bg-white shadow border" >
                     <Row noGutters>
                         <Col xs={12} lg={6} xl={8} className="pt-3">
