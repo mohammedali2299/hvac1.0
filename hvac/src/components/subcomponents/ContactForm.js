@@ -7,7 +7,7 @@ function ContactForm() {
             <Form>
                 <Form.Row>
                     <Col sm={12} md={5} className="mb-5">
-                        <Form.Label className="border-bottom"><h5>Costumer Info</h5></Form.Label>
+                        <Form.Label className="border-bottom"><h5>Customer Info</h5></Form.Label>
                         <Form.Group as={Row} controlId="name">
                             <Form.Label column lg={2}>Name</Form.Label>
                             <Col md={10}>

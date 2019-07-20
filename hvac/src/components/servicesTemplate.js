@@ -14,6 +14,7 @@ function Services(props) {
                     <Figure.Image
                         fluid={true}
                         src={props.imgsrc}
+                        height={75}
                     />
                     <Figure.Caption className={captionClass}>
                         {props.title}

@@ -11,11 +11,10 @@ function MyNavbar() {
         <Navbar sticky="top" bg="white" variant="light" expand="lg">
             <Navbar.Brand href="/">
             <Image 
-                width={175}
-                height={110}
+                width={165}
+                height={90}
                 src="/extras/originalLOGO.jpg" 
             />
-            {/* {'United HVAC and Electrical Inc.'} */}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
