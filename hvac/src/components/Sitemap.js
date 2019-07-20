@@ -65,13 +65,16 @@ function Sitemap() {
                             <p>  </p>
                         </li>
                         <li>
-                            <h5 className="text-dark disabled">unitedhv@gmail.com</h5>
+                            <h5 className="text-dark disabled">unitedhvac@me.com</h5>
                         </li>
                         <li>
-                            <h5 className="text-dark disabled">(333) 444 5555</h5>
+                            <h5 className="text-dark disabled">(847) 489 4796</h5>
                         </li>
                     </ul>
                 </Col>
+            </Row>
+            <Row fluid className="source bg-dark pl-3">
+                <small className="text-light">Copyright @2019 United HVAC and Electrical Inc. This website is brought to you by STREAMLINE</small>
             </Row>
         </Container>
         

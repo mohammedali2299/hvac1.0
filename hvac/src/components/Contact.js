@@ -9,12 +9,12 @@ function Contact() {
         <Container fluid={true}>
             <Row className="bg-light p-4">
                 <Col sm={12} md={6} className="border-right">
-                    <h5>Fill out our online form to place an order for a job in just a few simple steps and we will get back to you at our earliest convenience. You can also contact us via email or phone.</h5>
+                    <h5>Fill out our online form in just a few simple steps and we will get back to you at our earliest convenience. You can also contact us via email or phone.</h5>
                 </Col>
                 <Col sm={12} md={6}>
-                    <h5>Phone Number: 555-3234-221</h5>
-                    <h5>Email: unhvac@gmail.com</h5>
-                    <h5>Social Media: Comming Soon!</h5>
+                    <h5>Phone Number: (847) 489 4796</h5>
+                    <h5>Email: unitedhvac@me.com</h5>
+                    <h5>Social Media: Coming Soon!</h5>
                 </Col>
             </Row>
             <Row>
