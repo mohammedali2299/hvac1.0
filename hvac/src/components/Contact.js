@@ -13,7 +13,7 @@ function Contact() {
                 </Col>
                 <Col sm={12} md={6}>
                     <h5>Phone Number: (847) 489 4796</h5>
-                    <h5>Email: unitedhvac@me.com</h5>
+                    <h5>Email: <a href="mailto:unitedhvac@me.com">unitedhvac@me.com</a></h5>
                     <h5>Social Media: Coming Soon!</h5>
                 </Col>
             </Row>
