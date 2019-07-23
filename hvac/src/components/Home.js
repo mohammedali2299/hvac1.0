@@ -64,7 +64,7 @@ function Home() {
                             </div>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={6} lg={6} xl={3} className="mt-3">
+                    <Col xs={12} sm={12} md={6} lg={6} xl={3}>
                         <div className="hovereffect">
                             <img className="img-responsive w-100 h-100" src="/extras/home-electrical.jpg" alt=""/>
                             <div className="overlay">
@@ -74,7 +74,7 @@ function Home() {
                             </div>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={6} lg={6} xl={3} className="mt-3">
+                    <Col xs={12} sm={12} md={6} lg={6} xl={3}>
                         <div class="hovereffect">
                             <img className="img-responsive w-100 h-100" src="/extras/home-ducting.jpg" alt=""/>
                             <div className="overlay">
