@@ -40,10 +40,53 @@ function Home() {
                         </Row>
                     </Col>
                     <Col xs={12} lg={8} className="mt-3">
-                        <ResComTab />
+                        {/* <ResComTab /> */}
+                        <Row className="mt-3" noGutters>
+                    <Col xs={12} sm={12} md={6} lg={6} xl={6} className="pr-2">
+                        <div className="hovereffect">
+                            <img className="img-responsive w-100 h-100" src="/extras/home-cooling.jpg" alt=""/>
+                            <div className="overlay">
+                                <h2 className="cooling">Cooling</h2>
+                                <p className="info">Need a proffessional to take a look? We service all makes and models of AC units.</p>
+                                <a href="/cooling" className="info">Learn More</a>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                        <div className="hovereffect">
+                            <img className="img-responsive w-100 h-100" src="/extras/home-heating.jpg" alt=""/>
+                            <div className="overlay">
+                                <h2 className="heating">Heating</h2>
+                                <p className="info">Heat doesn't seem to work? Fill out the contact form and we'll get back to you!</p>
+                                <a href="/heating" className="info">Learn More</a>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={12} md={6} lg={6} xl={6} className="mt-2 pr-2">
+                        <div className="hovereffect">
+                            <img className="img-responsive w-100 h-100" src="/extras/home-electrical.jpg" alt=""/>
+                            <div className="overlay">
+                                <h2 className="electrical">Electrical</h2>
+                                <p className="info">As certified electricians, we can handle any electrical problem you have.</p>
+                                <a href="/electrical" className="info">Learn More</a>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={12} md={6} lg={6} xl={6} className="mt-2">
+                        <div class="hovereffect">
+                            <img className="img-responsive w-100 h-100" src="/extras/home-ducting.jpg" alt=""/>
+                            <div className="overlay">
+                                <h2 className="ducting">Ducting</h2>
+                                <p className="info">Ducts leaking air? We're experts in installing and sealing ducts and we would
+                                love to help.</p>
+                                <a href="/ducting" className="info">Learn More</a>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
-                <Row className="mt-3">
+                </Col>
+                </Row>
+                {/* <Row className="mt-3">
                     <Col xs={12} sm={12} md={6} lg={6} xl={3}>
                         <div className="hovereffect">
                             <img className="img-responsive w-100 h-100" src="/extras/home-cooling.jpg" alt=""/>
@@ -64,7 +107,7 @@ function Home() {
                             </div>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={6} lg={6} xl={3}>
+                    <Col xs={12} sm={12} md={6} lg={6} xl={3} className="mt-2">
                         <div className="hovereffect">
                             <img className="img-responsive w-100 h-100" src="/extras/home-electrical.jpg" alt=""/>
                             <div className="overlay">
@@ -74,7 +117,7 @@ function Home() {
                             </div>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={6} lg={6} xl={3}>
+                    <Col xs={12} sm={12} md={6} lg={6} xl={3} className="mt-2">
                         <div class="hovereffect">
                             <img className="img-responsive w-100 h-100" src="/extras/home-ducting.jpg" alt=""/>
                             <div className="overlay">
@@ -85,7 +128,7 @@ function Home() {
                             </div>
                         </div>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row className="mt-3">
                     <ReviewCarousel/>
                 </Row>
