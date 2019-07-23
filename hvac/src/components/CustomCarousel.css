@@ -3,10 +3,21 @@
     width: 100%;
 }
 
+.reviewimg {
+    height: 400px;
+    width: 100%;
+    /* opacity: .75; */
+}
+
 .home-carousel {
     padding: 0px;
     margin: 0px;
     
 }
 
+.review-carousel {
+    padding: 0px;
+    margin: 0px;
+    
+}
 
