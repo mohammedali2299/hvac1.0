@@ -24,8 +24,8 @@ function Services(props) {
             <Row className="mt-3">
                 <Col sm={12} md={6}>
                     <Jumbotron className="rounded mb-0">
-                        <h4 className="font-weight-bold">We do both commercial and residential!</h4>
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis ut diam quam nulla porttitor. Pick up snacks at the concession stand today! Half price popcorn for all kids under the age of 12. We now have cinamon pretzels with frosting on top of our original salty pretzel with cheese. I am trying to make a third line of words. Almost there. Cool.</h5>
+                        <h2 className="font-weight-bold">Find out how we can help you beat the heat</h2>
+                        {/* <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis ut diam quam nulla porttitor. Pick up snacks at the concession stand today! Half price popcorn for all kids under the age of 12. We now have cinamon pretzels with frosting on top of our original salty pretzel with cheese. I am trying to make a third line of words. Almost there. Cool.</h5> */}
                     </Jumbotron>
                 </Col>
                 <Col sm={12} md={6}>
