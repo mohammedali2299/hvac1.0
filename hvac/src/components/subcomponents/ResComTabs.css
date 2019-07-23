@@ -1,0 +1,14 @@
+.residential {
+    background-image: url('/extras/home-residential.jpg');
+    background-size: cover;
+}
+
+.resdescription {
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.commercial {
+    background-image: url('/extras/home-commercial.jpg');
+    background-size: cover;
+}
