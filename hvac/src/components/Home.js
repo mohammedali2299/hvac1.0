@@ -7,8 +7,6 @@ import ContactLink from './subcomponents/ContactLink'
 import ResComTab from './subcomponents/ResComTabs'
 import ReviewCarousel from './subcomponents/ReviewCarousel'
 
-
-
 function Home() {   
     return(
         <div className="body">
