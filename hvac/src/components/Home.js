@@ -6,8 +6,6 @@ import HomeCarousel from './CustomCarousel'
 import ContactLink from './subcomponents/ContactLink'
 import ResComTab from './subcomponents/ResComTabs'
 
-
-
 function Home() {   
     return(
         <div className="bg-light body">
