@@ -5,8 +5,7 @@ import './Sitemap.css'
 
 function Sitemap() {
     return(
-        <Container fluid className="mt-5">
-            <hr/>
+        <Container fluid className="mt-3">
             <Row>
                 <Col xs={4}> 
                     <h5 className="pl-4 font-weight-bold">GENERAL</h5>
@@ -65,7 +64,7 @@ function Sitemap() {
                             <p>  </p>
                         </li>
                         <li>
-                            <h5 className="text-dark disabled">unitedhvac@me.com</h5>
+                            <h5 className="text-dark disabled"><a href="mailto:unitedhvac@me.com">unitedhvac@me.com</a></h5>
                         </li>
                         <li>
                             <h5 className="text-dark disabled">(847) 489 4796</h5>
