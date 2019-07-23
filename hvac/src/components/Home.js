@@ -75,8 +75,7 @@ function Home() {
                             <img className="img-responsive w-100 h-100" src="/extras/home-ducting.jpg" alt=""/>
                             <div className="overlay">
                                 <h2 className="ducting">Ducting</h2>
-                                <p className="info">Is your ducting leaking air? We're experts in installing and sealing ducts and we would
-                                love to help.</p>
+                                <p className="info">Is your ducting leaking air? We're experts in installing and sealing ducts and we would love to help.</p>
                             </div>
                         </div>
                     </Col>
