@@ -6,7 +6,7 @@ function ResComTab() {
     return (
         <Jumbotron className="mb-0">
             <h2 className="mb-4">We do both Residential and Commercial!</h2>
-            <Tabs defaultActiveKey="commercial" className="border-0">
+            <Tabs defaultActiveKey="residential" className="border-0">
                 <Tab eventKey="residential" title="Residential" className="bg-white shadow border" >
                     <Row noGutters>
                         <Col xs={12} lg={6} xl={8} className="pt-3">
