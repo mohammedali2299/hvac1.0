@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Jumbotron, Container, Row, Col, Image, Button, } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import './Home.css'
 import HomeCarousel from './CustomCarousel'
 import ContactLink from './subcomponents/ContactLink'
 import ResComTab from './subcomponents/ResComTabs'
 import ReviewCarousel from './subcomponents/ReviewCarousel'
 import ServiceLinks from './subcomponents/ServiceLinks'
+import SocialMedia from './subcomponents/SocialMedia'
 
 function Home() {   
     return(
@@ -26,8 +26,11 @@ function Home() {
                 <Row className="mt-4">
                     <ServiceLinks />
                 </Row>
-
-                <ResComTab />
+                <Row noGutters className="mt-4">
+                    <ResComTab />
+                    <SocialMedia />
+                </Row>
+                
 
                 <Row className="mt-3">
                     <ReviewCarousel/>

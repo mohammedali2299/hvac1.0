@@ -4,29 +4,47 @@ import 'react-transition-group'
 import './ResComTabs.css'
 
 function ResComTab() {
-    const [open, setOpen] = useState(false);
-    const [open2, setOpen2] = useState(false);
+    // const [open, setOpen] = useState(false);
+    // const [open2, setOpen2] = useState(false);
     return (
-        <Row noGutters className="mt-4">
-            <Col xs={12} md={4}>
-                <div class="hovereffect2 border">
-                    <img class="img-responsive2 w-100 h-100" src="/extras/home-residential.jpg" alt="" />
-                    <div class="overlay2">
-                        <h2>Hover effect 4</h2>
-                        <a class="info2" href="#">link here</a>
+        <Col xs={12} md={6}>
+            <Row noGutters>
+                <Col xs={12} md={6}>
+                    <div class="hovereffect2 border">
+                        <img class="img-responsive2 w-100 h-100" src="/extras/home-residential.jpg" alt="" />
+                        <div class="overlay2">
+                            <h2>Residential</h2>
+                            <div className="text-white font-italic info">
+                                <p>
+                                We are commited to keeping your family comfortable! If your home 
+                                HVAC system is undergoing issues, reach out to us with the  
+                                <a href="/contact" className="font-weight-bold"> contact form</a> and we'll ensure 
+                                that you get the best quality service as soon as possible.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </Col>
-            <Col xs={12} md={4}>
-                <div class="hovereffect2 border">
-                    <img class="img-responsive2 w-100 h-100" src="/extras/home-commercial.jpg" alt="" />
-                    <div class="overlay2">
-                        <h2>Hover effect 4</h2>
-                        <a class="info2" href="#">link here</a>
+                </Col>
+                <Col xs={12} md={6}>
+                    <div class="hovereffect2 border">
+                        <img class="img-responsive2 w-100 h-100" src="/extras/home-commercial.jpg" alt="" />
+                        <div class="overlay2">
+                            <h2>Commercial</h2>
+                            <div className="text-white font-italic info">
+                                <p className="w-100 h-100">
+                                United has continued to provide excellent services to business owners by not compromising on 
+                                quality. We're ready to tackle any HVAC and electrical problems that your business may be facing.
+                                The best way to reach us is through the
+                                <a href="/contact" className="font-weight-bold"> contact form</a>.
+                                Don't hesitate to give us a call or send an e-mail! 
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </Col>
-        </Row>
+                </Col>
+            </Row>
+           
+        </Col>
        
         // <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             
