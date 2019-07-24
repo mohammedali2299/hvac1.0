@@ -26,9 +26,9 @@ function Home() {
                 <Row className="mt-4">
                     <ServiceLinks />
                 </Row>
-                <Row className="mt-2">
-                    <ResComTab />
-                </Row>
+
+                <ResComTab />
+
                 <Row className="mt-3">
                     <ReviewCarousel/>
                 </Row>

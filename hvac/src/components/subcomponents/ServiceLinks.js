@@ -11,7 +11,7 @@ function ServiceLinks() {
                     <ContactLink color="primary" />
                 </Col>
                 <Col xs={12} md={6} xl={{ span: 4, offset: 1}} className="">
-                    <div className="hovereffect">
+                    <div className="hovereffect border">
                          <img className="img-responsive w-100 h-100" src="/extras/home-cooling.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="cooling">Cooling</h2>
@@ -21,7 +21,7 @@ function ServiceLinks() {
                      </div>
                 </Col>
                 <Col xs={12} md={6} xl={4} className="">
-                    <div className="hovereffect">
+                    <div className="hovereffect border">
                          <img className="img-responsive w-100 h-100" src="/extras/home-heating.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="heating">Heating</h2>
@@ -33,14 +33,14 @@ function ServiceLinks() {
             </Row>
             <Row noGutters>
                 <Col xs={{ span: 12, order: 3 }} xl={{ span: 3, offset: 0, order: 1}} className="">
-                    <Jumbotron fluid className="d-flex flex-column align-items-center mb-0 emergency h-100 pt-3 pb-3">
+                    <Jumbotron fluid className="border d-flex flex-column align-items-center mb-0 emergency h-100 pt-3 pb-3">
                         <h2 className="text-white text-center pt-2 pl-2 pr-2">Have an Emergency?</h2>
                         <p className="text-white text-center font-italic pl-2 pr-2 pt-3 pb-3">Let United expedite your problem. Click below for more information.</p>
                         <Button size="lg" className="border-0 mb-2 emergency-button" href="/emergency-services">Emergency Services</Button>
                     </Jumbotron>
                 </Col>
                 <Col xs={{ span: 12, order: 1 }} md={6} xl={{ span: 4, order: 2, offset: 1 }} className="">
-                    <div className="hovereffect">
+                    <div className="hovereffect border">
                          <img className="img-responsive w-100 h-100" src="/extras/home-electrical.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="electrical">Electrical</h2>
@@ -50,7 +50,7 @@ function ServiceLinks() {
                      </div>
                 </Col>
                 <Col xs={{ span: 12, order: 2 }} md={6} xl={{ span: 4, order: 3 }} className="">
-                    <div class="hovereffect">
+                    <div class="hovereffect border">
                          <img className="img-responsive w-100 h-100" src="/extras/home-ducting.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="ducting">Ducting</h2>
