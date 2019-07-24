@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { Tabs, Tab, Jumbotron, Image, Row, Col, Container, Button, Fade } from 'react-bootstrap'
 import 'react-transition-group'
 import './ResComTabs.css'
+import SocialMedia from './SocialMedia'
 
 function ResComTab() {
     // const [open, setOpen] = useState(false);
     // const [open2, setOpen2] = useState(false);
     return (
-        <Col xs={12} md={6}>
             <Row noGutters>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={6} xl={6}>
                     <div class="hovereffect2 border">
                         <img class="img-responsive2 w-100 h-100" src="/extras/home-residential.jpg" alt="" />
                         <div class="overlay2">
@@ -25,7 +25,7 @@ function ResComTab() {
                         </div>
                     </div>
                 </Col>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={6} xl={6}>
                     <div class="hovereffect2 border">
                         <img class="img-responsive2 w-100 h-100" src="/extras/home-commercial.jpg" alt="" />
                         <div class="overlay2">
@@ -43,8 +43,6 @@ function ResComTab() {
                     </div>
                 </Col>
             </Row>
-           
-        </Col>
        
         // <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             

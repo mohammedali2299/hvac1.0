@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap'
 import './Home.css'
 import HomeCarousel from './CustomCarousel'
 import ContactLink from './subcomponents/ContactLink'
@@ -7,12 +7,13 @@ import ResComTab from './subcomponents/ResComTabs'
 import ReviewCarousel from './subcomponents/ReviewCarousel'
 import ServiceLinks from './subcomponents/ServiceLinks'
 import SocialMedia from './subcomponents/SocialMedia'
+import { cpus } from 'os';
 
 function Home() {   
     return(
         <div className="body">
             {/* <HomeCarousel />  */}
-            <Container fluid className="homepage">
+            <Container fluid className="homepage pl-0 pr-0">
                 <Row>
                     <Col className="col-centered pt-5 pb-5 title">
                         <h2 className="font-weight-bold text-center text-white mb-4">Why United?</h2>
@@ -23,16 +24,29 @@ function Home() {
                         </p>
                     </Col>
                 </Row>
-                <Row className="mt-4">
-                    <ServiceLinks />
+                <Row noGutters className="mt-4">
+                    <Col xs={12} xl={4} className="pr-3 pl-3">
+                        <ContactLink color="primary" />
+                    </Col>
+                    <Col xl={{ span: 8, offset: 0}} className="mt-0 pr-3 pl-3">
+                        <ServiceLinks />
+                    </Col>    
                 </Row>
                 <Row noGutters className="mt-4">
-                    <ResComTab />
-                    <SocialMedia />
+                    <Col xs={12} xl={8} className="pr-3 pl-3">
+                        <ResComTab />
+                    </Col>
+                    <Col xs={12} xl={4} className="pr-3 pl-3">
+                        <Jumbotron fluid className="border d-flex flex-column align-items-center mb-0 emergency h-100 pt-3 pb-3">
+                            <h2 className="text-white text-center pt-2 pl-2 pr-2">Have an Emergency?</h2>
+                            <p className="text-white text-center font-italic pl-2 pr-2 pt-3 pb-3">Let United expedite your problem. Click below for more information.</p>
+                            <Button size="lg" className="border-0 mb-2 emergency-button" href="/emergency-services">Emergency Services</Button>
+                        </Jumbotron>
+                    </Col>
                 </Row>
                 
 
-                <Row className="mt-3">
+                <Row className="mt-4">
                     <ReviewCarousel/>
                 </Row>
             </Container>
