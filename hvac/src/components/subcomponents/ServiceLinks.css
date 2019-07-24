@@ -21,7 +21,7 @@
   }
   
   .hovereffect:hover .overlay {
-    background-color: rgba(170,170,170,0.4);
+    background-color: rgba(0, 0, 0, 0.7);
   }
   
   .hovereffect h2, .hovereffect img {
@@ -99,9 +99,7 @@
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-    background-color: rgba(0,0,0,0.4);
   }
-
 
   .hovereffect a.info {
     display: inline-block;
