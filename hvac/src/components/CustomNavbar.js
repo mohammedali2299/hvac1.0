@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Navbar, Nav, Image, Button, Dropdown } from 'react-bootstrap';
+import React from 'react';
+import { Navbar, Image } from 'react-bootstrap';
 import NavbarButtons from './subcomponents/NavbarButtons.js'
 import './CustomNavbar.css'
 import NavBarContact from './subcomponents/NavBarContact'
@@ -9,7 +9,7 @@ import NavBarContact from './subcomponents/NavBarContact'
 
 function MyNavbar() {
     return (
-        <Navbar sticky="top" bg="white" variant="light" expand="lg" className="pt-0 pb-0 mt-0 mb-0">
+        <Navbar sticky="top" bg="white" variant="light" expand="md" className="pt-0 pb-0 mt-0 mb-0">
             <Navbar.Brand href="/">
             <Image 
                 width={200}
