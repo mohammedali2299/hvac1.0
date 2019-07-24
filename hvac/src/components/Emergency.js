@@ -28,56 +28,56 @@ function Emergency() {
                     </Jumbotron>
                 </Col>
                 <Col xs={12} lg={8} className="mt-3">
-                    <Jumbotron className="mb-0">
+                    <Jumbotron className="mb-0 mr-4 bg-white border border-dark">
                         <Form>
-                            <Form.Label className="border-bottom"><h5>Emergency Contact Form</h5></Form.Label>
+                            <Form.Label className="mb-5 mt-0"><h3>Emergency Contact Form</h3></Form.Label>
                             <Form.Group as={Row} controlId="name">
                                 <Form.Label column lg={2}>Name</Form.Label>
                                 <Col md={10}>
-                                    <Form.Control type="text" placeholder="First and Last Name" />
+                                    <Form.Control type="text" className="border border-danger" placeholder="First and Last Name" />
                                 </Col>
                             </Form.Group>
                             <Form.Group as={Row} controlId="phone">
                                 <Form.Label column lg={2}>Phone</Form.Label>
                                 <Col md={10}>
-                                    <Form.Control type="tel" placeholder="xxx-xxx-xxxx"/>
+                                    <Form.Control type="tel" className="border border-danger" placeholder="xxx-xxx-xxxx"/>
                                 </Col>
                             </Form.Group>
                             <Form.Group as={Row} controlId="email">
                                 <Form.Label column lg={2}>Email</Form.Label>
                                 <Col md={10}>
-                                    <Form.Control type="email" placeholder="example@gmail.com"/>
+                                    <Form.Control type="email" className="border border-danger" placeholder="example@gmail.com"/>
                                 </Col>
                             </Form.Group>
                             <Form.Group as={Row} controlId="address">
                                 <Form.Label column lg={2}>Address</Form.Label>
                                 <Col md={10}>
-                                    <Form.Control type="text" placeholder="5343 Cherry Tree Lane" />
+                                    <Form.Control type="text" className="border border-danger" placeholder="5343 Cherry Tree Lane" />
                                 </Col>
                             </Form.Group>
                             <Form.Group as={Row} controlId="city">
                                 <Form.Label column lg={2}>City</Form.Label>
                                 <Col md={10}>
-                                    <Form.Control type="text" placeholder="Chicago" />
+                                    <Form.Control type="text" className="border border-danger" placeholder="Chicago" />
                                 </Col>
                             </Form.Group>
                             <Form.Group as={Row} controlId="state">
                                 <Form.Label column lg={2}>State</Form.Label>
                                 <Col md={10}>
-                                    <Form.Control type="text" placeholder="IL" />
+                                    <Form.Control type="text" className="border border-danger" placeholder="IL" />
                                 </Col>
                             </Form.Group>
                             <Form.Group as={Row} controlId="zip">
                                 <Form.Label column lg={2}>Zipcode</Form.Label>
                                 <Col md={10}>
-                                    <Form.Control type="text" size="5" placeholder="99999" />
+                                    <Form.Control type="text" className="border border-danger mb-2" size="5" placeholder="99999" />
+                                    <small>We will never share your personal information.</small>
                                 </Col>
                             </Form.Group>
-                            <small>We will never share your personal information.</small>
-                            <Form.Group as={Row} controlId="description" className="mt-4">
+                            <Form.Group as={Row} controlId="description" className="mt-2">
                                 <Form.Label column lg={2}>What is your emergency?</Form.Label>
                                 <Col md={10}>
-                                <Form.Control as="textarea" rows="5" placeholder="Write a description of the issue and we will get back to you as soon as possible." />
+                                <Form.Control as="textarea" className="border border-danger" rows="5" placeholder="Write a description of the issue and we will get back to you as soon as possible." />
                                 </Col>
                             </Form.Group>
                             

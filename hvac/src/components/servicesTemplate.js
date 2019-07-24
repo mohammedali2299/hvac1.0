@@ -8,11 +8,12 @@ import ContactLink from './subcomponents/ContactLink'
 function Services(props) {
     var captionClass = "text-center text-white font-weight-bold image-cap" + " bg-" + props.color;
     return(
-        <Container fluid="true" className="overflow-hidden">
+        <Container fluid="true" className="">
             <Row>
-                <Figure className="mb-0">
+                <Figure fluid className="mb-0 w-100">
                     <Figure.Image
-                        fluid={true}
+                        fluid
+                        className="w-100"
                         src={props.imgsrc}
                         height={75}
                     />
@@ -23,13 +24,13 @@ function Services(props) {
             </Row>
             <Row className="mt-3">
                 <Col>
-                    <Jumbotron fluid className="bg-light">
-                        <h3 className="mb-4">All your Air-Conditioning Needs</h3>
-                        <h6>Repair</h6>
-                        <p>We can get your air conditioning system back up and running in no time. We have experience working with all major-brand air conditioning units. We diagnose the problem and offer you the most cost efficient solution. Air conditioners may begin to slow down or stop working when the system is overburdened. If this happens, you can contact us and we will send an HVAC technician for a full inspection of the unit. We will then offer our solutions to your problem to get you back to enjoying a cool house or business.</p>
-                        <h6>Install</h6>
-                        <p>Often times your air conditioner may be beyond repair or running inefficiently for your building size. An air conditioner that is too powerful for your home may be wasting money on electricity, on the other hand you may own a system that is not powerful enough to keep your house cool. No need to worry, our expert HVAC technicians can give you a recommendation on the best system to suit your needs. After that we can install your new air conditioner for a fair price! Our installation services include inside controls, air conditioner set-up and testing, and even ducting to maximize the efficiency of your new unit.</p>
-                        <p>If you have any more questions about what kind of services we provide for air conditioning and much more, contact us via our form or send us an email or phone call.</p>
+                    <Jumbotron fluid className="">
+                        <h3 className="mb-4 ml-3 mr-3">All your Air-Conditioning Needs</h3>
+                        <h6 className="ml-3 mr-3">Repair</h6>
+                        <p className="ml-3 mr-3">We can get your air conditioning system back up and running in no time. We have experience working with all major-brand air conditioning units. We diagnose the problem and offer you the most cost efficient solution. Air conditioners may begin to slow down or stop working when the system is overburdened. If this happens, you can contact us and we will send an HVAC technician for a full inspection of the unit. We will then offer our solutions to your problem to get you back to enjoying a cool house or business.</p>
+                        <h6 className="ml-3 mr-3">Install</h6>
+                        <p className="ml-3 mr-3">Often times your air conditioner may be beyond repair or running inefficiently for your building size. An air conditioner that is too powerful for your home may be wasting money on electricity, on the other hand you may own a system that is not powerful enough to keep your house cool. No need to worry, our expert HVAC technicians can give you a recommendation on the best system to suit your needs. After that we can install your new air conditioner for a fair price! Our installation services include inside controls, air conditioner set-up and testing, and even ducting to maximize the efficiency of your new unit.</p>
+                        <p className="ml-3 mr-3">If you have any more questions about what kind of services we provide for air conditioning and much more, contact us via our form or send us an email or phone call.</p>
                     </Jumbotron>
                 </Col>
                 <Col sm={12} md={6}>
