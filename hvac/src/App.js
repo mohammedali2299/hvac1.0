@@ -18,26 +18,22 @@ function App(props) {
   
   var serviceData = {
     coolingProps: {
-        imgsrc: "/extras/cooling-main.jpg",
-        color: "primary",
+        imgsrc: "/extras/home-cooling.jpg",
         title: "Air Conditioning",
         name: "cooling"
     },
     heatingProps: {
         imgsrc: "/extras/cooling-main.jpeg",
-        color: "danger",
         title: "Heating",
         name: "heating"
     },
     ductingProps: {
       imgsrc: "/extras/cooling-main.jpeg",
-      color: "secondary",
       title: "Ducting",
       name: "ducting"
     },
     electricalProps: {
       imgsrc: "/extras/cooling-main.jpeg",
-      color: "warning",
       title: "Electrical",
       name: "electrical"
     }
