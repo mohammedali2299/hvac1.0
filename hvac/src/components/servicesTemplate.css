@@ -7,7 +7,23 @@
     
 }
 
-.cooling-title {
+/* .cooling-title {
     background-image: url('/extras/cooling-title.jpg');
     background-size: cover;
+} */
+
+.cooling-opaque {
+    background: rgba(6, 22, 114, 0.8);
+}
+
+.cooling-primary {
+    background: rgb(78, 99, 170)
+}
+
+.cooling-secondary {
+    background: rgb(46, 67, 142)
+}
+
+.cooling-tertiary {
+    background: rgb(21, 42, 114)
 }

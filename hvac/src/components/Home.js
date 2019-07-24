@@ -1,8 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './Home.css'
-import HomeCarousel from './CustomCarousel'
-import ContactLink from './subcomponents/ContactLink'
 import ResComTab from './subcomponents/ResComTabs'
 import ReviewCarousel from './subcomponents/ReviewCarousel'
 import ServiceLinks from './subcomponents/ServiceLinks'

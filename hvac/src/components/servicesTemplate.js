@@ -3,10 +3,8 @@ import { Link } from 'react-router-dom'
 import { Jumbotron, Container, Row, Col, Button, Figure } from 'react-bootstrap'
 import './servicesTemplate.css'
 import IRMtab from './subcomponents/IRMtab'
-import ContactLink from './subcomponents/ContactLink'
 
 function Services(props) {
-    var captionClass = "text-center text-white font-weight-bold image-cap" + " bg-" + props.color;
     return(
         <Container fluid="true" className="">
             <Row>
@@ -17,7 +15,7 @@ function Services(props) {
                         src={props.imgsrc}
                         height={75}
                     />
-                    <Figure.Caption className={captionClass}>
+                    <Figure.Caption className={"text-center text-white font-weight-bold image-cap " + props.name + "-opaque" }>
                         {props.title}
                     </Figure.Caption>
                 </Figure>
