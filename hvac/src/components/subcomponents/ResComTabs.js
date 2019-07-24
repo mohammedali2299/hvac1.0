@@ -7,9 +7,9 @@ function ResComTab() {
     const [open, setOpen] = useState(false);
     const [open2, setOpen2] = useState(false);
     return (
-        <Jumbotron className="mb-0">
-            <h2 className="mb-4">We cater to both Residential and Commercial!</h2>
-            <Container>
+        <Jumbotron fluid className="mb-0 ml-2">
+            <h2 className="mb-4 ml-2">We cater to both Residential and Commercial!</h2>
+            <Container className="ml-2">
                 <Row>
                     <Col xs={12} md={6} lg={5} className="residential mr-5 mb-3">
                         <h2 className="mt-3 mb-3 text-white font-weight-bold">Residential</h2>
@@ -22,7 +22,7 @@ function ResComTab() {
                             Learn More...
                         </u>
                         <Fade in={open}>
-                            <div className="mt-3 mb-4 text-white resdescription">
+                            <div className="mt-3 mb-4 text-white description">
                                 <p>
                                 > We are commited to keeping your family comfortable! Leave your HVAC and electrical 
                                 problems to us so you and your family can get back to enjoying life. Read more about 
@@ -48,7 +48,7 @@ function ResComTab() {
                             Learn More...
                         </u>
                         <Fade in={open2}>
-                            <div className="mt-3 mb-4 text-white resdescription">
+                            <div className="mt-3 mb-4 text-white description">
                             <p>
                             > Protect your building from the elements! We offer a wide range of HVAC and electrical 
                             services for any type of building. Read more about our services via the links above.
