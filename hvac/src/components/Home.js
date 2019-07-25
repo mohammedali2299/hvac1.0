@@ -6,7 +6,6 @@ import ReviewCarousel from './subcomponents/ReviewCarousel'
 import ServiceLinks from './subcomponents/ServiceLinks'
 import SocialMedia from './subcomponents/SocialMedia'
 import { cpus } from 'os';
-import ContactLink from './subcomponents/ContactLink'
 import ServiceContact from './subcomponents/ServiceContact'
 
 function Home() {   
@@ -43,7 +42,11 @@ function Home() {
                             <Button size="lg" className="border-0 mb-2 emergency-button" href="/emergency-services">Emergency Services</Button>
                         </Jumbotron> */}
                         <ServiceContact name="emergency" color="heating" />
+                        
                     </Col>
+                    
+                    <SocialMedia/>
+                    
                 </Row>
                 
 

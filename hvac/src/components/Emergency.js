@@ -32,6 +32,8 @@ function Emergency() {
                         </Jumbotron>
                     </Col>
                 </Col>
+
+
             </Row>
                 <Col xs={12} md={12}>
                     <Jumbotron className="mb-0 mt-0 pt-1 bg-white">
