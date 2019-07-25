@@ -15,20 +15,28 @@ function Emergency() {
                     </Jumbotron>
                 </Col>
             </Row> */}
+            <Col>
             <Row>
-                <Col xs={12} lg={4} className="mt-3">
-                    <Jumbotron className="mb-0 worker text-white">
-                        <h4 className="font-weight-bold">Help is Just a Few Clicks Away!</h4>
-                        <p>Our diverse team of experts can solve a large range of HVAC and Electrical emergencies. 
-                            Leave the problem to us and your life will return to normal before you know it. Satistfaction guaranteed.</p>
-                    </Jumbotron>
-                    <Jumbotron className="d-flex flex-column justify-content-center mt-1">
-                        <h4 className="text-center">Fill out our emergency contact form specifying your emergency and your situation will be prioritized. 
-                        You can also call us at (847) 489 4796 or email us at <a href="mailto:unitedhvac@me.com">unitedhvac@me.com</a></h4>
-                    </Jumbotron>
+                <Col xs={12} md={12}>
+                    <Col xs={12} md={6}>
+                        <Jumbotron className="mb-0 worker text-white">
+                            <h4 className="font-weight-bold">Help is Just a Few Clicks Away!</h4>
+                            <p>Our diverse team of experts can solve a large range of HVAC and Electrical emergencies. 
+                                Leave the problem to us and your life will return to normal before you know it. Satistfaction guaranteed.</p>
+                        </Jumbotron>
+                    </Col>
+                    <Col xs={12} md={6}>
+                        <Jumbotron className="d-flex flex-column justify-content-center">
+                            <h4 className="text-center">Fill out our emergency contact form specifying your emergency and your situation will be prioritized. 
+                            You can also call us at (847) 489 4796 or email us at <a href="mailto:unitedhvac@me.com">unitedhvac@me.com</a></h4>
+                        </Jumbotron>
+                    </Col>
                 </Col>
-                <Col xs={12} lg={8} className="mt-3">
-                    <Jumbotron className="mb-0 mr-4 bg-white ">
+
+
+            </Row>
+                <Col xs={12} md={12}>
+                    <Jumbotron className="mb-0 mt-0 pt-1 bg-white">
                         <Form>
                             <Form.Label className="mb-5 mt-0"><h3>Emergency Contact Form</h3></Form.Label>
                             <Form.Group as={Row} controlId="name">
@@ -82,11 +90,24 @@ function Emergency() {
                             </Form.Group>
                             
                             <Button variant="primary" type="submit">Submit</Button>
-                        
                         </Form>
                     </Jumbotron>
                 </Col>
-            </Row>
+            </Col>
+            
+            {/* <Row>
+                <Col xs={12} lg={4} className="d-flex flex-lg-column">
+                    <Col xs={12} md={6} >
+                        
+                    </Col>
+                    <Col xs={12}>
+                        
+                    </Col>
+                </Col>
+                <Col xs={12} lg={8} >
+                    
+                </Col>
+            </Row> */}
         </Container>
     );
 }

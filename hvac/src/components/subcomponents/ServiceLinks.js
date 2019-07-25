@@ -1,7 +1,7 @@
 import React from 'react'
 import { Jumbotron, Container, Row, Col, Image, Button, } from 'react-bootstrap'
 import './ServiceLinks.css'
-import ContactLink from './ContactLink'
+
 
 function ServiceLinks() {
     return (

@@ -4,7 +4,6 @@ import './Home.css'
 import ResComTab from './subcomponents/ResComTabs'
 import ReviewCarousel from './subcomponents/ReviewCarousel'
 import ServiceLinks from './subcomponents/ServiceLinks'
-import ContactLink from './subcomponents/ContactLink'
 import SocialMedia from './subcomponents/SocialMedia'
 import { cpus } from 'os';
 import ServiceContact from './subcomponents/ServiceContact'
