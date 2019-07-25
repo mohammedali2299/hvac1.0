@@ -28,7 +28,7 @@ function Emergency() {
                     </Jumbotron>
                 </Col>
                 <Col xs={12} lg={8} className="mt-3">
-                    <Jumbotron className="mb-0 mr-4 bg-white border border-dark">
+                    <Jumbotron className="mb-0 mr-4 bg-white ">
                         <Form>
                             <Form.Label className="mb-5 mt-0"><h3>Emergency Contact Form</h3></Form.Label>
                             <Form.Group as={Row} controlId="name">
