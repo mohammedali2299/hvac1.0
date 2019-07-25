@@ -7,6 +7,8 @@ import ServiceLinks from './subcomponents/ServiceLinks'
 import ContactLink from './subcomponents/ContactLink'
 import SocialMedia from './subcomponents/SocialMedia'
 import { cpus } from 'os';
+import ContactLink from './subcomponents/ContactLink'
+import ServiceContact from './subcomponents/ServiceContact'
 
 function Home() {   
     return(
@@ -25,7 +27,7 @@ function Home() {
                 </Row>
                 <Row noGutters className="mt-4">
                     <Col xs={12} xl={4} className="pr-3 pl-3">
-                        <ContactLink color="primary" />
+                        <ServiceContact name="home" color="cooling" />
                     </Col>
                     <Col xl={{ span: 8, offset: 0}} className="mt-0 pr-3 pl-3">
                         <ServiceLinks />
@@ -36,11 +38,12 @@ function Home() {
                         <ResComTab />
                     </Col>
                     <Col xs={12} xl={4} className="pr-3 pl-3">
-                        <Jumbotron fluid className="border d-flex flex-column align-items-center mb-0 emergency h-100 pt-3 pb-3">
+                        {/* <Jumbotron fluid className="border d-flex flex-column align-items-center mb-0 emergency h-100 pt-3 pb-3">
                             <h2 className="text-white text-center pt-2 pl-2 pr-2">Have an Emergency?</h2>
                             <p className="text-white text-center font-italic pl-2 pr-2 pt-3 pb-3">Let United expedite your problem. Click below for more information.</p>
                             <Button size="lg" className="border-0 mb-2 emergency-button" href="/emergency-services">Emergency Services</Button>
-                        </Jumbotron>
+                        </Jumbotron> */}
+                        <ServiceContact name="emergency" color="heating" />
                     </Col>
                 </Row>
                 
