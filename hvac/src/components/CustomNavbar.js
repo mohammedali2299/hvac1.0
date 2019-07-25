@@ -14,7 +14,7 @@ function MyNavbar() {
             <Image 
                 width={200}
                 height={110}
-                src="/extras/originalLOGO.jpg" 
+                src="/extras/yellowLOGO.jpg" 
             />
             <NavBarContact />
             </Navbar.Brand>
