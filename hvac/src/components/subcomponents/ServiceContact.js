@@ -16,17 +16,17 @@ function ServiceContact(props) {
         p1t = "Let United expedite your solution.";
         linkB = "/emergency-services"
     } else if(props.name === "cooling") {
-        h2t = "Find out how we can help you beat the heat!";
-        p2t = "To get an air conditioner installed or repaired click get started.";
+        h2t = "Get Your AC Installed or Repaired Now!";
+        p2t = "Have your AC up and running in no time at all. Keep your home or building cool this summer with our quality installation.";
     } else if(props.name === "heating") {
-        h2t = "We are Experts at Keeping Your House or Building Comfortable!"
-        p2t = "Click the link below to get started with our service or ask any questions about furnaces and heating. Allow us help you stay warm this winter!"
+        h2t = "Install or Repair Your Furnace Now!"
+        p2t = "Help us keep your house comfortable this winter with our quick and reliable furnace services."
     } else if(props.name === "electrical") {
-        h2t = "No Need to Worry About Electrical Malfunctions!"
-        p2t = "Click the link below to get started and we will send our expert electricians to install or repair any residential or commercial electrical systems. Simply fill out our form to order our services or inquire about a problem you have and we will see how we can help."
+        h2t = "No Need to Worry About Electrical Problems!"
+        p2t = "As seasoned electricians, you can count on us to resolve any of your electrical issues."
     } else if(props.name === "ducting") {
         h2t = "Keep Your HVAC System Running Efficiently!"
-        p2t = "Click the link below to contact us to find out how we can save you money by installing ducting in your business or home."
+        p2t = "Contact us to find out how we can save you money by installing or repairing the ducting in your business or home."
     }
 
 

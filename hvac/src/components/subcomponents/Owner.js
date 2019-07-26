@@ -17,11 +17,11 @@ function Owner() {
                     <h3 className="d-flex pt-2 pb-2">CEO/Owner: Imran Ali</h3>
                     <p className="font-italic text-muted">
                         Imran's family has been in the HVAC and Electrical business for the past 3 generations. Through hard work and 
-                        a strong emphasis on customer satisfaction has helped him expand the family business. 
+                        a strong emphasis on customer satisfaction he has been able to expand the family business. 
                     </p>
                     <p className="font-italic text-muted">
                         He started working with his father when he was in high school and learned to install and service HVAC systems 
-                        the city of Chicago. Since then, his expertise in the field has grown immensely along with his attention to 
+                        in the city of Chicago. Since then, his expertise in the field has grown immensely along with his attention to 
                         care and detail. 
                     </p>
                     <p className="font-italic text-muted">

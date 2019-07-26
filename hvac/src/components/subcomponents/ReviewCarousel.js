@@ -41,7 +41,7 @@ class ReviewCarousel extends React.Component {
                   I don't usually put in ratings and reviews but did take my time to put this in because these guys 
                   are truly great."</p>
                 <p>Click here to see more 
-                <a className="font-weight-bold" href="https://www.google.com/search?q=google+reviews+united+hvac+west+chicago&rlz=1C1GCEB_enUS760US760&oq=goog&aqs=chrome.0.69i59j0j69i60j69i57j0l2.1252j0j4&sourceid=chrome&ie=UTF-8#lrd=0x880eff0af146c8bb:0x486eef7a5d48d4b6,1,,,"> customer reviews</a></p>
+                <a className="font-weight-bold yellow-text" href="https://www.google.com/search?q=google+reviews+united+hvac+west+chicago&rlz=1C1GCEB_enUS760US760&oq=goog&aqs=chrome.0.69i59j0j69i60j69i57j0l2.1252j0j4&sourceid=chrome&ie=UTF-8#lrd=0x880eff0af146c8bb:0x486eef7a5d48d4b6,1,,,"> customer reviews</a></p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -51,7 +51,7 @@ class ReviewCarousel extends React.Component {
                 <p className="mt-3 font-italic">"This is a great service! Anytime I needed work done on my A/C or heat, 
                     I was assisted right away. On top of that, the quality of work is excellent."</p>
                 <p className="mt-3">Click here to see more 
-                <a className="font-weight-bold" href="https://www.google.com/search?q=google+reviews+united+hvac+west+chicago&rlz=1C1GCEB_enUS760US760&oq=goog&aqs=chrome.0.69i59j0j69i60j69i57j0l2.1252j0j4&sourceid=chrome&ie=UTF-8#lrd=0x880eff0af146c8bb:0x486eef7a5d48d4b6,1,,,"> customer reviews</a></p>
+                <a className="font-weight-bold yellow-text" href="https://www.google.com/search?q=google+reviews+united+hvac+west+chicago&rlz=1C1GCEB_enUS760US760&oq=goog&aqs=chrome.0.69i59j0j69i60j69i57j0l2.1252j0j4&sourceid=chrome&ie=UTF-8#lrd=0x880eff0af146c8bb:0x486eef7a5d48d4b6,1,,,"> customer reviews</a></p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -66,7 +66,7 @@ class ReviewCarousel extends React.Component {
                   He's reliable and very professional. Would recommend him any day!"
               </p>
               <p>Click here to see more 
-            <a className="font-weight-bold" href="https://www.google.com/search?q=google+reviews+united+hvac+west+chicago&rlz=1C1GCEB_enUS760US760&oq=goog&aqs=chrome.0.69i59j0j69i60j69i57j0l2.1252j0j4&sourceid=chrome&ie=UTF-8#lrd=0x880eff0af146c8bb:0x486eef7a5d48d4b6,1,,,"> customer reviews</a></p>
+            <a className="font-weight-bold yellow-text" href="https://www.google.com/search?q=google+reviews+united+hvac+west+chicago&rlz=1C1GCEB_enUS760US760&oq=goog&aqs=chrome.0.69i59j0j69i60j69i57j0l2.1252j0j4&sourceid=chrome&ie=UTF-8#lrd=0x880eff0af146c8bb:0x486eef7a5d48d4b6,1,,,"> customer reviews</a></p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
