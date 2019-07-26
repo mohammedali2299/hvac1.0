@@ -12,8 +12,8 @@ function MyNavbar() {
         <Navbar sticky="top" bg="white" variant="light" expand="md" className="pt-0 pb-0 mt-0 mb-0">
             <Navbar.Brand href="/">
             <Image 
-                width={250}
-                height={130}
+                width={230}
+                height={110}
                 src="/extras/yellowLOGO.jpg" 
             />
             {/* <NavBarContact /> */}

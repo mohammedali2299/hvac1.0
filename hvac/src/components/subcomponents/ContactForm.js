@@ -32,7 +32,7 @@ function ContactForm(props) {
                         <Form.Control type="email" className={props.name + "-border"} placeholder="example@gmail.com"/>
                     </Col>
                 </Form.Group>
-                <Form.Group as={Row} controlId="address">
+                {/* <Form.Group as={Row} controlId="address">
                     <Form.Label column xs={2} >Address</Form.Label>
                     <Col xs={10} >
                         <Form.Control type="text" className={props.name + "-border"} placeholder="5343 Cherry Tree Lane" />
@@ -56,20 +56,29 @@ function ContactForm(props) {
                         <Form.Control type="text" className={props.name + "-border mb-2"} size="5" placeholder="99999" />
                         <small>We will never share your personal information.</small>
                     </Col>
-                </Form.Group>
+                </Form.Group> */}
                 <Form.Group as={Row} controlId="rescom">
-                    <Col xs={{ offset: 2, span: 10 }} className="d-flex">
-                        <Form.Check type="radio" label="Residential" className="mr-4" name="rescom" id="residential" />
+                    <Col xs={{ offset: 0, span: 12 }} className="d-flex">
+                        <Form.Check type="radio" label="Residential" className="mr-2" name="rescom" id="residential" />
                         <Form.Check type="radio" label="Commercial" name="rescom" id="commercial" /> 
                     </Col>
                 </Form.Group>
+                <Form.Group as={Row} controlId="services">
+                    <Col xs={{ offset: 0, span: 12 }} className="d-flex">
+                        <Form.Check label="Cooling" name="services" id="cooling" />
+                        <Form.Check label="Heating" name="services" id="heating" className="ml-2" />
+                        <Form.Check label="Ducting" name="services" id="ducting" className="ml-2"/>
+                        <Form.Check label="Electrical" name="services" id="electrical" className="ml-2"/>
+                        <Form.Check label="Other" name="services" id="otherService" className="ml-2"/>
+                    </Col>
+                </Form.Group>
                 <Form.Group as={Row} controlId="description" className="mt-2">
-                    <Col xs={{ offset: 2, span: 10 }}  >
+                    <Col xs={{ offset: 0, span: 12 }}  >
                     <Form.Control as="textarea" className={props.name + "-border"} rows="5" placeholder="Write a description of the issue and we will get back to you as soon as possible." />
                     </Col>
                 </Form.Group>
                 <Row>
-                    <Col xs={{ offset: 2 }} >
+                    <Col xs={{ offset: 0}} >
                         <Button className={props.name + "-submit border-0 btn-lg shadow"} type="submit">Submit</Button>
                     </Col>
                 </Row>
