@@ -11,10 +11,10 @@ function NavbarButtons() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item href="/cooling">Cooling</Dropdown.Item>
-                    <Dropdown.Item href="/heating">Heating</Dropdown.Item>
-                    <Dropdown.Item href="/electrical">Electrical</Dropdown.Item>
-                    <Dropdown.Item href="/ducting">Ducting</Dropdown.Item>
+                    <Dropdown.Item href="/cooling" className="nav-cooling">Cooling</Dropdown.Item>
+                    <Dropdown.Item href="/heating" className="nav-heating">Heating</Dropdown.Item>
+                    <Dropdown.Item href="/electrical" className="nav-electrical">Electrical</Dropdown.Item>
+                    <Dropdown.Item href="/ducting" className="nav-ducting">Ducting</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
             {['Emergency-Services', 'About', 'FAQ'].map(
@@ -22,7 +22,7 @@ function NavbarButtons() {
                     <Button href={'/' + title.toLowerCase()} variant="white" className="mt-0 mr-1">{title}</Button>
                 ),
             )}
-            <Button href="/contact" className="contactbtn border-0">Contact</Button>
+            <Button href="/contact" className="contact-submit border-0">Contact</Button>
         </ButtonToolbar>
     );
 }

@@ -1,7 +1,19 @@
-.contactbtn {
-    background: rgba(6, 22, 114, .8);
+.nav-cooling:hover {
+    background: rgb(78, 99, 170);
+    color: white;
 }
 
-.contactbtn:hover {
-    background: rgb(78, 99, 170);
+.nav-heating:hover {
+    background: rgb(180, 40, 40);
+    color: white;
+}
+
+.nav-electrical:hover {
+    background: rgb(207, 189, 27);
+    color: white;
+}
+
+.nav-ducting:hover {
+    background: rgb(48, 47, 47);
+    color: white;
 }
