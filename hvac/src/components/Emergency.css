@@ -2,3 +2,38 @@
     background-image: url('/extras/emergency-worker.jpg');
     background-size: cover;
 }
+
+.emergency-text {
+    background-color: rgb(128, 21, 21);
+}
+
+.emergency-border {
+    border-color: rgb(180, 40, 40);
+
+}
+
+.submit {
+    background: rgb(128, 21, 21);
+}
+
+.submit:hover {
+    background: rgb(95, 10, 10);
+}
+
+.heating-opaque {
+    background: rgba(170, 21, 21, 0.7);
+    margin-top: 25%;
+
+}
+
+.heating-primary {
+    background: rgb(180, 40, 40)
+}
+
+.heating-secondary {
+    background: rgb(128, 21, 21)
+}
+
+.heating-secondary:hover {
+    background: rgb(95, 10, 10)
+}

@@ -28,7 +28,7 @@ function ServiceInfo(props) {
 
 
     return(
-        <Jumbotron fluid>
+        <Jumbotron fluid className="mb-0">
             <h3 className="mb-5 ml-3 mr-3">{title}</h3>
             <h6 className="ml-3 mr-3 text-uppercase">Repair</h6>
             <p className="ml-3 mr-3 font-italic">{repair}</p>
