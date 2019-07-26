@@ -31,7 +31,7 @@ function FAQ() {
                         </p>
                     </Col>          
                     <Col xs={12} md={6}>
-                        <h4 className="pl-5 pr-5">Why isn't my AC cooling my house?</h4>
+                        <h4 className="pl-5 pr-5">Why is my AC not working?</h4>
                         <p className="mt-4 pl-5 pr-5 text-muted">The most common reason for this is a shortage of refrigerant in your system, especially if you haven't 
                             had it replenished. Another reason may be that your condensor is dirty and isn't able to dissipate heat. In either case, it's a good idea to 
                             reach out to us using the <a href="/contact">contact form</a> and we'll be able to target your specific situation.

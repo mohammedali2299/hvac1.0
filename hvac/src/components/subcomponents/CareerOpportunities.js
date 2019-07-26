@@ -6,7 +6,7 @@ function CareerOpportunities() {
     return(
         <Container fluid className="body">
             <Row>
-                <Col xs={12} lg={6}>
+                <Col xs={{span: 12, order: 2}} lg={{span: 6, order: 1}}>
                 <Jumbotron className="bg-white pt-1">
                     <Form>
                     <Form.Row>
@@ -48,8 +48,17 @@ function CareerOpportunities() {
                     </Jumbotron>
                 </Col>
 
-                <Col fluid xs={{offset:2, span:10}} lg={{offset:1, span:5}}>
-                    <Image src="/extras/galleryimg4.jpg" className="h-75 w-75 rounded"></Image>
+                <Col fluid xs={{span:8, order:1}} lg={{offset:1, span:5}}>
+                    <Jumbotron className="mt-4 ml-2">
+                        <h5>HVAC Technician Job</h5>
+                        <div className="pt-3">
+                            Become a part of our growing company. Just fill out our form and make sure to include any previous jobs 
+                            or expereince you've had in the HVAC/Electrical field. Due to the wide variety of services we offer 
+                            and our expereince in the business, we can provide many learning opportunities to help expand your skillset. 
+                        </div>
+                    </Jumbotron>
+                    
+                    {/* <Image src="/extras/galleryimg4.jpg" className="h-75 w-75 rounded"></Image> */}
                 </Col>
             </Row>
            

@@ -22,7 +22,9 @@ function ServiceInfo(props) {
         title = ""
         
     } else if(props.name === "ducting") {
-        
+        title ="Duct Installation, Repair, Sealing, Insulation"
+        repair = "Since your ducting determines how hot or cold air moves through the building, it's important to ensure that it's in good condition. A common problem that business owners and homeowners face is an inefficient ventilation system. With age, your ducting can start leaking air, which forces your HVAC system to work not only harder but longer and this can take toll on your heating and cooling bill. We provide solutions for complete ductwork which will keep your home or business in great shape."
+        install = "Whether you've just moved to a new location or your HVAC system is just old, we can help you get the best ventilation system. From your attic to basement, a key part of ensuring minimal energy waste and high effeciency is quality ducting. We even deal in ductless HVAC systems so if you're looking for the next best home or business impovement, we can help you out. With our service, your new ventilation system will save your facility's energy cost and consumption."
     }
 
 

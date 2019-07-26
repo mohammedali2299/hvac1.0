@@ -17,9 +17,9 @@ function Home() {
                     <Col className="col-centered pt-5 pb-5 title">
                         <h1 className="font-weight-bold text-center text-white mb-4">Why United?</h1>
                         <p className="h5 font-italic text-center text-white mr-5 ml-5">
-                            United HVAC and Electrical has been providing quality service in the Chicagoland Area since it's inception in 2006. 
-                            From installing rooftop units on commercial buildings to maintaining residential hvac systems, 
-                            United HVAC and Electrical Inc. exceeds the standards set by industry today and offers a reliable service for all.
+                            United HVAC and Electrical Inc. has been providing quality heating and cooling service in the Chicago Area since it's 
+                            inception in 2006. From installing rooftop units on commercial buildings to home AC repair, 
+                            United exceeds the standards set by industry today and offers a reliable service for all.
                         </p>
                     </Col>
                 </Row>

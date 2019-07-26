@@ -11,7 +11,7 @@ function ServiceLinks() {
                          <img className="img-responsive w-100 h-100" src="/extras/home-cooling.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="cooling">Cooling</h2>
-                             <p className="info">Need a proffessional to take a look? We service all makes and models of AC units.</p>
+                             <p className="info">AC not running? Need a professional to take a look? We service all makes and models of AC units.</p>
                              <a href="/cooling" className="info">Learn More</a>
                          </div>
                      </div>
@@ -21,7 +21,7 @@ function ServiceLinks() {
                          <img className="img-responsive w-100 h-100" src="/extras/home-heating.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="heating">Heating</h2>
-                             <p className="info">Heat doesn't seem to work? Fill out the contact form and we'll get back to you!</p>
+                             <p className="info">Is your furnace not working? Fill out the contact form and we'd love to help out!</p>
                              <a href="/heating" className="info">Learn More</a>
                          </div>
                      </div>

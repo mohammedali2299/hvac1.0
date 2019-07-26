@@ -12,7 +12,7 @@ function ServiceContact(props) {
         h2t = "Get Started Today";
         p2t = "For more information on how we can help you specifically, click get started or check out some of the services we offer.";
     } else if(props.name === "emergency") {
-        h2t = "Have an Emergency?";
+        h2t = "HVAC/Electrical Emergency?";
         p1t = "Let United expedite your solution.";
         linkB = "/emergency-services"
     } else if(props.name === "cooling") {
