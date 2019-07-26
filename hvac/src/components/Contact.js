@@ -18,8 +18,8 @@ function Contact() {
                 </Col>
             </Row>
             <Row>
-                <Col className="mt-3"> 
-                    <ContactForm />
+                <Col xs={12} lg={{offset: 3, span: 6 }} className="mt-3"> 
+                    <ContactForm name="contact" />
                 </Col>
             </Row>
         </Container>
