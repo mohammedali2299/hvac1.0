@@ -17,7 +17,7 @@ function NavbarButtons() {
                     <Dropdown.Item href="/ducting" className="nav-ducting">Ducting</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
-            {['Emergency Services', 'About', 'FAQ'].map(
+            {['Emergency-Services', 'About', 'FAQ'].map(
                 title => (
                     <Button href={'/' + title.toLowerCase()} variant="white" className="mt-0 mr-1">{title}</Button>
                 ),

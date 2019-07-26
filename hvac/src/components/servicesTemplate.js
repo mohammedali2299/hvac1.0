@@ -14,10 +14,10 @@ function Services(props) {
                 </Col>
             </Row>
             <Row className="mt-3">
-                <Col>
+                <Col xs={{ order: 2}}>
                     <ServiceInfo name={props.name} />
                 </Col>
-                <Col sm={12} md={6}>
+                <Col xs={12} lg={6}>
                     <ServiceContact name={props.name} color={props.name} />
                 </Col>
             </Row>

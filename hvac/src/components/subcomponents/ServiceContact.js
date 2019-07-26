@@ -13,7 +13,7 @@ function ServiceContact(props) {
         p2t = "For more information on how we can help you specifically, click get started or check out some of the services we offer.";
     } else if(props.name === "emergency") {
         h2t = "Have an Emergency?";
-        p1t = "Let United expedite your solution. Click below for more information";
+        p1t = "Let United expedite your solution.";
         linkB = "/emergency-services"
     } else if(props.name === "cooling") {
         h2t = "Find out how we can help you beat the heat!";
@@ -32,11 +32,11 @@ function ServiceContact(props) {
 
     return (
 
-        <Jumbotron fluid className={"border d-flex flex-column align-items-center mb-0 pt-3 pb-3 h-100 " + props.color + "-primary"}>
-            <h1 className="mb-3 pt-3 text-center text-weight-bold text-white pl-3 pr-3">{h2t}</h1>
-            <p className="mb-3 text-center font-italic text-white pl-5 pr-5 pt-3 pb-3 p-large">{p1t}</p>
-            <p className="mb-3 text-center font-italic text-white pl-5 pr-5 pt-3 pb-3 p-large">{p2t}</p>
-            <Button href={linkB} className={"border-0 mb-3 btn-lg shadow " + props.color + "-secondary"}>Get Started</Button>
+        <Jumbotron fluid className={"border d-flex flex-column align-items-center mb-0 h-100 pt-3 pb-3 " + props.color + "-primary"}>
+            <h1 className="mb-3 pt-3 text-center text-weight-bold text-white pl-2 pr-2">{h2t}</h1>
+            <p className="mb-3 text-center font-italic text-white pl-4 pr-4 pt-3 pb-1 p-large">{p1t}</p>
+            <p className="mb-3 text-center font-italic text-white pl-4 pr-4 pt-0 pb-0 p-large">{p2t}</p>
+            <Button href={linkB} className={"border-0 btn-lg shadow " + props.color + "-secondary"}>Get Started</Button>
 
         </Jumbotron>
     );
