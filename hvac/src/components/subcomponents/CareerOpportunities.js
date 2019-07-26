@@ -1,12 +1,13 @@
 import React from 'react'
 import { Jumbotron, Container, Row, Col, Image, Button, Form } from 'react-bootstrap'
+import './CareerOpportunities.css'
 
 function CareerOpportunities() {
     return(
-        <Container className="body">
+        <Container fluid className="body">
             <Row>
-                <Col xs={12} lg={8}>
-                <Jumbotron>
+                <Col xs={12} lg={6}>
+                <Jumbotron className="bg-white pt-1">
                     <Form>
                     <Form.Row>
                         <Col xs={12} className="mb-5">
@@ -38,23 +39,18 @@ function CareerOpportunities() {
                             </Form.Group>
                             <small>We will never share your personal information.</small>
                             
-                            <Row className="mt-2 ml-2">
-                                <Button variant="primary" type="submit">Submit</Button>
+                            <Row className="mt-2 ml-1">
+                                <Button className="submit-button border-0" type="submit">Submit</Button>
                             </Row>
                         </Col>
                     </Form.Row>
                     </Form>
                     </Jumbotron>
                 </Col>
-                <Row>
-                    <Col xs={12} lg={4}>
-                        <Image src="/extras/galleryimg4.jpg" className="h-100 w-100"></Image>
-                    </Col>
-                </Row>
-                
-                {/* <Col>
-                    <Image src="extras/emergency-worker.jpg"></Image>
-                </Col> */}
+
+                <Col fluid xs={{offset:2, span:10}} lg={{offset:1, span:5}}>
+                    <Image src="/extras/galleryimg4.jpg" className="h-75 w-75 rounded"></Image>
+                </Col>
             </Row>
            
         
