@@ -18,7 +18,7 @@ function ResComTab() {
                                 <p>
                                 We are commited to keeping your family comfortable! If your home 
                                 HVAC system is undergoing issues, reach out to us with the  
-                                <a href="/contact" className="font-weight-bold"> contact form</a> and we'll ensure 
+                                <a href="/contact" className="font-weight-bold yellow-text"> contact form</a> and we'll ensure 
                                 that you get the best quality service as soon as possible.
                                 </p>
                             </div>
@@ -35,7 +35,7 @@ function ResComTab() {
                                 United has continued to provide excellent services to business owners by not compromising on 
                                 quality. We're ready to tackle any HVAC and electrical problems that your business may be facing.
                                 The best way to reach us is through the
-                                <a href="/contact" className="font-weight-bold"> contact form</a>.
+                                <a href="/contact" className="font-weight-bold yellow-text"> contact form</a>.
                                 Don't hesitate to give us a call or send an e-mail! 
                                 </p>
                             </div>

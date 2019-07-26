@@ -64,7 +64,7 @@ function Sitemap() {
                             <p>  </p>
                         </li>
                         <li>
-                            <h5 className="text-dark disabled"><a href="mailto:unitedhvac@me.com">unitedhvac@me.com</a></h5>
+                            <h5><a className="yellow-text" href="mailto:unitedhvac@me.com">unitedhvac@me.com</a></h5>
                         </li>
                         <li>
                             <h5 className="text-dark disabled">(847) 489 4796</h5>

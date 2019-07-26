@@ -62,7 +62,7 @@ function About() {
             </Row>
             <Row>
                 <p>These are just a few of the services that we provide. 
-                    We pride ourselves on being experts for all brands and providing expemplary service whatever the job may be.</p>
+                    We pride ourselves on being experts for all brands and providing exemplary service whatever the job may be.</p>
             </Row>
         </Container>
         
@@ -78,23 +78,8 @@ function About() {
             </Row>
             <hr/>
             <p>To learn more about the owner, follow the link below</p>
-            <Button href="/owner" className="btn-dark">Read more</Button>
+            <Button href="/owner" className="contact-submit border-0">About The Owner</Button>
             <Row className="pl-4 pr-4 d-flex flex-row">
-                {/* <Col>
-                    <Button href="/owner" className="bg-white shadow border-0">
-                        <h4 className="text-center text-dark">CEO/Owner: Imran Ali Mirza</h4>
-                        <Image src="/extras/owner.jpg" className="owner-img" rounded></Image>
-                    </Button>
-                </Col> */}
-                {/* <Col xs={12} md={6} className="d-flex justify-content-center">
-                    <Image src="/extras/owner.jpg" className="w-100 h-100" rounded></Image>
-                </Col>
-                <Col xs={12} md={6}>
-                    <a href="/owner" className="h4 d-flex pt-2">CEO/Owner: Imran Ali</a>
-                    <p className="font-italic">Imran's family has been in the HVAC and Electrical business for the past 3 generations. Through hard work and 
-                        a strong emphasis on customer satisfaction has helped him expand his business and expertise. 
-                    </p>
-                </Col> */}
             </Row>
             </Jumbotron>
         </Container>
