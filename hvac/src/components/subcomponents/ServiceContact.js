@@ -14,7 +14,6 @@ function ServiceContact(props) {
     } else if(props.name === "emergency") {
         h2t = "Have an Emergency?";
         p1t = "Let United expedite your solution. Click below for more information.";
-        p2t = "";
         linkB = "/emergency-services"
     } else if(props.name === "cooling") {
         h2t = "Find out how we can help you beat the heat!";
