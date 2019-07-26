@@ -37,6 +37,9 @@ function App(props) {
 
   return (
     <div>
+      <head>
+        <title>United HVAC and Electrical Inc.</title>
+      </head>
       <Router>
         <Navbar/>
           <Route exact path = "/" component = {Home} />
