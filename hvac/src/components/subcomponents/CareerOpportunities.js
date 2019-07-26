@@ -4,12 +4,12 @@ import { Jumbotron, Container, Row, Col, Image, Button, Form } from 'react-boots
 function CareerOpportunities() {
     return(
         <Container className="body">
-            <Jumbotron>
             <Row>
-                <Col>
+                <Col xs={12} lg={8}>
+                <Jumbotron>
                     <Form>
                     <Form.Row>
-                        <Col sm={12} md={6} className="mb-5">
+                        <Col xs={12} className="mb-5">
                             <Form.Label className="border-bottom"><h5>Employee info</h5></Form.Label>
                             <Form.Group as={Row} controlId="name">
                                 <Form.Label column lg={2}>Name</Form.Label>
@@ -44,13 +44,20 @@ function CareerOpportunities() {
                         </Col>
                     </Form.Row>
                     </Form>
+                    </Jumbotron>
                 </Col>
+                <Row>
+                    <Col xs={12} lg={4}>
+                        <Image src="/extras/galleryimg4.jpg" className="h-100 w-100"></Image>
+                    </Col>
+                </Row>
+                
                 {/* <Col>
                     <Image src="extras/emergency-worker.jpg"></Image>
                 </Col> */}
             </Row>
            
-        </Jumbotron>
+        
         </Container>
     );
 }
