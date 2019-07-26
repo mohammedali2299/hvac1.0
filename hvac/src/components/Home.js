@@ -37,13 +37,10 @@ function Home() {
                     </Col>
                     <Col xs={12} xl={4} className="pr-3 pl-3">
                         <ServiceContact name="emergency" color="heating" />
-                        
                     </Col>
                     
-                    <SocialMedia/>
-                    
+                    {/* <SocialMedia/> */}
                 </Row>
-                
 
                 <Row className="mt-4">
                     <ReviewCarousel/>
