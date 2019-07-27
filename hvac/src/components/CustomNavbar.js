@@ -16,7 +16,7 @@ function MyNavbar() {
                 height={110}
                 src="/extras/yellowLOGO.jpg" 
             />
-            {/* <NavBarContact /> */}
+            <NavBarContact />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
