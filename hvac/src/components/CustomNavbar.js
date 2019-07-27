@@ -9,6 +9,7 @@ import NavBarContact from './subcomponents/NavBarContact'
 
 function MyNavbar() {
     return (
+
         <Navbar as={Container} fluid sticky="top" bg="white" variant="light" expand="lg" className="pt-0 pb-0 mt-0 mb-0">
             <Row noGutters>
                 <Col xs={4} lg={2}>
@@ -29,6 +30,7 @@ function MyNavbar() {
                     <NavBarContact />
                 </Col>
             </Row>
+
         </Navbar>
     );
 }
