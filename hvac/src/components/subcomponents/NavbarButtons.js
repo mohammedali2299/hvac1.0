@@ -4,7 +4,7 @@ import './NavbarButtons.css'
 
 function NavbarButtons() {
     return (
-        <ButtonToolbar className="mb-1">
+        <ButtonToolbar className="mb-0 pb-0">
             <Dropdown>
                 <Dropdown.Toggle variant="white" className="mt-0 mr-1">
                     Services
@@ -22,7 +22,7 @@ function NavbarButtons() {
                     <Button href={'/' + title.toLowerCase()} variant="white" className="mt-0 mr-1">{title}</Button>
                 ),
             )}
-            <Button href="/contact" className="contact-submit border-0">Contact</Button>
+            <Button href="/contact" className="contact-submit border-0 m-0">Contact</Button>
         </ButtonToolbar>
     );
 }
