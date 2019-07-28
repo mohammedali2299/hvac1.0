@@ -69,7 +69,7 @@ function About() {
 
     return(
         <Container className="body">
-            <Jumbotron className="col-centered">
+            <Jumbotron fluid className="col-centered shadow-element pl-3 pr-3">
             <h2 className="pb-3 text-center font-italic heading">Providing Quality Service since 2006</h2>
             <Row className="pl-4 pr-4">
                 <div>

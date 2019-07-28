@@ -34,9 +34,9 @@ function ServiceInfo(props) {
         <Jumbotron fluid className="mb-0 pt-5 bg-white shadow-element">
             <h3 className="mb-5 ml-3 mr-3">{title}</h3>
             <h6 className="ml-3 mr-3 text-uppercase">Repair</h6>
-            <p className="ml-3 mr-3 font-italic">{repair}</p>
+            <p className="ml-3 mr-3">{repair}</p>
             <h6 className="ml-3 mr-3 text-uppercase">Install</h6>
-            <p className="ml-3 mr-3 font-italic">{install}</p>
+            <p className="ml-3 mr-3">{install}</p>
             <p className="ml-3 mr-3 text-muted">If you have any more questions about the services we provide, reach out to us by pressing "Get Started" or send us an email or phone call.</p>
         </Jumbotron>
     );
