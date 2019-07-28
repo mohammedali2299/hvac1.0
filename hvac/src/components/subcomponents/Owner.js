@@ -7,14 +7,14 @@ import './Owner.css'
 
 function Owner() {
     return(
-        <Container className="body">
+        <Container fluid className="body">
             {/* <h2 className="mt-3 d-flex font-italic">A Passion for Quality</h2> */}
             <Row className="mt-3 d-flex flex-row">
-                <Col xs={12} lg={8} className="d-flex">
-                    <Image src="/extras/owner.jpg" className="w-50 d-flex flex-fill" rounded></Image>
+                <Col xs={{span: 10, offset: 1, order: 2}} lg={{span: 5, offset: 1}} className="">
+                    <Image src="/extras/owner.jpg" className="w-100 h-75 " rounded></Image>
                 </Col>
-                <Col xs={12} lg={4}>
-                    <h3 className="d-flex pt-2 pb-2">CEO/Owner: Imran Ali</h3>
+                <Col xs={{span: 10, offset: 1, order: 1}} lg={{span: 4, offset: 1}}>
+                    <h3 className="pt-2 pb-2">CEO/Owner: Imran Ali</h3>
                     <p className="font-italic text-muted">
                         Imran's family has been in the HVAC and Electrical business for the past 3 generations. Through hard work and 
                         a strong emphasis on customer satisfaction he has been able to expand the family business. 

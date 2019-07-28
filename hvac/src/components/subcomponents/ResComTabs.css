@@ -46,7 +46,7 @@
   
   .hovereffect2 h2 {
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(125, 101, 4);
     text-align: center;
     position: relative;
     font-size: 17px;
@@ -58,8 +58,12 @@
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
-  
+  .hovereffect2:hover a{
+    text-decoration: none;
+  }
   .hovereffect2:hover h2 {
+    text-decoration: underline;
+    color: rgb(207, 189, 27);
     -webkit-transform: translateY(5px);
     -ms-transform: translateY(5px);
     transform: translateY(5px);

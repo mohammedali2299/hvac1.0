@@ -1,15 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Row, Col, Image, Button } from 'react-bootstrap'
 import './Sitemap.css'
 
 function Sitemap() {
     return(
+
         <Container fluid className="mt-3 body shadow-element">
             <Row className="mt-4">
+
                 <Col xs={4}> 
-                    <h5 className="pl-4 font-weight-bold">GENERAL</h5>
-                    <ul className="list-unstyled pl-4">
+                <div>
+                    <h5 className="font-weight-bold">GENERAL</h5>
+                    <ul className="list-unstyled">
                     <hr/>
                         <li>
                             <a href="/" className="text-muted">Home</a> 
@@ -21,55 +23,57 @@ function Sitemap() {
                             <a href="/career-opportunities" className="text-muted">Career opportunities</a>
                         </li>
                     </ul>
-                    <Image width={140} height={95} className="ml-4" src="/extras/yellowLOGO.jpg"/>
+                    <Image width={140} height={80} className="" src="/extras/LOGO2.jpg"/>
+                </div>
+                    
                 </Col>
                 <Col xs={4}>
-                    <h5 className="pl-4 font-weight-bold">SERVICES</h5>
-                    <ul className="list-unstyled pl-4">
-                    <hr/>
-                        <li>
-                            <a href="/cooling" className="text-muted">Cooling</a>
-                        </li>
-                        <li>
-                            <a href="/heating" className="text-muted">Heating</a>
-                        </li>
-                        <li>
-                            <a href="/ducting" className="text-muted">Ducting</a>
-                        </li>
-                        <li>
-                            <a href="/electrical" className="text-muted">Electrical</a>
-                        </li>
-                        <li>
-                            <a href="/emergency-services" className="text-muted">Emergency Services</a>
-                        </li>
-                    </ul> 
+                    <div>
+                        <h5 className="font-weight-bold">SERVICES</h5>
+                        <ul className="list-unstyled">
+                        <hr/>
+                            <li>
+                                <a href="/cooling" className="text-muted">Cooling</a>
+                            </li>
+                            <li>
+                                <a href="/heating" className="text-muted">Heating</a>
+                            </li>
+                            <li>
+                                <a href="/ducting" className="text-muted">Ducting</a>
+                            </li>
+                            <li>
+                                <a href="/electrical" className="text-muted">Electrical</a>
+                            </li>
+                            <li>
+                                <a href="/emergency-services" className="text-muted">Emergency Services</a>
+                            </li>
+                        </ul> 
+                    </div>
+                    
                 </Col>
                 <Col xs={4}>
-                     <h5 className="pl-4 font-weight-bold">COMPANY</h5>
-                    <ul className="list-unstyled pl-4">
-                    <hr/>
-                        <li>
-                            <a href="/about" className="text-muted">About the Business</a>
-                        </li>
-                        <li>
-                            <a href="/owner" className="text-muted">About the Owner</a>
-                        </li>
-                        <li>
-                            <a href="/gallery" className="text-muted">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="/contact" className="text-muted">Contact</a>
-                        </li>
-                        <li>
-                            <p>  </p>
-                        </li>
-                        <li>
-                            <h5><a className="yellow-text" href="mailto:unitedhvac@me.com">unitedhvac@me.com</a></h5>
-                        </li>
-                        <li>
-                            <h5 className="text-dark disabled">(847) 489 4796</h5>
-                        </li>
-                    </ul>
+                    <div>
+                        <h5 className="font-weight-bold">COMPANY</h5>
+                        <ul className="list-unstyled ">
+                        <hr/>
+                            <li>
+                                <a href="/about" className="text-muted">About the Business</a>
+                            </li>
+                            <li>
+                                <a href="/owner" className="text-muted">About the Owner</a>
+                            </li>
+                            <li>
+                                <a href="/gallery" className="text-muted">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="/contact" className="text-muted">Contact</a>
+                            </li>
+                            <li>
+                                <p>  </p>
+                            </li>
+                            <Button href="/contact" className="contact-submit border-0">Contact</Button>
+                        </ul>
+                    </div> 
                 </Col>
             </Row>
             <Row fluid className="source bg-dark pl-3">
