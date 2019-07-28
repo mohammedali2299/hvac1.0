@@ -13,11 +13,11 @@ function Services(props) {
                 <h1 className={"mb-0 pt-3 pb-3 text-white text-center " + props.name + "-opaque"}>{props.title}</h1>
                 </Col>
             </Row>
-            <Row className="mt-3">
-                <Col xs={{ order: 2}}>
+            <Row >
+                <Col xs={{ order: 2}} className="mt-3 mb-5">
                     <ServiceInfo name={props.name} />
                 </Col>
-                <Col xs={12} lg={6}>
+                <Col xs={12} lg={6} className="mt-3 mb-5">
                     <ServiceContact name={props.name} color={props.name} />
                 </Col>
             </Row>

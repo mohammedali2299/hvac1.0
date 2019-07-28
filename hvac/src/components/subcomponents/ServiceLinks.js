@@ -5,9 +5,9 @@ import './ServiceLinks.css'
 
 function ServiceLinks() {
     return (
-            <Row noGutters>
+            <Row noGutters >
                 <Col xs={12} md={6} xl={6}>
-                    <div className="hovereffect border">
+                    <div className="hovereffect">
                          <img className="img-responsive w-100 h-100" src="/extras/home-cooling.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="cooling">Cooling</h2>
@@ -17,7 +17,7 @@ function ServiceLinks() {
                      </div>
                 </Col>
                 <Col xs={12} md={6} xl={6}>
-                    <div className="hovereffect border">
+                    <div className="hovereffect">
                          <img className="img-responsive w-100 h-100" src="/extras/home-heating.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="heating">Heating</h2>
@@ -27,7 +27,7 @@ function ServiceLinks() {
                      </div>
                 </Col>
                 <Col xs={12} md={6} xl={6}>
-                    <div className="hovereffect border">
+                    <div className="hovereffect">
                          <img className="img-responsive w-100 h-100" src="/extras/home-electrical.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="electrical">Electrical</h2>
@@ -37,7 +37,7 @@ function ServiceLinks() {
                      </div>
                 </Col>
                 <Col xs={12} md={6} xl={6}>
-                    <div class="hovereffect border">
+                    <div class="hovereffect">
                          <img className="img-responsive w-100 h-100" src="/extras/home-ducting.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="ducting">Ducting</h2>

@@ -5,3 +5,12 @@
 .yellow-text:hover {
     color: rgb(167, 145, 10)
 }
+
+.shadow-element {
+    box-shadow: 0 1px 3px rgba(0,0,0,.24), 0 1px 5px rgba(0,0,0,.12);
+    transition: 0.2s linear;
+}
+
+.shadow-element:hover {
+    box-shadow: 0 1px 8px rgba(0,0,0,.24), 0 1px 10px rgba(0,0,0,.12);
+}

@@ -4,8 +4,10 @@ import './Sitemap.css'
 
 function Sitemap() {
     return(
-        <Container fluid className="body mt-3">
-            <Row>
+
+        <Container fluid className="mt-3 body shadow-element">
+            <Row className="mt-4">
+
                 <Col xs={4}> 
                 <div>
                     <h5 className="font-weight-bold">GENERAL</h5>

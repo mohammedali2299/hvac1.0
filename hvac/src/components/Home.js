@@ -12,7 +12,7 @@ function Home() {
     return(
         <div className="body">
             {/* <HomeCarousel />  */}
-            <Container fluid className="homepage pl-0 pr-0">
+            <Container fluid className="pl-0 pr-0">
                 <Row>
                     <Col className="col-centered pt-5 pb-5 title">
                         <h1 className="font-weight-bold text-center text-white mb-4">Why United?</h1>
@@ -23,20 +23,20 @@ function Home() {
                         </p>
                     </Col>
                 </Row>
-                <Row noGutters className="mt-4">
-                    <Col xs={12} xl={4} className="pr-3 pl-3">
+                <Row noGutters className="mt-3">
+                    <Col xs={12} xl={4} className="pr-3 pl-3 mt-3 mb-3">
                         <ServiceContact name="home" color="cooling" />
                     </Col>
-                    <Col xl={{ span: 8, offset: 0}} className="mt-0 pr-3 pl-3">
+                    <Col xl={{ span: 8, offset: 0}} className="mt-3 mb-3 pr-3 pl-3">
                         <ServiceLinks />
                     </Col>    
                 </Row>
-                <Row noGutters className="mt-4">
-                    <Col xs={12} xl={8} className="pr-3 pl-3">
-                        <ResComTab />
-                    </Col>
-                    <Col xs={12} xl={4} className="pr-3 pl-3">
+                <Row noGutters className="mb-3">
+                    <Col xs={12} xl={4} className="pr-3 pl-3 mt-3 mb-3">
                         <ServiceContact name="emergency" color="heating" />
+                    </Col>
+                    <Col xs={12} xl={8} className="pr-3 pl-3 mt-3">
+                        <ResComTab />
                     </Col>
                     
                     {/* <SocialMedia/> */}
