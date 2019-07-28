@@ -13,7 +13,7 @@ function ResComTab() {
                     <div class="hovereffect2 border">
                         <img class="img-responsive2 w-100 h-100" src="/extras/home-residential.jpg" alt="" />
                         <div class="overlay2">
-                            <h2>Residential</h2>
+                            <a href="/residential"><h2>Residential</h2></a>
                             <div className="text-white font-italic info">
                                 <p>
                                 We are commited to keeping your family comfortable! If your home 
@@ -29,7 +29,7 @@ function ResComTab() {
                     <div class="hovereffect2 border">
                         <img class="img-responsive2 w-100 h-100" src="/extras/home-commercial.jpg" alt="" />
                         <div class="overlay2">
-                            <h2>Commercial</h2>
+                            <a href="/commercial"><h2>Commercial</h2></a>
                             <div className="text-white font-italic info">
                                 <p className="w-100 h-100">
                                 United has continued to provide excellent services to business owners by not compromising on 

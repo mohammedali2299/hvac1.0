@@ -12,6 +12,8 @@ import FAQ from './components/subcomponents/FAQ'
 import Services from './components/servicesTemplate'
 import Gallery from './components/subcomponents/Gallery'
 import CareerOpportunities from './components/subcomponents/CareerOpportunities'
+import Residential from './components/Residential'
+import Commercial from './components/Commercial'
 
 
 function App(props) {
@@ -54,6 +56,8 @@ function App(props) {
           <Route path = "/faq" component = {FAQ} />
           <Route path = "/gallery" component = {Gallery} />
           <Route path = "/career-opportunities" component = {CareerOpportunities} />
+          <Route path = "/residential" component={Residential} />
+          <Route path = "/commercial" component={Commercial} />
           <Sitemap sticky="bottom"/>
       </Router>
     </div>
