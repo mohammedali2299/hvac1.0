@@ -15,6 +15,9 @@ function NavbarButtons() {
                     <Dropdown.Item href="/heating" className="nav-heating">Heating</Dropdown.Item>
                     <Dropdown.Item href="/electrical" className="nav-electrical">Electrical</Dropdown.Item>
                     <Dropdown.Item href="/ducting" className="nav-ducting">Ducting</Dropdown.Item>
+                    <hr />
+                    <Dropdown.Item href="/residential" className="nav-rescom">Residential</Dropdown.Item>
+                    <Dropdown.Item href="/commercial" className="nav-rescom">Commercial</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
             {['Emergency-Services', 'About', 'FAQ'].map(

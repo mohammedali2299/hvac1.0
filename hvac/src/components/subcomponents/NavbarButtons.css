@@ -17,3 +17,8 @@
     background: rgb(48, 47, 47);
     color: white;
 }
+
+.nav-rescom:hover {
+    background: rgb(135, 136, 156);
+    color: white;
+}
