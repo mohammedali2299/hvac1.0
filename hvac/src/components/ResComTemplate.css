@@ -1,0 +1,11 @@
+.title-color {
+    background: rgba(142, 142, 146, 0.7) !important;
+}
+
+.button-color {
+    background: rgba(142, 142, 146, 0.7) !important;
+}
+
+.button-color:hover {
+    background: rgba(89, 89, 92, 0.7) !important;
+}
