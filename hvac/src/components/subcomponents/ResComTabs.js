@@ -8,11 +8,11 @@ function ResComTab() {
     // const [open, setOpen] = useState(false);
     // const [open2, setOpen2] = useState(false);
     return (
-            <Row noGutters>
-                <Col xs={12} md={6} xl={6}>
-                    <div class="hovereffect2 border">
-                        <img class="img-responsive2 w-100 h-100" src="/extras/home-residential.jpg" alt="" />
-                        <div class="overlay2">
+            <Row noGutters >
+                <Col xs={12} md={6} xl={6} >
+                    <div className="hovereffect2">
+                        <img className="img-responsive2 w-100 h-100" src="/extras/home-residential.jpg" alt="" />
+                        <div className="overlay2">
                             <h2>Residential</h2>
                             <div className="text-white font-italic info">
                                 <p>
@@ -26,9 +26,9 @@ function ResComTab() {
                     </div>
                 </Col>
                 <Col xs={12} md={6} xl={6}>
-                    <div class="hovereffect2 border">
-                        <img class="img-responsive2 w-100 h-100" src="/extras/home-commercial.jpg" alt="" />
-                        <div class="overlay2">
+                    <div className="hovereffect2">
+                        <img className="img-responsive2 w-100 h-100" src="/extras/home-commercial.jpg" alt="" />
+                        <div className="overlay2">
                             <h2>Commercial</h2>
                             <div className="text-white font-italic info">
                                 <p className="w-100 h-100">

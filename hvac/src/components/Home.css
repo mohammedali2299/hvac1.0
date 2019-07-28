@@ -1,6 +1,10 @@
 .title-img {
     height: 300px;
-} 
+}
+
+.body {
+    overflow: hidden;
+}
 
 .title {
     background-image: url('/extras/home-flag.jpg');
