@@ -5,13 +5,13 @@ import './CareerOpportunities.css'
 function CareerOpportunities() {
     return(
         <Container fluid className="body">
-            <Row>
+            <Row className="mt-4">
                 <Col xs={{span: 12, order: 2}} lg={{span: 6, order: 1}}>
-                <Jumbotron className="bg-white pt-1">
-                    <Form>
+                <Jumbotron className="bg-white pt-0 pl-0 pr-0 shadow-element">
+                    <h5 className="w-100 title-yellow text-white m-0 pt-3 pb-3 pl-3">Employee info</h5>
+                    <Form className="pt-3 pl-3 pr-3">
                     <Form.Row>
                         <Col xs={12} className="mb-5">
-                            <Form.Label className="border-bottom"><h5>Employee info</h5></Form.Label>
                             <Form.Group as={Row} controlId="name">
                                 <Form.Label column lg={2}>Name</Form.Label>
                                 <Col md={10}>
@@ -48,13 +48,15 @@ function CareerOpportunities() {
                     </Jumbotron>
                 </Col>
 
-                <Col fluid xs={{span:8, order:1}} lg={{offset:1, span:5}}>
-                    <Jumbotron className="mt-4 ml-2">
-                        <h5>HVAC Technician Job</h5>
-                        <div className="pt-3">
+                <Col fluid xs={{span:12, order:1}} lg={6}>
+                    <Jumbotron fluid className="shadow-element bg-white">
+                        <div className="pl-4 pr-4">
+                            <h5>HVAC Technician Job</h5>
+                            <p className="pt-3">
                             Become a part of our growing company. Just fill out our form and make sure to include any previous jobs 
                             or expereince you've had in the HVAC/Electrical field. Due to the wide variety of services we offer 
-                            and our expereince in the business, we can provide many learning opportunities to help expand your skillset. 
+                            and our expereince in the business, we can provide many learning opportunities to help expand your skillset.
+                            </p>
                         </div>
                     </Jumbotron>
                     

@@ -35,9 +35,9 @@ function ServiceContact(props) {
 
     return (
         <Jumbotron fluid className="shadow-element bg-white d-flex flex-column align-items-center mb-0 h-100 pt-0 pb-5" >
-            <h1 className={"pt-3 pb-3 text-center text-weight-bold text-white m-0 w-100 " + props.color + "-primary"}>{h2t}</h1>
-            <p className="mb-3 text-center font-italic pl-4 pr-4 pt-3 pb-1 p-large">{p1t}</p>
-            <p className={"mb-3 text-center font-italic pl-4 pr-4 pt-0 pb-0 p-large " + p2hide}>{p2t}</p>
+            <h1 className={"pt-3 pb-3 pl-2 pr-2 text-center text-weight-bold text-white m-0 w-100 " + props.color + "-primary"}>{h2t}</h1>
+            <p className="mb-3 text-center pl-4 pr-4 pt-3 pb-1 p-large">{p1t}</p>
+            <p className={"mb-3 text-center pl-4 pr-4 pt-0 pb-0 p-large " + p2hide}>{p2t}</p>
             <Button href={linkB} className={"border-0 btn-lg shadow-element " + props.color + "-secondary"}>Get Started</Button>
         </Jumbotron>
     );

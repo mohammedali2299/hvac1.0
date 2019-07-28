@@ -14,7 +14,7 @@ function Home() {
             {/* <HomeCarousel />  */}
             <Container fluid className="pl-0 pr-0">
                 <Row>
-                    <Col className="col-centered pt-5 pb-5 title">
+                    <Col className="col-centered pt-5 pb-5 title shadow-element">
                         <h1 className="font-weight-bold text-center text-white mb-4">Why United?</h1>
                         <p className="h5 font-italic text-center text-white mr-5 ml-5">
                             United HVAC and Electrical Inc. has been providing quality heating and cooling service in the Chicago Area since it's 

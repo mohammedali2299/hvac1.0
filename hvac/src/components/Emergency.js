@@ -18,8 +18,8 @@ function Emergency() {
                             </Jumbotron>
                         </Col>
                         <Col xs={12} md={6} lg={12}>
-                            <Jumbotron fluid className="mb-0 h-100 emergency-text">
-                                <h3 className="text-center text-white ml-4 mr-4">Fill out our emergency contact form specifying your emergency and your situation will be prioritized. 
+                            <Jumbotron fluid className="mb-0 h-100 bg-white">
+                                <h3 className="text-center  ml-4 mr-4">Fill out our emergency contact form specifying your emergency and your situation will be prioritized. 
                                 You can also call us at (847) 489 4796 or email us at <a className="yellow-text" href="mailto:unitedhvac@me.com">unitedhvac@me.com</a></h3>
                             </Jumbotron>
                         </Col>

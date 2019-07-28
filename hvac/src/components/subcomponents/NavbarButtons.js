@@ -22,7 +22,7 @@ function NavbarButtons() {
                     <Button href={'/' + title.toLowerCase()} variant="white" className="mt-0 mr-1">{title}</Button>
                 ),
             )}
-            <Button href="/contact" className="contact-submit border-0 m-0">Contact</Button>
+            <Button href="/contact" className="contact-submit border-0 mr-3">Contact</Button>
         </ButtonToolbar>
     );
 }

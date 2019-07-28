@@ -12,7 +12,7 @@ function ContactForm(props) {
 
     return (
         <Jumbotron fluid className="mb-0 mt-0 pt-0 bg-white shadow-element">
-            <h3 className={props.name + "-text mb-3 pt-2 pb-2 pl-2 pr-5 text-white rounded"}>{title}</h3>
+            <h3 className={props.name + "-text mb-3 pt-2 pb-2 pl-3 pr-5 text-white rounded"}>{title}</h3>
             <Form className="pr-3 pl-3">
                 <Form.Group as={Row} controlId="name">
                     <Form.Label column xs={2} >Name</Form.Label>

@@ -4,7 +4,7 @@ import { Container, Jumbotron, Row, Col} from 'react-bootstrap';
 function FAQ() {
     return(
         <Container fluid className="body">
-            <Jumbotron>
+            <Jumbotron fluid className="shadow-element">
                 <h2 className="pl-4 pr-4 heading">Frequently Asked Questions</h2>
                 <Row className="mt-5">
                     <Col xs={12} md={6}>

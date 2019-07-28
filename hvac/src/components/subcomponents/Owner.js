@@ -10,11 +10,11 @@ function Owner() {
         <Container fluid className="body">
             {/* <h2 className="mt-3 d-flex font-italic">A Passion for Quality</h2> */}
             <Row className="mt-3 d-flex flex-row">
-                <Col xs={{span: 10, offset: 1, order: 2}} lg={{span: 5, offset: 1}} className="">
-                    <Image src="/extras/owner.jpg" className="w-100 h-75 " rounded></Image>
+                <Col xs={{span: 8, offset: 2, order: 2}} lg={{span: 5, offset: 1}} xl={{span: 3, offset: 1}} className="shadow-element mb-3 p-0">
+                    <Image src="/extras/owner.jpg" className="w-100"></Image>
                 </Col>
-                <Col xs={{span: 10, offset: 1, order: 1}} lg={{span: 4, offset: 1}}>
-                    <h3 className="pt-2 pb-2">CEO/Owner: Imran Ali</h3>
+                <Col xs={{span: 10, offset: 1, order: 1}} md={{ span: 8, offset: 2 }} lg={{span: 4, offset: 1}} xl={{span: 4, offset: 2}} className="shadow-element mb-3">
+                    <h3 className="pt-3 pb-3">CEO/Owner: Imran Ali</h3>
                     <p className="font-italic text-muted">
                         Imran's family has been in the HVAC and Electrical business for the past 3 generations. Through hard work and 
                         a strong emphasis on customer satisfaction he has been able to expand the family business. 
@@ -30,17 +30,7 @@ function Owner() {
                         but are truly happy with the his service.
                     </p>
                 </Col> 
-                {/* <Col xs={12} md={6} className="d-flex justify-content-center">
-                    <Image src="/extras/owner.jpg" className="w-100 h-100" rounded></Image>
-                </Col> */}
-                {/* <Col xs={12} md={6}>
-                    <h2 className="h4 d-flex pt-2">CEO/Owner: Imran Ali</h2>
-                    <p className="font-italic text-muted">Imran's family has been in the HVAC and Electrical business for the past 3 generations. Through hard work and 
-                        a strong emphasis on customer satisfaction has helped him expand his business and expertise. 
-                    </p>
-                </Col> */}
             </Row> 
-                 
         </Container>
     );
 }
