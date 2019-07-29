@@ -24,9 +24,9 @@ function ResComTemplate(props) {
                         <Button href="/contact" className="button-color shadow-element btn-lg border-0 m-3">Get Started</Button>
                     </Jumbotron>
                 </Col>
+                
                 <Col xs={12} lg={6} className="mt-4">
                     <InteractiveCarousel styling={props.name} />
-                
                 </Col>
             </Row>
         </Container>
