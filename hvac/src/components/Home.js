@@ -4,16 +4,24 @@ import './Home.css'
 import ResComTab from './subcomponents/ResComTabs'
 import ReviewCarousel from './subcomponents/ReviewCarousel'
 import ServiceLinks from './subcomponents/ServiceLinks'
-import SocialMedia from './subcomponents/SocialMedia'
 import { cpus } from 'os';
 import ServiceContact from './subcomponents/ServiceContact'
+import Carousel from './subcomponents/InteractiveCarousel'
+import ContactIcon from './subcomponents/ContactIcon'
 
 function Home() {   
     return(
         <div className="body">
-            {/* <HomeCarousel />  */}
             <Container fluid className="pl-0 pr-0">
-                <Row>
+                <Row noGutters >
+                    <Col lg={3} >
+                        <ContactIcon />
+                    </Col>
+                    <Col lg={{ span: 9, offset: 0 }} >
+                        <Carousel name="home" />
+                    </Col>
+                </Row>
+                {/* <Row>
                     <Col className="col-centered pt-5 pb-5 title shadow-element">
                         <h1 className="font-weight-bold text-center text-white mb-4">Why United?</h1>
                         <p className="h5 font-italic text-center text-white mr-5 ml-5">
@@ -22,7 +30,7 @@ function Home() {
                             United exceeds the standards set by industry today and offers a reliable service for all.
                         </p>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row noGutters className="mt-3">
                     <Col xs={12} xl={4} className="pr-3 pl-3 mt-3 mb-3">
                         <ServiceContact name="home" color="cooling" />
