@@ -5,7 +5,7 @@ import './InteractiveCarousel.css'
 function CarNavItem(props) {
     
     return (
-        <div className={"m-0 p-3 text-center text-white border item " + " item-" + props.name}>
+        <div onMouseEnter={(e) => this.handleMouseEnter(1, e)} className={"m-0 p-3 text-center text-white border item " + " item-" + props.name}>
             {props.name}
         </div>
     );
