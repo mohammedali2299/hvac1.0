@@ -20,21 +20,6 @@ import './InteractiveCarousel.css'
 // }
 
 class InteractiveCarousel extends React.Component {
-    constructor(props, context) {
-        super(props, context);
-    
-        // this.handleMouseLeave = this.handleMouseLeave.bind(this);
-        this.handleMouseEnter = this.handleMouseEnter.bind(this);
-        this.handleSelect = this.handleSelect.bind(this);
-        // this.handleSlideEnd = this.handleSlideEnd.bind(this);
-    
-        this.state = {
-            index: 0,
-            direction: null,
-
-
-        };
-    }
 
     handleMouseEnter(selectedIndex, e) {
         this.setState({
