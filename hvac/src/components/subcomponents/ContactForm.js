@@ -46,8 +46,6 @@ class ContactForm extends Component {
         })
     }
 
-
-
     render() {
         return (
             <Jumbotron fluid className="mb-0 mt-0 pt-0 bg-white shadow-element">
