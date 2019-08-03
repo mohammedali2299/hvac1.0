@@ -20,20 +20,22 @@ import './InteractiveCarousel.css'
 // }
 
 class InteractiveCarousel extends React.Component {
-    constructor(props, context) {
-        super(props, context);
-    
-        this.handleMouseLeave = this.handleMouseLeave.bind(this);
-        this.handleMouseEnter = this.handleMouseEnter.bind(this);
-    
-        this.state = {
-            index: 0,
-            direction: null,
+    constructor(props, context) {	
+        super(props, context);	
+
+         // this.handleMouseLeave = this.handleMouseLeave.bind(this);	
+        this.handleMouseEnter = this.handleMouseEnter.bind(this);	
+        this.handleSelect = this.handleSelect.bind(this);	
+        // this.handleSlideEnd = this.handleSlideEnd.bind(this);	
+
+         this.state = {	
+            index: 0,	
+            direction: null,	
 
 
-        };
+         };	
     }
-
+    
     handleMouseEnter(selectedIndex, e) {
         this.setState({
             index: selectedIndex,
@@ -41,13 +43,26 @@ class InteractiveCarousel extends React.Component {
         });
     }
 
-    handleMouseLeave(selectedIndex, e) {
-        this.setState({
-            index: selectedIndex,
-            direction: e.direction,
-        });
+    // handleMouseLeave(selectedIndex, e) {
+    //     this.setState({
+    //         index: selectedIndex,
+    //         direction: e.direction,
+    //     });
     
-    }
+    // }
+
+    handleSelect(selectedIndex, e) {
+        this.setState({
+          index: selectedIndex,
+          direction: e.direction,
+        });
+      }
+
+    // handleSlideEnd(selectedIndex, e) {
+    //     if(selectedIndex === 2) {
+    //         this.handleSelect(0, e);
+    //     }
+    // }
 
     
 
@@ -55,17 +70,18 @@ class InteractiveCarousel extends React.Component {
     render() {
         const { index, direction } = this.state;
 
-       
-        // handleStyling(index) {
-        //     return(
-        //         {"shadow-element"}
-        //     );
-        // }
-
         return(
-            <div>
-                <Carousel activeIndex={index} direction={direction} controls={false} indicators={false} interval={2000}>
-                    <Carousel.Item>
+            <div className="p-0 m-0">
+                <Carousel activeIndex={index} direction={direction} controls={false}  onSelect={this.handleSelect} indicators={false} interval={6000}>
+                    <Carousel.Item >
+                        <Carousel.Caption className="w-75 mb-5" >
+                            <h1 className="font-weight-bold text-center text-white mb-4 pl-0 pr-0 pt-0 mt-0">Why United?</h1>
+                            <p className="h6 font-italic text-center text-white pl-0 pr-0 mr-0 ml-0 mb-0">
+                                United HVAC and Electrical Inc. has been providing quality heating and cooling service in the Chicago Area since it's 
+                                inception in 2006. From installing rooftop units on commercial buildings to home AC repair, 
+                                United exceeds the standards set by industry today and offers a reliable service for all.
+                            </p>
+                        </Carousel.Caption>
                         <img
                         className="d-block"
                         src="/extras/home-flag.jpg"
@@ -80,7 +96,7 @@ class InteractiveCarousel extends React.Component {
                         />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block" src="/extras/review3.jpg" alt="Second slide"/>
+                        <img className="d-block" src="/extras/review3.jpg" alt="Third slide"/>
                         <Carousel.Caption className="mb-5">
                             <h3>Satisfied Customer</h3>
                             <p className="mt-3 font-italic">"This is a great service! Anytime I needed work done on my A/C or heat, 
@@ -89,20 +105,18 @@ class InteractiveCarousel extends React.Component {
                             <a className="font-weight-bold yellow-text" href="https://www.google.com/search?q=google+reviews+united+hvac+west+chicago&rlz=1C1GCEB_enUS760US760&oq=goog&aqs=chrome.0.69i59j0j69i60j69i57j0l2.1252j0j4&sourceid=chrome&ie=UTF-8#lrd=0x880eff0af146c8bb:0x486eef7a5d48d4b6,1,,,"> customer reviews</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <div className="overlay d-flex">
-                        <div onMouseEnter={(e) => this.handleMouseEnter(0, e)} className={"m-0 p-3 flex-fill text-center text-white border item item-United"}>
-                            Why United
-                        </div>
-                        <div onMouseEnter={(e) => this.handleMouseEnter(1, e)} className={"m-0 p-3 flex-fill text-center text-white border item item-United"}>
-                            Services
-                        </div>
-                        <div onMouseEnter={(e) => this.handleMouseEnter(2, e)} className={"m-0 p-3 flex-fill text-center text-white border item item-United"}>
-                            Satisfaction
-                        </div>
-                    </div>
-
                 </Carousel>
-                
+                <div className="overlay d-flex ">
+                    <div onMouseEnter={(e) => this.handleMouseEnter(0, e)} id={"keep-hover0" + index} className={"m-0 p-2 w-100 text-center text-white border item "}>
+                        Why United
+                    </div>
+                    <div onMouseEnter={(e) => this.handleMouseEnter(1, e)} id={"keep-hover1" + index} className={"m-0 p-2 w-100 text-center text-white border item "}>
+                        Services
+                    </div>
+                    <div onMouseEnter={(e) => this.handleMouseEnter(2, e)} id={"keep-hover2" + index} className={"m-0 p-2 w-100 text-center text-white border item "}>
+                        Satisfaction
+                    </div>
+                </div>
             </div>
             
                 
@@ -111,12 +125,6 @@ class InteractiveCarousel extends React.Component {
             
         );
     }
-
-
-
-
-
-    
 
 }
 

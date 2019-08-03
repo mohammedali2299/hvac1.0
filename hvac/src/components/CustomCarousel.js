@@ -15,12 +15,7 @@ class ControlledCarousel extends React.Component {
     };
   }
 
-  handleSelect(selectedIndex, e) {
-    this.setState({
-      index: selectedIndex,
-      direction: e.direction,
-    });
-  }
+
 
   render() {
     const { index, direction } = this.state;
