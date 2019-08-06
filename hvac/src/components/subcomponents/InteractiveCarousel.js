@@ -106,7 +106,7 @@ class InteractiveCarousel extends React.Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-                <div className="overlay d-flex ">
+                <div className="overlay d-flex flex-fill">
                     <div onMouseEnter={(e) => this.handleMouseEnter(0, e)} id={"keep-hover0" + index} className={"m-0 p-2 w-100 text-center text-white border item "}>
                         Why United
                     </div>

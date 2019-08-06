@@ -22,15 +22,15 @@ function Home() {
           </Col>
         </Row>
         {/* <Row>
-                    <Col className="col-centered pt-5 pb-5 title shadow-element">
-                        <h1 className="font-weight-bold text-center text-white mb-4">Why United?</h1>
-                        <p className="h5 font-italic text-center text-white mr-5 ml-5">
-                            United HVAC and Electrical Inc. has been providing quality heating and cooling service in the Chicago Area since it's 
-                            inception in 2006. From installing rooftop units on commercial buildings to home AC repair, 
-                            United exceeds the standards set by industry today and offers a reliable service for all.
-                        </p>
-                    </Col>
-                </Row> */}
+          <Col className="col-centered pt-5 pb-5 title shadow-element">
+              <h1 className="font-weight-bold text-center text-white mb-4">Why United?</h1>
+              <p className="h5 font-italic text-center text-white mr-5 ml-5">
+                  United HVAC and Electrical Inc. has been providing quality heating and cooling service in the Chicago Area since it's 
+                  inception in 2006. From installing rooftop units on commercial buildings to home AC repair, 
+                  United exceeds the standards set by industry today and offers a reliable service for all.
+              </p>
+          </Col>
+        </Row> */}
         <Row noGutters className="mt-3">
           <Col xs={12} xl={4} className="pr-3 pl-3 mt-3 mb-3">
             <ServiceContact name="home" color="cooling" />
@@ -50,9 +50,9 @@ function Home() {
           {/* <SocialMedia/> */}
         </Row>
 
-        <Row className="mt-4">
+        {/* <Row className="mt-4">
           <ReviewCarousel />
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );
