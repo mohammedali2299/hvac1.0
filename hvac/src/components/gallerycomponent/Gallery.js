@@ -54,7 +54,7 @@ class Gallery extends React.Component {
     render() {
         return (
             <div>
-                <Row className="gallery-background pt-5 pb-5">
+                <Row className="pt-5 pb-5">
                     <Col xs={{offset: 1, span: 2}} className="d-flex align-items-center">
                         <Image onClick={this.handleChangeBackwards} className="w-100 switchers gallery-img" src={this.props.images.imageList[this.state.left]} />
                     </Col>

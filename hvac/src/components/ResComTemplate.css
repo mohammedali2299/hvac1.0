@@ -2,10 +2,10 @@
     background: rgb(131, 131, 131) !important;
 }
 
-.button-color {
-    background: rgb(133, 133, 133) !important;
+.background-commercial {
+    background-color: rgba(0, 0, 70);
 }
 
-.button-color:hover {
-    background: rgb(89, 89, 92) !important;
+.background-residential {
+    background-color: rgba(80, 5, 5);
 }
