@@ -27,7 +27,7 @@ function ResComTab() {
                 </Col>
                 <Col xs={12} md={6} xl={6} className="pl-3 pr-3">
                     <div class="hovereffect2">
-                        <img class="img-responsive2 w-100 h-100" src="/extras/home-commercial.jpg" alt="" />
+                        <img class="img-responsive2 w-100 h-100" src="/extras/commercial-home.jpeg" alt="" />
                         <div class="overlay2">
                             <a href="/commercial"><h2>Commercial</h2></a>
 

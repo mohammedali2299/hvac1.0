@@ -9,13 +9,18 @@
 }
 
 .d-block {
-    height: 320px;
+    height: 330px;
     width: 100%;
 }
 
 .d-block-brand {
-    height: 320px;
-    width: 50%;
+    height: 330px;
+    width: 67%;
+}
+
+.brand-text {
+    background-color:  rgb(70, 70, 70);
+    width: 33%;
 }
 
 .item {

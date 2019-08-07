@@ -7,13 +7,13 @@ class InteractiveCarousel extends React.Component {
     constructor(props, context) {	
         super(props, context);	
 
-        this.handleMouseEnter = this.handleMouseEnter.bind(this);	
-        this.handleSelect = this.handleSelect.bind(this);	
+        this.handleMouseEnter = this.handleMouseEnter.bind(this);		
+        this.handleMouseLeave = this.handleMouseLeave.bind(this);
 
          this.state = {	
             index: 0,	
             direction: null,	
-
+            interval: 6000
 
          };	
     }
@@ -22,21 +22,25 @@ class InteractiveCarousel extends React.Component {
         this.setState({
             index: selectedIndex,
             direction: e.direction,
+            interval: 0
         });
     }
 
-    handleSelect(selectedIndex, e) {
+    handleMouseLeave(selectedIndex, e) {
         this.setState({
-          index: selectedIndex,
-          direction: e.direction,
+            index: this.state.index,
+            direction: this.state.direction,
+            interval: 6000
         });
-      }
+    }
+
+
     render() {
-        const { index, direction } = this.state;
+        const { index, direction, interval } = this.state;
 
         return(
             <div className="p-0 m-0">
-                <Carousel activeIndex={index} direction={direction} controls={false}  onSelect={this.handleSelect} indicators={false} interval={6000}>
+                <Carousel activeIndex={index} direction={direction} controls={false} indicators={false} interval={interval}>
                     <Carousel.Item >
                         <Carousel.Caption className="w-75 mb-5" >
                             <h1 className="font-weight-bold text-center text-white mb-4 pl-0 pr-0 pt-0 mt-0">Why United?</h1>
@@ -53,11 +57,26 @@ class InteractiveCarousel extends React.Component {
                         />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
-                        className="d-block-brand pb-5"
-                        src="/extras/brands.jpg"
-                        alt="Second slide"
-                        />
+                        <div className="d-flex ">
+                            <img
+                            className="d-block-brand pb-5"
+                            src="/extras/brands.jpg"
+                            alt="Second slide"
+                            />
+                            <div className="d-flex flex-column align-items-center brand-text">
+                                {/* <h2 className="text-center text-white mb-auto mt-3">
+                                    We service all brands and models! 
+                                </h2> */}
+                                <h2 className="text-center text-white mb-auto mt-2">
+                                    We are Carrier certified!
+                                </h2>
+                                <p className="p-medium text-center text-white mb-auto p-3 pb-5">
+                                    The brands we service include but are not limited to the ones shown. 
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block" src="/extras/review3.jpg" alt="Third slide"/>
@@ -71,13 +90,13 @@ class InteractiveCarousel extends React.Component {
                     </Carousel.Item>
                 </Carousel>
                 <div className="overlay d-flex flex-fill">
-                    <div onMouseEnter={(e) => this.handleMouseEnter(0, e)} id={"keep-hover0" + index} className={"m-0 p-2 w-100 text-center text-white border item "}>
+                    <div onMouseLeave = {(e) => this.handleMouseLeave(e)} onMouseEnter={(e) => this.handleMouseEnter(0, e)} id={"keep-hover0" + index} className={"m-0 p-2 w-100 text-center text-white border item "}>
                         Why United
                     </div>
-                    <div onMouseEnter={(e) => this.handleMouseEnter(1, e)} id={"keep-hover1" + index} className={"m-0 p-2 w-100 text-center text-white border item "}>
+                    <div onMouseLeave = {(e) => this.handleMouseLeave(e)} onMouseEnter={(e) => this.handleMouseEnter(1, e)} id={"keep-hover1" + index} className={"m-0 p-2 w-100 text-center text-white border item "}>
                         Services
                     </div>
-                    <div onMouseEnter={(e) => this.handleMouseEnter(2, e)} id={"keep-hover2" + index} className={"m-0 p-2 w-100 text-center text-white border item "}>
+                    <div onMouseLeave = {(e) => this.handleMouseLeave(e)} onMouseEnter={(e) => this.handleMouseEnter(2, e)} id={"keep-hover2" + index} className={"m-0 p-2 w-100 text-center text-white border item "}>
                         Satisfaction
                     </div>
                 </div>

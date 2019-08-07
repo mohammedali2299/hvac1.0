@@ -11,13 +11,13 @@ function ResComTemplate(props) {
     var imageList;
     
     if(props.name === "residential") {
-        mainText = "Keep your home comfortable through United! We can help you choose the ac or furnace that is best suited to your home, saving you money on electricty and allowing you to regulate the temperature of your home more effectively. After that we offer a full hvac installation service so no work is required on your part to get a fully functional system. You can also get your electrical or hvac systems serviced by our technicians in no time."
+        mainText = "Keep your home comfortable through United! We can help you choose the ac or furnace that is best suited to your home, saving you money on electricty and allowing you to regulate the temperature of your home more effectively. We also offer a full hvac installation service so no work is required on your part to get a fully functional system. You can also have your electrical or hvac systems serviced with our technicians in no time."
         startText = "Order our service today, or ask us about a specific service we can do for you by pressing the Get Started button below."
         imageList = ['/extras/commercial2.jpeg'];
     } else if(props.name === "commercial") {
         mainText = "Get all of your commercial hvac needs all in one place. We service apartments, businesses, and warehouses. We install full air conditioning, heating, ventilation, and electrical systems up to date with the latest technology for brand new buildings. We also repair or replace old or broken air conditioners, furnaces, ducting, or electrical systems in old or new buildings. By ordering our hvac service you are ensuring that your new hvac system is running efficiently and not wasting electricity and money trying to keep your building comfortable."
         startText = "To find out how we can help you with your hvac issue or to order our services now, click the Get Started button below to contact us online or via email or phone."
-        imageList = ['/extras/commercial2.jpeg', '/extras/commercial3.jpeg', '/extras/commercial4.jpeg', '/extras/commercial5.jpeg', '/extras/commercial6.jpeg', '/extras/commercial7.jpeg', '/extras/commercial8.jpeg', '/extras/commercial9.jpeg', '/extras/commercial10.jpeg'];
+        imageList = ['/extras/commercial-home.jpeg', '/extras/commercial2.jpeg', '/extras/commercial3.jpeg', '/extras/commercial4.jpeg', '/extras/commercial5.jpeg', '/extras/commercial6.jpeg', '/extras/commercial7.jpeg', '/extras/commercial8.jpeg', '/extras/commercial9.jpeg', '/extras/commercial10.jpeg'];
     }
 
     
