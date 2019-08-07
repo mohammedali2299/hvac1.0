@@ -3,30 +3,12 @@ import { Container, Row, Col, Jumbotron, Carousel } from 'react-bootstrap';
 import CarNavItem from './CarNavItem'
 import './InteractiveCarousel.css'
 
-
-// function InteractiveCarousel() {
-//     return (
-//         <div className="car-container shadow-element d-flex flex-column align-items-end">
-//             <div className="car-imgs">
-//                 <img src='/extras/home-flag.jpg' className="w-100 h-100" id="img1"/>
-//             </div>
-            
-
-
-            
-//         </div>
-//     );
-
-// }
-
 class InteractiveCarousel extends React.Component {
     constructor(props, context) {	
         super(props, context);	
 
-         // this.handleMouseLeave = this.handleMouseLeave.bind(this);	
         this.handleMouseEnter = this.handleMouseEnter.bind(this);	
         this.handleSelect = this.handleSelect.bind(this);	
-        // this.handleSlideEnd = this.handleSlideEnd.bind(this);	
 
          this.state = {	
             index: 0,	
@@ -43,30 +25,12 @@ class InteractiveCarousel extends React.Component {
         });
     }
 
-    // handleMouseLeave(selectedIndex, e) {
-    //     this.setState({
-    //         index: selectedIndex,
-    //         direction: e.direction,
-    //     });
-    
-    // }
-
     handleSelect(selectedIndex, e) {
         this.setState({
           index: selectedIndex,
           direction: e.direction,
         });
       }
-
-    // handleSlideEnd(selectedIndex, e) {
-    //     if(selectedIndex === 2) {
-    //         this.handleSelect(0, e);
-    //     }
-    // }
-
-    
-
-
     render() {
         const { index, direction } = this.state;
 
@@ -90,8 +54,8 @@ class InteractiveCarousel extends React.Component {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                        className="d-block"
-                        src="/extras/services.jpg"
+                        className="d-block-brand pb-5"
+                        src="/extras/brands.jpg"
                         alt="Second slide"
                         />
                     </Carousel.Item>

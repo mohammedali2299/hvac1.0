@@ -24,6 +24,7 @@ class Gallery extends React.Component {
             right: nextRight
         });
     }
+    
     render() {
         return (
             <Row>
