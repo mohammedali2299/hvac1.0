@@ -9,7 +9,7 @@ function ResComTab() {
     // const [open2, setOpen2] = useState(false);
     return (
             <Row noGutters>
-                <Col xs={12} md={6} xl={6}>
+                <Col xs={12} md={6} xl={6} className="pr-3 pl-3">
                     <div class="hovereffect2">
                         <img class="img-responsive2 w-100 h-100" src="/extras/home-residential.jpg" alt="" />
                         <div class="overlay2">
@@ -25,7 +25,7 @@ function ResComTab() {
                         </div>
                     </div>
                 </Col>
-                <Col xs={12} md={6} xl={6}>
+                <Col xs={12} md={6} xl={6} className="pl-3 pr-3">
                     <div class="hovereffect2">
                         <img class="img-responsive2 w-100 h-100" src="/extras/home-commercial.jpg" alt="" />
                         <div class="overlay2">

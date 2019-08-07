@@ -6,7 +6,7 @@ import './ServiceLinks.css'
 function ServiceLinks() {
     return (
             <Row noGutters >
-                <Col xs={12} md={6} xl={6}>
+                <Col xs={12} md={6} xl={6} className="p-3">
                     <div className="hovereffect">
                          <img className="img-responsive w-100 h-100" src="/extras/home-cooling.jpg" alt=""/>
                          <div className="overlay">
@@ -16,7 +16,7 @@ function ServiceLinks() {
                          </div>
                      </div>
                 </Col>
-                <Col xs={12} md={6} xl={6}>
+                <Col xs={12} md={6} xl={6} className="p-3">
                     <div className="hovereffect">
                          <img className="img-responsive w-100 h-100" src="/extras/home-heating.jpg" alt=""/>
                          <div className="overlay">
@@ -26,7 +26,7 @@ function ServiceLinks() {
                          </div>
                      </div>
                 </Col>
-                <Col xs={12} md={6} xl={6}>
+                <Col xs={12} md={6} xl={6} className="p-3">
                     <div className="hovereffect">
                          <img className="img-responsive w-100 h-100" src="/extras/home-electrical.jpg" alt=""/>
                          <div className="overlay">
@@ -36,7 +36,7 @@ function ServiceLinks() {
                          </div>
                      </div>
                 </Col>
-                <Col xs={12} md={6} xl={6}>
+                <Col xs={12} md={6} xl={6} className="p-3">
                     <div class="hovereffect">
                          <img className="img-responsive w-100 h-100" src="/extras/home-ducting.jpg" alt=""/>
                          <div className="overlay">
