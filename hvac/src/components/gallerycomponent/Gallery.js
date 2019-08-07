@@ -25,6 +25,7 @@ class Gallery extends React.Component {
         });
     }
     
+
     handleChangeBackwards() {
         var nextLeft = this.state.left - 1;
         nextLeft = nextLeft === -1 ? (this.props.images.imageList.length - 1) : nextLeft;
@@ -48,6 +49,7 @@ class Gallery extends React.Component {
     componentWillUnmount() {
         clearInterval(this.interval)
     }
+
 
     render() {
         return (
