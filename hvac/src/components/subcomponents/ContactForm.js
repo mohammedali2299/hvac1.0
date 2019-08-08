@@ -18,32 +18,50 @@ class ContactForm extends Component {
             phone: '',
             email: '',
             rescom: '',
-            services: '',
+            cooling: false,
+            heating: false,
+            electrical: false,
+            ducting: false,
+            other: false,
             description: '',
         };
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleResCom = this.handleResCom.bind(this);
+        this.handleServices = this.handleServices.bind(this);
     }
 
     handleChange = e => {
-        this.setState({ [e.target.id]: e.target.value })
+        this.setState({ [e.target.id]: e.target.value });
+    }
+
+    handleResCom = e => {
+        this.setState({ rescom: e.target.id });
+    }
+
+    handleServices = e => {
+        this.setState({ [e.target.id]: e.target.checked });
     }
 
     async handleSubmit(e) {
         e.preventDefault();
 
 
-        const { name, phone, email, rescom, services, description } = this.state;
+        const { name, phone, email, rescom, cooling, heating, electrical, ducting, other, description } = this.state;
 
-        const form = await axios.post('api/form', {
+        const form = await axios.post('/api/form', {
             name,
             phone,
             email,
             rescom,
-            services,
+            cooling,
+            heating,
+            electrical,
+            ducting,
+            other,
             description
-        })
+        });
     }
 
     render() {
@@ -69,16 +87,16 @@ class ContactForm extends Component {
                             <Form.Control type="email" onChange={this.handleChange} className={this.props.name + "-border"} placeholder="example@gmail.com"/>
                         </Col>
                     </Form.Group>
-                    <Form.Group as={Row} controlId="rescom">
-                        <Form.Check type="radio" label="Residential" className="mr-2 ml-3" name="rescom" id="residential" />
-                        <Form.Check type="radio" label="Commercial" name="rescom" id="commercial" /> 
+                    <Form.Group as={Row} >
+                        <Form.Check type="radio" onClick={this.handleResCom} label="Residential" className="mr-2 ml-3" name="rescom" id="residential" />
+                        <Form.Check type="radio" onClick={this.handleResCom} label="Commercial" name="rescom" id="commercial" /> 
                     </Form.Group>
-                    <Form.Group as={Row} controlId="services">
-                        <Form.Check label="Cooling" name="services" id="cooling" className="ml-3" />
-                        <Form.Check label="Heating" name="services" id="heating" className="ml-2" />
-                        <Form.Check label="Ducting" name="services" id="ducting" className="ml-2"/>
-                        <Form.Check label="Electrical" name="services" id="electrical" className="ml-2"/>
-                        <Form.Check label="Other" name="services" id="otherService" className="ml-2"/>
+                    <Form.Group as={Row} >
+                        <Form.Check label="Cooling" onChange={this.handleServices} name="services" id="cooling" className="ml-3" />
+                        <Form.Check label="Heating" onChange={this.handleServices} name="services" id="heating" className="ml-2" />
+                        <Form.Check label="Ducting" onChange={this.handleServices} name="services" id="ducting" className="ml-2"/>
+                        <Form.Check label="Electrical" onChange={this.handleServices} name="services" id="electrical" className="ml-2"/>
+                        <Form.Check label="Other" onChange={this.handleServices} name="services" id="other" className="ml-2"/>
                     </Form.Group>
                     <Form.Group as={Row} controlId="description" className="mt-2">
                         <Col xs={{ offset: 0, span: 12 }}  >
