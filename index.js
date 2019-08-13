@@ -35,7 +35,7 @@ app.post('/api/form', (req, res) => {
     let mailOptions = {
         from: 'streamlineunited@gmail.com',
         to: 'jdbrutcher@gmail.com',
-        subject: 'New Job From Website',
+        subject: `New Job From: ${req.body.name}`,
         text: req.body.description,
         html: htmlEmail
     }
