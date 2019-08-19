@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "client": "npm run start --prefix hvac",
+    "client": "npm start --prefix hvac",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "client-install": "npm install --prefix client",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix hvac && npm run build --prefix hvac"
