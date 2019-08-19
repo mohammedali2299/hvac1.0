@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Button, DropdownButton, Dropdown, ButtonToolbar } from 'react-bootstrap';
+import React from 'react';
+import { Button, Dropdown, ButtonToolbar } from 'react-bootstrap';
 import './NavbarButtons.css'
 
 function NavbarButtons() {

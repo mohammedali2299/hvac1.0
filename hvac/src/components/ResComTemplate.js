@@ -1,6 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap';
-import InteractiveCarousel from './subcomponents/InteractiveCarousel'
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import './ResComTemplate.css'
 import Gallery from './gallerycomponent/Gallery'
 

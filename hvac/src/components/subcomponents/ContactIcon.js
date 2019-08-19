@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap'
+import { Jumbotron } from 'react-bootstrap'
 import SocialMedia from './SocialMedia'
 
 

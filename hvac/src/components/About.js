@@ -1,8 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap'
+import { Jumbotron, Container, Row, Col, Button } from 'react-bootstrap'
 import './About.css'
-import { continueStatement } from '@babel/types';
 
 function About() {
     const about = 

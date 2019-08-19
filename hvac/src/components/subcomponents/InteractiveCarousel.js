@@ -1,6 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Jumbotron, Carousel } from 'react-bootstrap';
-import CarNavItem from './CarNavItem'
+import { Carousel } from 'react-bootstrap';
 import './InteractiveCarousel.css'
 
 class InteractiveCarousel extends React.Component {

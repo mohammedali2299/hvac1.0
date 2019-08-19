@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Jumbotron, Row, Col, Form, Button, AccordionCollapse } from 'react-bootstrap'
+import { Jumbotron, Row, Col, Form, Button } from 'react-bootstrap'
 import axios from 'axios'
 
 class ContactForm extends Component {

@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Jumbotron, Container, Row, Col, Button, Figure, Image } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import './servicesTemplate.css'
 import ServiceContact from './subcomponents/ServiceContact'
 import ServiceInfo from './subcomponents/ServiceInfo'
