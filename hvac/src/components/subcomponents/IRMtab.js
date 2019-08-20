@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tab, Nav, Row, Col, Jumbotron } from 'react-bootstrap'
+import { Tab, Nav, Row, Jumbotron } from 'react-bootstrap'
 import './IRMtab.css'
 
 function IRMtab(props) {

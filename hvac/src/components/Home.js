@@ -1,10 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Jumbotron, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./Home.css";
 import ResComTab from "./subcomponents/ResComTabs";
-import ReviewCarousel from "./subcomponents/ReviewCarousel";
 import ServiceLinks from "./subcomponents/ServiceLinks";
-import { cpus } from "os";
 import ServiceContact from "./subcomponents/ServiceContact";
 import Carousel from "./subcomponents/InteractiveCarousel";
 import ContactIcon from "./subcomponents/ContactIcon";

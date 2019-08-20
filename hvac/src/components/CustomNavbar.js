@@ -1,10 +1,9 @@
 import React from 'react';
 
-import { Navbar, Image, Row, Col, Container } from 'react-bootstrap';
+import { Navbar, Image } from 'react-bootstrap';
 
 import NavbarButtons from './subcomponents/NavbarButtons.js'
 import './CustomNavbar.css'
-import NavBarContact from './subcomponents/NavBarContact'
 
 
 
