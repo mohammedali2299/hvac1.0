@@ -15,7 +15,7 @@ import CareerOpportunities from './components/subcomponents/CareerOpportunities'
 import ResCom from './components/ResComTemplate'
 
 
-function App(props) {
+function App() {
   
   var serviceData = {
     coolingProps: {
