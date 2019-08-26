@@ -66,7 +66,7 @@ class ContactForm extends Component {
 
     render() {
         return (
-            <Jumbotron fluid className="mb-0 mt-0 pt-0 bg-white shadow-element">
+            <Jumbotron fluid className="mb-3 mt-0 pt-0 bg-white shadow-element">
                 <h3 className={this.props.name + "-text mb-3 pt-2 pb-2 pl-3 pr-5 text-white rounded"}>{this.title}</h3>
                 <Form onSubmit={this.handleSubmit} className="pr-3 pl-3">
                     <Form.Group as={Row} controlId="name">

@@ -27,7 +27,7 @@ function Home() {
             <ServiceLinks />
           </Col>
         </Row>
-        <Row noGutters className="mt-3">
+        <Row noGutters>
           <Col xs={12} xl={4} className="pr-3 pl-3 mt-3 mb-3">
             <ServiceContact name="emergency" color="heating" />
           </Col>
@@ -35,10 +35,6 @@ function Home() {
             <ResComTab />
           </Col>
         </Row>
-
-        {/* <Row className="mt-4">
-          <ReviewCarousel />
-        </Row> */}
       </Container>
     </div>
   );

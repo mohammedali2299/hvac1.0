@@ -28,37 +28,76 @@ class ImageGallery extends React.Component {
         <div>
           <Carousel activeIndex={index} direction={direction} onSelect={this.handleSelect}>
             <Carousel.Item>
-              <img
-                className="d-block w-50 h-50 m-auto"
-                src="/extras/galleryimg1.jpg"
-                alt="First slide"
-              />
-              {/* <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption> */}
+              <img className="d-block w-50 h-50 m-auto" src="/extras/residential2.jpeg"/>
             </Carousel.Item>
             <Carousel.Item>
-              <img
-                className="d-block w-50 h-50 m-auto"
-                src="/extras/galleryimg4.jpg"
-                alt="Fourth slide"
-              />
-              {/* <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </Carousel.Caption> */}
+              <img className="d-block w-50 h-50 m-auto" src="/extras/residential3.jpeg"/>
             </Carousel.Item>
             <Carousel.Item>
-              <img
-                className="d-block w-50 h-50 m-auto"
-                src="/extras/galleryimg3.jpg"
-                alt="Third slide"
-              />
-              {/* <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </Carousel.Caption> */}
+              <img className="d-block w-50 h-50 m-auto" src="/extras/residential4.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/residential5.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/residential6.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/residential7.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial2.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial3.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial4.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial5.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial6.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial7.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial8.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial9.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial10.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial11.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial12.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial13.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial14.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial15.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial16.jpg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial17.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial18.jpeg"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-50 h-50 m-auto" src="/extras/commercial19.jpeg"/>
             </Carousel.Item>
 
           </Carousel>

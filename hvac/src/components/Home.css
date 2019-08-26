@@ -4,12 +4,7 @@
 
 .body {
     overflow: hidden;
-}
-
-.title {
-    background-image: url('/extras/home-flag.jpg');
-    background-size: cover;
-
+    background-color: rgba(185, 185, 185, 0.815);
 }
 
 

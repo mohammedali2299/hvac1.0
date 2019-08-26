@@ -9,7 +9,7 @@ function Services(props) {
         <Container fluid="true">
             <Row >
                 <Col fluid className={"column-centered pr-0 pl-0 " + props.name + "-image"} >
-                <h1 className={"mb-0 pt-3 pb-3 text-white text-center " + props.name + "-opaque"}>{props.title}</h1>
+                    <h1 className={"mb-0 pt-3 pb-3 text-white text-center " + props.name + "-opaque"}>{props.title}</h1>
                 </Col>
             </Row>
             <Row >
