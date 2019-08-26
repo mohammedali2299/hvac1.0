@@ -9,7 +9,7 @@ function ResComTab() {
     // const [open2, setOpen2] = useState(false);
     return (
             <Row noGutters>
-                <Col xs={12} md={6} xl={6} className="pr-3 pl-3">
+                <Col xs={12} md={6} xl={6} className="pr-3 pl-3 mt-3">
                     <div class="hovereffect2">
                         <img class="img-responsive2 w-100 h-100" src="/extras/home-residential.jpg" alt="" />
                         <div class="overlay2">
@@ -25,12 +25,11 @@ function ResComTab() {
                         </div>
                     </div>
                 </Col>
-                <Col xs={12} md={6} xl={6} className="pl-3 pr-3">
+                <Col xs={12} md={6} xl={6} className="pl-3 pr-3 mt-3">
                     <div class="hovereffect2">
                         <img class="img-responsive2 w-100 h-100" src="/extras/commercial-home.jpeg" alt="" />
                         <div class="overlay2">
                             <a href="/commercial"><h2>Commercial</h2></a>
-
                             <div className="text-white font-italic info">
                                 <p className="w-100 h-100">
                                 United has continued to provide excellent services to business owners by not compromising on 

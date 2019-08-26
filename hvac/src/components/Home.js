@@ -29,11 +29,11 @@ function Home() {
             <ServiceLinks />
           </Col>
         </Row>
-        <Row noGutters className="mb-3">
+        <Row noGutters className="mt-3">
           <Col xs={12} xl={4} className="pr-3 pl-3 mt-3 mb-3">
             <ServiceContact name="emergency" color="heating" />
           </Col>
-          <Col xs={12} xl={8} className="pr-3 pl-3 mt-3">
+          <Col xs={12} xl={8} className="pr-3 pl-3 mb-3">
             <ResComTab />
           </Col>
         </Row>

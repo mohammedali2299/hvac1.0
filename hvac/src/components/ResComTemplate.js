@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import InteractiveCarousel from './subcomponents/InteractiveCarousel'
 import './ResComTemplate.css'
 import Gallery from './gallerycomponent/Gallery'
@@ -28,14 +28,14 @@ function ResComTemplate(props) {
     return(
         <Container fluid className={"body m-0 pl-0 pr-0 " + background}>
             <h2 className="text-white pr-2 pl-2 pt-5 pb-4 text-center w-100">{title.toUpperCase()}</h2>
-            <Row noGutters fluid className="m-0" >
+            <Row noGutters fluid >
                 <Col xs={12} >
                     <Gallery images={{imageList}} />
                 </Col>
                 <Col xs={{span: 8, offset: 2}} className="mt-3 mb-3 pl-5 pr-5 d-flex flex-column align-items-center">
-                    <p className="mr-5 ml-5 mb-3 mt-5 p-large text-white text-center">{mainText}</p>
-                    <p className="mr-5 ml-5 mb-5 mt-5 p-medium text-white text-center">{startText}</p>
-                    <Button href="/contact" className={"btn-lg border-0 mt-4 mb-5 ml-5 " + buttonStyle}>Get Started</Button>
+                    <p className="mb-3 mt-5 p-large text-white text-center">{mainText}</p>
+                    <p className="mb-5 mt-5 p-medium text-white text-center">{startText}</p>
+                    <Button href="/contact" className={"btn-lg border-0" + buttonStyle}>Get Started</Button>
                 </Col>
             </Row>
         </Container>

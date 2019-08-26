@@ -10,7 +10,7 @@ function ContactIcon() {
             <h6>Email: unitedhvac@me.com</h6>
             <h6>Phone: (847) 489 4796</h6>
             {/* <SocialMedia /> */}
-            <h6 className="mt-5">Social Media Comming Soon!</h6>
+            <h6 className="mt-5">Social Media Coming Soon!</h6>
         </Jumbotron>
     );
 }
