@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Tabs, Tab, Jumbotron, Image, Row, Col, Container, Button, Fade } from 'react-bootstrap'
+import React from 'react';
+import { Row, Col } from 'react-bootstrap'
 import 'react-transition-group'
 import './ResComTabs.css'
 import SocialMedia from './SocialMedia'
