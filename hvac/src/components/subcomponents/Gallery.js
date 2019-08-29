@@ -6,7 +6,7 @@ function Gallery() {
     return(
         <div>
             <h1 className="page-title d-flex justify-content-center mt-4 mb-4 w-100 text-white pt-3 pb-3 cooling-primary">Gallery</h1>
-            <Container className="body">
+            <Container className="mb-3">
                 <ImageGallery />
             </Container>
         </div>

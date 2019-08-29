@@ -4,7 +4,7 @@ import './Sitemap.css'
 
 function Sitemap() {
     return(
-        <Container fluid className="pt-2 shadow-element">
+        <Container fluid className="pt-2 shadow-element map">
             <Row className="mt-4">
 
                 <Col xs={4}> 

@@ -12,7 +12,7 @@ function MyNavbar() {
     return (
 
 
-        <Navbar sticky="top" bg="white" variant="light" expand="md" className="p-0 m-0 shadow-element">
+        <Navbar sticky="top" variant="light" expand="md" className="p-0 m-0 shadow-element bar">
             <Navbar.Brand href="/">
             <Image 
                 src="/extras/LOGO2.jpg" 
