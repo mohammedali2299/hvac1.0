@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap'
 import 'react-transition-group'
 import './ResComTabs.css'
-import SocialMedia from './SocialMedia'
+
 
 function ResComTab() {
     // const [open, setOpen] = useState(false);
@@ -10,9 +10,9 @@ function ResComTab() {
     return (
         <Row noGutters>
             <Col xs={12} md={6} xl={6} className="pr-3 pl-3 mt-3">
-                <div class="hovereffect2">
-                    <img class="img-responsive2 w-100 h-100" src="/extras/home-residential.jpg" alt="" />
-                    <div class="overlay2">
+                <div className="hovereffect2">
+                    <img className="img-responsive2 w-100 h-100" src="/extras/home-residential.jpg" alt="" />
+                    <div className="overlay2">
                         <a href="/residential"><h2>Residential</h2></a>
                         <div className="text-white font-italic info">
                             <p>
@@ -26,9 +26,9 @@ function ResComTab() {
                 </div>
             </Col>
             <Col xs={12} md={6} xl={6} className="pl-3 pr-3 mt-3">
-                <div class="hovereffect2">
-                    <img class="img-responsive2 w-100 h-100" src="/extras/commercial-home.jpeg" alt="" />
-                    <div class="overlay2">
+                <div className="hovereffect2">
+                    <img className="img-responsive2 w-100 h-100" src="/extras/commercial-home.jpeg" alt="" />
+                    <div className="overlay2">
                         <a href="/commercial"><h2>Commercial</h2></a>
                         <div className="text-white font-italic info">
                             <p className="w-100 h-100">

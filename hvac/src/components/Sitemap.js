@@ -75,7 +75,7 @@ function Sitemap() {
                     </div> 
                 </Col>
             </Row>
-            <Row fluid className="source bg-dark pl-3">
+            <Row fluid="true" className="source bg-dark pl-3">
                 <small className="text-light">Copyright @2019 United HVAC and Electrical Inc. This website is brought to you by STREAMLINE</small>
             </Row>
         </Container>

@@ -37,7 +37,7 @@ function ServiceLinks() {
                      </div>
                 </Col>
                 <Col xs={12} md={6} xl={6} className="p-3">
-                    <div class="hovereffect">
+                    <div className="hovereffect">
                          <img className="img-responsive w-100 h-100" src="/extras/home-ducting.jpg" alt=""/>
                          <div className="overlay">
                              <h2 className="ducting">Ducting</h2>

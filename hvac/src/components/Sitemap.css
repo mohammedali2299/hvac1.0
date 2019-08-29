@@ -1,3 +1,4 @@
 .map {
+    position: sticky;
     background: linear-gradient(to right, rgb(255,255,255), rgb(170, 170, 170));
 }

@@ -6,11 +6,35 @@ import ServiceLinks from "./subcomponents/ServiceLinks";
 import ServiceContact from "./subcomponents/ServiceContact";
 import Carousel from "./subcomponents/InteractiveCarousel";
 import ContactIcon from "./subcomponents/ContactIcon";
+import Particles from 'react-particles-js'
 
 function Home() {
   return (
     <div className="body">
+      
+     
       <Container fluid className="pl-0 pr-0">
+          <Particles    
+            canvasClassName="particles"
+            className="particle-wrapper"   
+            params={{
+                particles: {
+                  line_linked: {
+            				color: '#000000'
+                  },
+                  number: {
+                    value: 100,
+                    density: {
+                      enable: true,
+                      value_area: 1000
+                    }
+                  }
+                }
+            }}
+            // width='100%'
+            height='100'
+
+          />
         <Row noGutters>
           <Col lg={3}>
             <ContactIcon />
