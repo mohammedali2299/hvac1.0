@@ -105,7 +105,7 @@ class ContactForm extends Component {
                     </Form.Group>
                     <Row>
                         <Col xs={{ offset: 0}} >
-                            <Button className={this.props.name + "-submit border-0 btn-lg shadow"} type="submit">Submit</Button>
+                            <Button onClick={this.props.sub} className={this.props.name + "-submit border-0 btn-lg shadow"} type="submit">Submit</Button>
                         </Col>
                     </Row>
                 </Form>

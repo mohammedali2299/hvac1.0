@@ -1,39 +1,22 @@
 import React from 'react'
-import { Col } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookSquare, faInstagram, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 import './SocialMedia.css'
+
 
 
 function SocialMedia() {
     return(
-        // <Col xs={12} xl={{ span: 5, offset: 1}}>
-        //     <div class="hovereffect3">
-        //         <div class="overlay3">
-        //             <h2>Social Media</h2>
-        //             <div class="rotate">
-        //                 <p class="group1">
-        //                     <a href="#">
-        //                         <i class="fa fa-twitter"></i>
-        //                     </a>
-        //                     <a href="#">
-        //                         <i class="fa fa-facebook"></i>
-        //                     </a>
-        //                 </p>
-        //                     <hr/>
-        //                     <hr/>
-        //                 <p class="group2">
-        //                     <a href="#">
-        //                         <i class="fa fa-instagram"></i>
-        //                     </a>
-        //                     <a href="#">
-        //                         <i class="fa fa-dribbble"></i>
-        //                     </a>
-        //                 </p>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </Col>
         <div>
-            
+            <a href="https://www.facebook.com" target="_blank" className="m-2 ">
+                <FontAwesomeIcon icon={faFacebookSquare} size="3x"/>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" className="m-2">
+                <FontAwesomeIcon icon={faInstagram} size="3x"/>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" className="m-2">
+                <FontAwesomeIcon icon={faTwitterSquare} size="3x"/>
+            </a>     
         </div>
     );
 

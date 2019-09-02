@@ -11,8 +11,6 @@ import Particles from 'react-particles-js'
 function Home() {
   return (
     <div className="body">
-      
-     
       <Container fluid className="pl-0 pr-0">
           <Particles    
             canvasClassName="particles"
@@ -36,7 +34,7 @@ function Home() {
 
           />
         <Row noGutters>
-          <Col lg={3}>
+          <Col lg={3} className="pt-5">
             <ContactIcon />
           </Col>
           <Col lg={{ span: 9, offset: 0 }}>
