@@ -6,7 +6,7 @@ import SocialMedia from './SocialMedia'
 function ContactIcon() {
 
     return (
-        <div fluid className="h-100 w-100 p-3">
+        <div fluid className="h-100 w-100 p-3 text-center">
             <h5 className="text-uppercase">unitedhvac@me.com</h5>
             <h5>(847)-489-4796</h5>
             {/* <SocialMedia /> */}

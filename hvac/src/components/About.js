@@ -66,19 +66,19 @@ function About() {
         
 
     return(
-        <Container className="body">
+        <Container>
             <Jumbotron fluid className="col-centered shadow-element pl-3 pr-3">
-            <h2 className="pb-3 text-center font-italic heading">Providing Quality Service since 2006</h2>
-            <Row className="pl-4 pr-4">
-                <div>
-                    {about}
-                </div>
-            </Row>
-            <hr/>
-            <p>To learn more about the owner, follow the link below</p>
-            <Button href="/owner" className="contact-submit border-0">About The Owner</Button>
-            <Row className="pl-4 pr-4 d-flex flex-row">
-            </Row>
+                <h2 className="pb-3 text-center font-italic heading">Providing Quality Service since 2006</h2>
+                <Row className="pl-4 pr-4">
+                    <div>
+                        {about}
+                    </div>
+                </Row>
+                <hr/>
+                <p>To learn more about the owner, follow the link below</p>
+                <Button href="/owner" className="contact-submit border-0">About The Owner</Button>
+                <Row className="pl-4 pr-4 d-flex flex-row">
+                </Row>
             </Jumbotron>
         </Container>
     );
